@@ -6,7 +6,7 @@ from polyglot.text import Text, Word
 from langdetect import detect, DetectorFactory, detect_langs
 from guess_language import guess_language
 import fasttext
-# import cld2
+import cld2
 import spacy
 from spacy_langdetect import LanguageDetector
 from nltk.classify.textcat import TextCat
@@ -210,6 +210,6 @@ if __name__ == '__main__':
     guessLanguage()
     langidExport()
     fasttextExport()
-    # cld2Export()
+    cld2Export()
     spacyExport()
     nltkExport()
