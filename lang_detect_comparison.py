@@ -6,6 +6,9 @@ from polyglot.text import Text, Word
 from langdetect import detect, DetectorFactory, detect_langs
 from guess_language import guess_language
 import fasttext
+import cld2
+
+
 from pycountry import languages
 import sys
 # reload(sys)
@@ -129,6 +132,19 @@ def fasttextExport():
 				pass
 	return True
 
+def cld2Export():
+	#: Import dataset
+	with open("./input_text.txt", "r") as sentences:
+		for sentence in sentences:
+			try:
+				isReliable, textBytesFound, details = cld2.detect(sentence)
+				print(sentence, ": [" ,isReliable,textBytesFound, details," ]", file = open("./output/cld2Result.short.txt", "a"))
+			except Exception as e:
+				print(e)
+				pass
+	return True
+
+
 
 
 # language_name = languages.get(alpha_2='fr').name  // use this to print the language name using code
@@ -143,3 +159,4 @@ if __name__ == '__main__':
 	guessLanguage()
 	langidExport()
 	fasttextExport()
+	cld2Export()

@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b89f010-3565-4a64-979f-38d73fc0ecc6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang_detect_comparison.py" beforeDir="false" afterPath="$PROJECT_DIR$/lang_detect_comparison.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/chardetResult.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/chardetResult.short.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/fastTextResult.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/fastTextResult.short.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/guessLanguageResult.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/guessLanguageResult.short.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/langDedectResult.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/langDedectResult.short.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/langidResult.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/langidResult.short.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/polyglotResult.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/polyglotResult.short.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/textBlobResult.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/textBlobResult.short.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
