@@ -1,5 +1,5 @@
 # X5GON
 
-pip install -r "requirements.txt"
-python -m spacy download en_core_web_md
-python -m spacy link en_core_web_md en
+docker build -t "x5gon" .
+docker run -v ~/Documents/X5GON:/data -it  x5gon bash
+

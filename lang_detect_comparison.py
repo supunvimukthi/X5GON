@@ -6,9 +6,13 @@ from polyglot.text import Text, Word
 from langdetect import detect, DetectorFactory, detect_langs
 from guess_language import guess_language
 import fasttext
-import cld2
+# import cld2
 import spacy
 from spacy_langdetect import LanguageDetector
+from nltk.classify.textcat import TextCat
+import nltk
+nltk.download('crubadan')
+nltk.download('punkt')
 
 from pycountry import languages
 import sys
@@ -177,6 +181,20 @@ def spacyExport():
             pass
     return True
 
+def nltkExport():
+    #: Import dataset
+    with open("./input_text.txt", "r") as sentences:
+        for sentence in sentences:
+            try:
+                result=TextCat().guess_language(text=sentence)
+                print(sentence, ": [", result ," ]",
+                      file=open("./output/nltkResult.short.txt", "a"))
+            except Exception as e:
+                print(e)
+                pass
+    return True
+
+
 
 # language_name = languages.get(alpha_2='fr').name  // use this to print the language name using code
 # print(language_name)
@@ -192,5 +210,6 @@ if __name__ == '__main__':
     guessLanguage()
     langidExport()
     fasttextExport()
-    cld2Export()
+    # cld2Export()
     spacyExport()
+    nltkExport()

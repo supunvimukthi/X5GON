@@ -4,3 +4,7 @@ Hello world this is testing number 2
  {'language': 'en', 'score': 0.9999950291676762} doc_language {'language': 'en', 'score': 0.9999967234520954}
 Hello world this is testing number 2
  {'language': 'en', 'score': 0.9999971010850109} doc_language {'language': 'en', 'score': 0.9999977203336768}
+Hello world this is testing number 2
+ {'language': 'en', 'score': 0.9999949141460215} doc_language {'language': 'en', 'score': 0.9999959808501585}
+Hello world this is testing number 2
+ {'language': 'en', 'score': 0.9999972438625357} doc_language {'language': 'en', 'score': 0.9999953165289396}
