@@ -131,8 +131,8 @@ def fasttextExport():
 
 
 
-language_name = languages.get(alpha_2='fr').name
-print(language_name)
+# language_name = languages.get(alpha_2='fr').name  // use this to print the language name using code
+# print(language_name)
 
 
 if __name__ == '__main__':
