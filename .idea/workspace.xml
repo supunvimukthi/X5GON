@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lang_detect_comparison.py" beforeDir="false" afterPath="$PROJECT_DIR$/lang_detect_comparison.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/chardetResult.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/chardetResult.short.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/cld2Result.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/cld2Result.short.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/fastTextResult.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/fastTextResult.short.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/guessLanguageResult.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/guessLanguageResult.short.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/langDedectResult.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/langDedectResult.short.txt" afterDir="false" />
@@ -50,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.Dockerfile">
+  <component name="RunManager" selected="Python.lang_detect_comparison">
     <configuration name="lang_detect_comparison" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="x5DB" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,9 +101,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lang_detect_comparison" />
         <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Docker.Docker Image" />
-        <item itemvalue="Python.lang_detect_comparison" />
       </list>
     </recent_temporary>
   </component>

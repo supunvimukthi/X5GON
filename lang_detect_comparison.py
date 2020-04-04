@@ -1,3 +1,5 @@
+import csv
+import time
 import polyglot
 import chardet
 import langid
@@ -11,205 +13,216 @@ import spacy
 from spacy_langdetect import LanguageDetector
 from nltk.classify.textcat import TextCat
 import nltk
+from whatthelang import WhatTheLang
+from langua import Predict
+
 nltk.download('crubadan')
 nltk.download('punkt')
 
 from pycountry import languages
-import sys
-
-
-# reload(sys)
-# sys.setdefaultencoding('UTF8') # default encoding to utf-8
 
 
 # method: textBlob
-# Dedect which language used
-# @return: True
-# @completed
-def textBlob():
-    with open("./input_text.txt", "r") as sentences:
-        try:
-            for sentence in sentences:
-                sentence = sentence.strip()
-                blob = TextBlob(sentence)
-                result = blob.detect_language()
-                print(sentence, ":", result, file=open("./output/textBlobResult.short.txt", "a"))
-
-        except:
-            pass
-    return True
+def textBlob(text, label):
+    try:
+        sentence = text.strip()
+        blob = TextBlob(sentence)
+        result = blob.detect_language()
+        if result == label:
+            return True
+    except Exception as e:
+        print(e)
+        pass
+    return False
 
 
 # method: polyglot
-# Dedect which language used
-# @return: True
-# @completed
-def polyglot():
-    #: Import dataset
-    with open("./input_text.txt", "r") as sentences:
-        try:
-            for sentence in sentences:
-                sentence = sentence.strip()
-                result = Text(sentence)
-                print(sentence, "Language Detected: Code={}, Name={}\n".format(result.language.code,
-                                                                               result.language.name),
-                      file=open("./output/polyglotResult.short.txt", "a"))
-        except:
-            pass
-    return True
+def polyglot(text, label):
+    try:
+        sentence = text.strip()
+        result = Text(sentence)
+        if result.language.code == label:
+            return True
+    except Exception as e:
+        print(e)
+        pass
+    return False
 
 
-# method: chardetExport
-# Dedect which language used
-# @return: True
-# @completed
-def chardetExport():
-    #: Import dataset
-    with open("./input_text.txt", "r") as sentences:
-        try:
-            for sentence in sentences:
-                sentence = sentence.strip()
-                result = chardet.detect(sentence.encode('utf-8'))
-                # print(result)
-                print(sentence, result, file=open("./output/chardetResult.short.txt", "a"))
-        except:
-            pass
-    return True
+# method: chardet
+def chardet(text, label):
+    try:
+        sentence = text.strip()
+        result = chardet.detect(sentence.encode('cp1251'))
+        print(sentence, result, file=open("./output/chardetResult.short.txt", "a"))
+    except Exception as e:
+        print(e)
+        pass
+    return False
 
 
 # method: langDedect
-# Dedect which language used
-# @return: True
-# @completed
-def langDedect():
-    #: Import dataset
-    with open("./input_text.txt", "r") as sentences:
-        try:
-            for sentence in sentences:
-                sentence = sentence.strip()
-                result = detect_langs(sentence)
-                # print(result)
-                print(sentence, ":", result, file=open("./output/langDedectResult.short.txt", "a"))
-        except:
-            pass
-    return True
+def langDedect(text, label):
+    try:
+        sentence = text.strip()
+        result = detect(sentence)
+        if result == label:
+            return True
+    except Exception as e:
+        print(e)
+        pass
+    return False
 
 
 # method: guessLanguage
-# Dedect which language used
-# @return: True
-# @completed
-def guessLanguage():
-    #: Import dataset
-    with open("./input_text.txt", "r") as sentences:
-        for sentence in sentences:
-            try:
-                sentence = sentence.strip()
-                result = guess_language(sentence)
-                # print(result)
-                print(sentence, ":", result, file=open("./output/guessLanguageResult.short.txt", "a"))
-            except:
-                pass
-    return True
+def guessLanguage(text, label):
+    try:
+        sentence = text.strip()
+        result = guess_language(sentence)
+        if result == label:
+            return True
+    except Exception as e:
+        print(e)
+        pass
+    return False
 
 
-# method: lanidExport
-# Dedect which language used
-# @return: True
-# @completed
-def langidExport():
-    #: Import dataset
-    with open("./input_text.txt", "r") as sentences:
-        for sentence in sentences:
-            try:
-                sentence = sentence.strip()
-                result = langid.classify(sentence)
-                # print(result)
-                print(sentence, ":", result, file=open("./output/langidResult.short.txt", "a"))
-            except:
-                pass
-    return True
+# method: lanid
+def langid(text, label):
+    try:
+        sentence = text.strip()
+        result = langid.classify(sentence)
+        if result[0] == label:
+            return True
+    except Exception as e:
+        print(e)
+        pass
+    return False
 
 
-lid_model = fasttext.load_model("./lid.176.ftz")
+# method : fasttext
+def fasttext(text, label):
+    try:
+        sentence = text.split("\n")[0]
+        result = lid_model.predict([sentence])
+        if result[0][0][0].split("_label__")[1] == label:
+            return True
+    except Exception as e:
+        print(e)
+        pass
+    return False
 
 
-def fasttextExport():
-    #: Import dataset
-    with open("./input_text.txt", "r") as sentences:
-        for sentence in sentences:
-            try:
-                sentence = sentence.split("\n")[0]
-                result = lid_model.predict([sentence])
-                print(sentence, ":", result, file=open("./output/fastTextResult.short.txt", "a"))
-            except Exception as e:
-                print(e)
-                pass
-    return True
+# method : cld2
+def cld2(text, label):
+    try:
+        result = cld2.detect(text.strip())
+        if result[2][0].language_code == label:
+            return True
+    except Exception as e:
+        print(e)
+        pass
+    return False
 
 
-def cld2Export():
-    #: Import dataset
-    with open("./input_text.txt", "r") as sentences:
-        for sentence in sentences:
-            try:
-                isReliable, textBytesFound, details = cld2.detect(sentence)
-                print(sentence, ": [", isReliable, textBytesFound, details, " ]",
-                      file=open("./output/cld2Result.short.txt", "a"))
-            except Exception as e:
-                print(e)
-                pass
-    return True
+# method : spacy
+def spacy(text, label):
+    try:
+        nlp = spacy.load("en")
+        nlp.add_pipe(LanguageDetector(), name="language_detector", last=True)
+        doc = nlp(text.split("/n")[0])
+        doc_lang = doc._.language
+        if doc_lang['language'] == label:
+            return True
+    except Exception as e:
+        print(e)
+        pass
+    return False
 
 
-def spacyExport():
-    #: Import dataset
-    with open("./input_text.txt", "r") as sentences:
-        try:
-            nlp = spacy.load("en")
-            nlp.add_pipe(LanguageDetector(), name="language_detector", last=True)
+# method : nltk
+def nltkDetect(text, label):
+    try:
+        result = TextCat().guess_language(text=text)
+        if str(result).__contains__(label):
+            return True
+    except Exception as e:
+        print(e)
+        pass
+    return False
 
-            doc = nlp(sentences.read().split("/n")[0])
-            # document level language detection. Think of it like average language of document!
-            doc_lang=doc._.language
-            # sentence level language detection
-            for i, sent in enumerate(doc.sents):
-                lang=sent._.language
-                print(sent, lang,"doc_language",doc_lang,file=open("./output/spacyResult.short.txt", "a"))
-        except Exception as e:
-            print(e)
-            pass
-    return True
 
-def nltkExport():
-    #: Import dataset
-    with open("./input_text.txt", "r") as sentences:
-        for sentence in sentences:
-            try:
-                result=TextCat().guess_language(text=sentence)
-                print(sentence, ": [", result ," ]",
-                      file=open("./output/nltkResult.short.txt", "a"))
-            except Exception as e:
-                print(e)
-                pass
-    return True
+# method : whatlang
+def whatlang(text, label):
+    try:
+        wtl = WhatTheLang()
+        result = wtl.predict_lang(text)
+        if result == label:
+            return True
+    except Exception as e:
+        print(e)
+        pass
+    return False
 
+
+# method : langua
+def langua(text, label):
+    try:
+        p = Predict()
+        result = p.get_lang(text)
+        if result == label:
+            return True
+    except Exception as e:
+        print(e)
+        pass
+    return False
 
 
 # language_name = languages.get(alpha_2='fr').name  // use this to print the language name using code
 # print(language_name)
 
+def updateResults(val, key):
+    if (val):
+        results[key]['true'] = results[key]['true'] + 1
+    else:
+        results[key]['false'] = results[key]['false'] + 1
 
+
+def executeLibrary(key, libraryFunc, text, label):
+    start = time.perf_counter()
+    value = libraryFunc(text, label)
+    updateResults(value, key)
+    time_elapsed = time.perf_counter() - start
+    return value, time_elapsed
 
 
 if __name__ == '__main__':
-    textBlob()
-    polyglot()
-    chardetExport()
-    langDedect()
-    guessLanguage()
-    langidExport()
-    fasttextExport()
-    cld2Export()
-    spacyExport()
-    nltkExport()
+    lid_model = fasttext.load_model("./lid.176.ftz")
+    dataset = ""
+    results = dict();
+
+    # field names
+    fields = ["textblob", "time", "polyglot", "time", "chardet", "time", "langDedect", "time", "guess_language", "time",
+              "langid", "time", "fasttext", "time", "cld2", "time", "spacy", "time", "nltkDetect", "time", "whatlang",
+              "time", "langua"]
+
+    # name of csv file
+    filename = "lang_detect_comparison.csv"
+    function_list = [textBlob, polyglot, chardet, langDedect, guess_language, langid, fasttext, cld2, spacy,
+                     nltkDetect, whatlang, langua]
+
+    key_list = ["textblob", "polyglot", "chardet", "langDedect", "guess_language", "langid", "fasttext", "cld2",
+                "spacy", "nltkDetect", "whatlang", "langua"]
+    # writing to csv file
+    with open(filename, 'a') as csvfile:
+        # creating a csv writer object
+        csvwriter = csv.writer(csvfile)
+        # writing the fields
+        csvwriter.writerow(fields)
+
+        for text, label in dataset:
+            row=[]
+            for index,libr in enumerate(function_list):
+                value,time=executeLibrary(key_list[index],libr,text,label)
+                row.append(value,time)
+            csvwriter.writerow(row)

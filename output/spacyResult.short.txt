@@ -12,3 +12,9 @@ Hello world this is testing number 2
  {'language': 'en', 'score': 0.9999963175343486} doc_language {'language': 'en', 'score': 0.9999951680373231}
 Hello world this is testing number 2
  {'language': 'en', 'score': 0.9999954206953748} doc_language {'language': 'en', 'score': 0.9999977046692692}
+Hello world this is testing number 2
+ {'language': 'en', 'score': 0.9999966827324237} doc_language {'language': 'en', 'score': 0.9999959712612649}
+Hello world this is testing number 2
+ {'language': 'en', 'score': 0.9999960222979585} doc_language {'language': 'en', 'score': 0.9999953449262616}
+Hello world this is testing number 2
+ {'language': 'en', 'score': 0.9999966455617639} doc_language {'language': 'en', 'score': 0.9999969636480007}
