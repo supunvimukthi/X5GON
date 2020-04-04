@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b89f010-3565-4a64-979f-38d73fc0ecc6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/fastText" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lang_detect_comparison.py" beforeDir="false" afterPath="$PROJECT_DIR$/lang_detect_comparison.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/chardetResult.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/chardetResult.short.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/fastTextResult.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/fastTextResult.short.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/guessLanguageResult.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/guessLanguageResult.short.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/langDedectResult.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/langDedectResult.short.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/langidResult.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/langidResult.short.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/polyglotResult.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/polyglotResult.short.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/textBlobResult.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/textBlobResult.short.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +26,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Mercurial" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -76,7 +69,7 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
