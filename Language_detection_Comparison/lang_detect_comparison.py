@@ -15,6 +15,7 @@ from nltk.classify.textcat import TextCat
 import nltk
 from whatthelang import WhatTheLang
 from langua import Predict
+import multiprocessing as mp
 
 nltk.download('crubadan')
 nltk.download('punkt')
@@ -50,11 +51,12 @@ def polyglot(text, label):
 
 
 # method: chardet
-def chardet(text, label):
+def chardet_(text, label):
     try:
         sentence = text.strip()
         result = chardet.detect(sentence.encode('cp1251'))
-        print(sentence, result, file=open("./output/chardetResult.short.txt", "a"))
+        print(result)
+        # print(sentence, result, file=open("./output/chardetResult.short.txt", "a"))
     except Exception as e:
         print(e)
         pass
@@ -88,7 +90,7 @@ def guessLanguage(text, label):
 
 
 # method: lanid
-def langid(text, label):
+def langid_(text, label):
     try:
         sentence = text.strip()
         result = langid.classify(sentence)
@@ -101,7 +103,7 @@ def langid(text, label):
 
 
 # method : fasttext
-def fasttext(text, label):
+def fasttext_(text, label):
     try:
         sentence = text.split("\n")[0]
         result = lid_model.predict([sentence])
@@ -114,7 +116,7 @@ def fasttext(text, label):
 
 
 # method : cld2
-def cld2(text, label):
+def cld2_(text, label):
     try:
         result = cld2.detect(text.strip())
         if result[2][0].language_code == label:
@@ -126,7 +128,7 @@ def cld2(text, label):
 
 
 # method : spacy
-def spacy(text, label):
+def spacy_lib(text, label):
     try:
         nlp = spacy.load("en")
         nlp.add_pipe(LanguageDetector(), name="language_detector", last=True)
@@ -143,8 +145,8 @@ def spacy(text, label):
 # method : nltk
 def nltkDetect(text, label):
     try:
-        result = TextCat().guess_language(text=text)
-        if str(result).__contains__(label):
+        result = nltkO.guess_language(text=text)
+        if str(result)==lang_a[lang_b.index(label)].split("\n")[0]:
             return True
     except Exception as e:
         print(e)
@@ -182,10 +184,13 @@ def langua(text, label):
 # print(language_name)
 
 def updateResults(val, key):
-    if (val):
-        results[key]['true'] = results[key]['true'] + 1
-    else:
-        results[key]['false'] = results[key]['false'] + 1
+    if key not in results.keys():
+        results[key]={}
+
+    if str(val).lower() not in results[key].keys():
+        results[key][str(val).lower()]=0
+    results[key][str(val).lower] = results[key][str(val).lower()] + 1
+
 
 
 def executeLibrary(key, libraryFunc, text, label):
@@ -195,34 +200,75 @@ def executeLibrary(key, libraryFunc, text, label):
     time_elapsed = time.perf_counter() - start
     return value, time_elapsed
 
+def oneProcess(text,label):
+    row=[]
+    for index,libr in enumerate(function_list):
+        value,time_taken=executeLibrary(key_list[index],libr,text,label)
+        row.append(value)
+        row.append(float("{:.2f}".format(time_taken)))
+    csvwriter.writerow(row)
 
 if __name__ == '__main__':
+    nltkO=TextCat()
+    text_test=open("Dataset/x_new_test.txt","r").readlines()
+    label_test=open("Dataset/y_new_test.txt","r").readlines()
+    text_train=open("Dataset/x_new_train.txt","r").readlines()
+    label_train=open("Dataset/y_new_train.txt","r").readlines()
+    temp=[]
+    lang_a=['eng\n', 'nld\n', 'slk\n', 'spa\n', 'slv\n', 'ita\n', 'deu\n', 'fra\n']
+    lang_b=['en','nl','sk','es','sl','it','de','fr']
+    for i in label_test:
+        temp.append(lang_b[lang_a.index(i)])
+    label_test=temp
+    temp=[]
+    for i in label_train:
+        temp.append(lang_b[lang_a.index(i)])
+    label_train=temp
+    temp=None
+
+    dataset=zip(text_test+text_train,label_test+label_train)
+    # text_final=text_test+text_train
+    text_test=None
+    text_train=None
+    # label_final=label_test+label_train
+    # dat=[(x.split("\n")[0] ,y) for x in text_final for y in label_final]
     lid_model = fasttext.load_model("./lid.176.ftz")
-    dataset = ""
     results = dict();
 
     # field names
-    fields = ["textblob", "time", "polyglot", "time", "chardet", "time", "langDedect", "time", "guess_language", "time",
-              "langid", "time", "fasttext", "time", "cld2", "time", "spacy", "time", "nltkDetect", "time", "whatlang",
+    fields = ["textblob", "time", "polyglot", "time", "langDedect", "time", "guess_language", "time",
+              "langid", "time", "fasttext", "time", "cld2", "time", "nltkDetect", "time", "whatlang",
               "time", "langua"]
 
     # name of csv file
     filename = "lang_detect_comparison.csv"
-    function_list = [textBlob, polyglot, chardet, langDedect, guess_language, langid, fasttext, cld2, spacy,
+    function_list = [textBlob, polyglot, langDedect, guessLanguage, langid_, fasttext_, cld2_,
                      nltkDetect, whatlang, langua]
 
-    key_list = ["textblob", "polyglot", "chardet", "langDedect", "guess_language", "langid", "fasttext", "cld2",
-                "spacy", "nltkDetect", "whatlang", "langua"]
+    key_list = ["textblob", "polyglot", "langDedect", "guess_language", "langid", "fasttext", "cld2", "nltkDetect", "whatlang", "langua"]
     # writing to csv file
     with open(filename, 'a') as csvfile:
         # creating a csv writer object
         csvwriter = csv.writer(csvfile)
         # writing the fields
         csvwriter.writerow(fields)
-
+        count=0
         for text, label in dataset:
-            row=[]
-            for index,libr in enumerate(function_list):
-                value,time=executeLibrary(key_list[index],libr,text,label)
-                row.append(value,time)
+            if count%100==0:
+                print(count)
+            text=text.split("\n")[0]
+            row = []
+            for index, libr in enumerate(function_list):
+                value, time_taken = executeLibrary(key_list[index], libr, text, label)
+                row.append(value)
+                row.append(float("{:.2f}".format(time_taken)))
             csvwriter.writerow(row)
+            count=count+1
+
+        final=[]
+        for key in results:
+            final.append(results[key]['true'])
+            final.append(results[key]['false'])
+
+        csvwriter.writerow([""]*12)
+        csvwriter.writerow(final)

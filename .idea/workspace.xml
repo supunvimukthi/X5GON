@@ -3,20 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0b89f010-3565-4a64-979f-38d73fc0ecc6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lang_detect_comparison.py" beforeDir="false" afterPath="$PROJECT_DIR$/lang_detect_comparison.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/chardetResult.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/chardetResult.short.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/cld2Result.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/cld2Result.short.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/fastTextResult.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/fastTextResult.short.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/guessLanguageResult.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/guessLanguageResult.short.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/langDedectResult.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/langDedectResult.short.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/langidResult.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/langidResult.short.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/nltkResult.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/nltkResult.short.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/polyglotResult.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/polyglotResult.short.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/spacyResult.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/spacyResult.short.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/textBlobResult.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/textBlobResult.short.txt" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,22 +23,16 @@
   </component>
   <component name="ProjectId" id="1a4NrvvmQYQGDVpiWX7yt3NlXN2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.lang_detect_comparison">
     <configuration name="lang_detect_comparison" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -102,20 +85,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.lang_detect_comparison" />
-        <item itemvalue="Docker.Dockerfile" />
-        <item itemvalue="Docker.Docker Image" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand />
-          <select />
-        </treeState>
-      </serviceView>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -142,5 +113,35 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="689" y="357" width="598" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586074168024">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="689" y="357" width="598" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1586074168024" />
+    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586068347402">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1586068347402" />
+    <state width="1830" height="255" key="GridCell.Tab.0.bottom" timestamp="1586068364981">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="255" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1586068364981" />
+    <state width="1830" height="255" key="GridCell.Tab.0.center" timestamp="1586068364980">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="255" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1586068364980" />
+    <state width="1830" height="255" key="GridCell.Tab.0.left" timestamp="1586068364980">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="255" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1586068364980" />
+    <state width="1830" height="255" key="GridCell.Tab.0.right" timestamp="1586068364981">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="255" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1586068364981" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1586065873348">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1586065873348" />
   </component>
 </project>
