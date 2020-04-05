@@ -187,7 +187,7 @@ def updateResults(val, key):
 
     if str(val).lower() not in results[key].keys():
         results[key][str(val).lower()] = 0
-    results[key][str(val).lower] = results[key][str(val).lower()] + 1
+    results[key][str(val).lower()] = results[key][str(val).lower()] + 1
 
 
 # execute one of the above library
