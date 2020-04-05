@@ -12,5 +12,6 @@ RUN python -m spacy link en_core_web_md en
 RUN CFLAGS="-Wno-narrowing" pip3 install cld2-cffi
 RUN pip install future Cython
 RUN pip install cysignals pyfasttext whatthelang
+RUN pip install langua
 #RUN conda env create -f environment.yml -n X5GON
 #SHELL ["conda", "run", "-n", "X5GON", "/bin/bash", "-c"]

@@ -146,7 +146,7 @@ def spacy_lib(text, label):
 def nltkDetect(text, label):
     try:
         result = nltkO.guess_language(text=text)
-        if str(result)==lang_a[lang_b.index(label)].split("\n")[0]:
+        if str(result) == lang_a[lang_b.index(label)].split("\n")[0]:
             return True
     except Exception as e:
         print(e)
@@ -185,12 +185,11 @@ def langua(text, label):
 
 def updateResults(val, key):
     if key not in results.keys():
-        results[key]={}
+        results[key] = {}
 
     if str(val).lower() not in results[key].keys():
-        results[key][str(val).lower()]=0
+        results[key][str(val).lower()] = 0
     results[key][str(val).lower] = results[key][str(val).lower()] + 1
-
 
 
 def executeLibrary(key, libraryFunc, text, label):
@@ -200,36 +199,38 @@ def executeLibrary(key, libraryFunc, text, label):
     time_elapsed = time.perf_counter() - start
     return value, time_elapsed
 
-def oneProcess(text,label):
-    row=[]
-    for index,libr in enumerate(function_list):
-        value,time_taken=executeLibrary(key_list[index],libr,text,label)
+
+def oneProcess(text, label):
+    row = []
+    for index, libr in enumerate(function_list):
+        value, time_taken = executeLibrary(key_list[index], libr, text, label)
         row.append(value)
         row.append(float("{:.2f}".format(time_taken)))
     csvwriter.writerow(row)
 
+
 if __name__ == '__main__':
-    nltkO=TextCat()
-    text_test=open("Dataset/x_new_test.txt","r").readlines()
-    label_test=open("Dataset/y_new_test.txt","r").readlines()
-    text_train=open("Dataset/x_new_train.txt","r").readlines()
-    label_train=open("Dataset/y_new_train.txt","r").readlines()
-    temp=[]
-    lang_a=['eng\n', 'nld\n', 'slk\n', 'spa\n', 'slv\n', 'ita\n', 'deu\n', 'fra\n']
-    lang_b=['en','nl','sk','es','sl','it','de','fr']
+    nltkO = TextCat()
+    text_test = open("Dataset/x_new_test.txt", "r").readlines()
+    label_test = open("Dataset/y_new_test.txt", "r").readlines()
+    text_train = open("Dataset/x_new_train.txt", "r").readlines()
+    label_train = open("Dataset/y_new_train.txt", "r").readlines()
+    temp = []
+    lang_a = ['eng\n', 'nld\n', 'slk\n', 'spa\n', 'slv\n', 'ita\n', 'deu\n', 'fra\n']
+    lang_b = ['en', 'nl', 'sk', 'es', 'sl', 'it', 'de', 'fr']
     for i in label_test:
         temp.append(lang_b[lang_a.index(i)])
-    label_test=temp
-    temp=[]
+    label_test = temp
+    temp = []
     for i in label_train:
         temp.append(lang_b[lang_a.index(i)])
-    label_train=temp
-    temp=None
+    label_train = temp
+    temp = None
 
-    dataset=zip(text_test+text_train,label_test+label_train)
+    dataset = zip(text_test[:10] + text_train[:2], label_test[:10] + label_train[:2])
     # text_final=text_test+text_train
-    text_test=None
-    text_train=None
+    text_test = None
+    text_train = None
     # label_final=label_test+label_train
     # dat=[(x.split("\n")[0] ,y) for x in text_final for y in label_final]
     lid_model = fasttext.load_model("./lid.176.ftz")
@@ -245,30 +246,32 @@ if __name__ == '__main__':
     function_list = [textBlob, polyglot, langDedect, guessLanguage, langid_, fasttext_, cld2_,
                      nltkDetect, whatlang, langua]
 
-    key_list = ["textblob", "polyglot", "langDedect", "guess_language", "langid", "fasttext", "cld2", "nltkDetect", "whatlang", "langua"]
+    key_list = ["textblob", "polyglot", "langDedect", "guess_language", "langid", "fasttext", "cld2", "nltkDetect",
+                "whatlang", "langua"]
     # writing to csv file
     with open(filename, 'a') as csvfile:
         # creating a csv writer object
         csvwriter = csv.writer(csvfile)
         # writing the fields
         csvwriter.writerow(fields)
-        count=0
+        count = 0
         for text, label in dataset:
-            if count%100==0:
-                print(count)
-            text=text.split("\n")[0]
+            if count % 100 == 0:
+                print("Completed instances : ", count)
+            text = text.split("\n")[0]
             row = []
             for index, libr in enumerate(function_list):
                 value, time_taken = executeLibrary(key_list[index], libr, text, label)
                 row.append(value)
                 row.append(float("{:.2f}".format(time_taken)))
             csvwriter.writerow(row)
-            count=count+1
+            count = count + 1
 
-        final=[]
+        final = []
         for key in results:
             final.append(results[key]['true'])
             final.append(results[key]['false'])
 
-        csvwriter.writerow([""]*12)
+        csvwriter.writerow([""] * 12)
         csvwriter.writerow(final)
+        print("Done")
