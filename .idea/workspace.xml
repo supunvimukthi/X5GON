@@ -3,8 +3,34 @@
   <component name="ChangeListManager">
     <list default="true" id="0b89f010-3565-4a64-979f-38d73fc0ecc6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lang_detect_comparison.py" beforeDir="false" afterPath="$PROJECT_DIR$/lang_detect_comparison.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/chardetResult.short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/chardetResult.short.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/Dataset/DatasetFilter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/Dataset/lang_detect_comparison.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/Dataset/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/Dataset/x_new_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/Dataset/x_new_train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/Dataset/y_new_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/Dataset/y_new_train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/environment.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/input_text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/lang_detect_comparison.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/lang_detect_comparison.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/lid.176.ftz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/output/chardetResult.short.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/output/cld2Result.short.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/output/fastTextResult.short.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/output/guessLanguageResult.short.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/output/langDedectResult.short.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/output/lang_detect_comparison.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/output/langidResult.short.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/output/nltkResult.short.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/output/polyglotResult.short.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/output/spacyResult.short.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/output/textBlobResult.short.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/output/whatlangResult.short.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/venv/pyvenv.cfg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +56,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -123,25 +150,29 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1586068347402" />
-    <state width="1830" height="255" key="GridCell.Tab.0.bottom" timestamp="1586068364981">
+    <state width="1830" height="255" key="GridCell.Tab.0.bottom" timestamp="1586085624448">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="255" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1586068364981" />
-    <state width="1830" height="255" key="GridCell.Tab.0.center" timestamp="1586068364980">
+    <state width="1830" height="255" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1586085624448" />
+    <state width="1830" height="255" key="GridCell.Tab.0.center" timestamp="1586085624447">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="255" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1586068364980" />
-    <state width="1830" height="255" key="GridCell.Tab.0.left" timestamp="1586068364980">
+    <state width="1830" height="255" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1586085624447" />
+    <state width="1830" height="255" key="GridCell.Tab.0.left" timestamp="1586085624447">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="255" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1586068364980" />
-    <state width="1830" height="255" key="GridCell.Tab.0.right" timestamp="1586068364981">
+    <state width="1830" height="255" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1586085624447" />
+    <state width="1830" height="255" key="GridCell.Tab.0.right" timestamp="1586085624448">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="255" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1586068364981" />
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1586065873348">
+    <state width="1830" height="255" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1586085624448" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1586086005702">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1586065873348" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1586086005702" />
+    <state x="718" y="466" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1586086217819">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="718" y="466" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1586086217819" />
   </component>
 </project>
