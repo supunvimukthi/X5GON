@@ -15,7 +15,6 @@ from nltk.classify.textcat import TextCat
 import nltk
 from whatthelang import WhatTheLang
 from langua import Predict
-import multiprocessing as mp
 
 nltk.download('crubadan')
 nltk.download('punkt')
@@ -130,8 +129,7 @@ def cld2_(text, label):
 # method : spacy
 def spacy_lib(text, label):
     try:
-        nlp = spacy.load("en")
-        nlp.add_pipe(LanguageDetector(), name="language_detector", last=True)
+
         doc = nlp(text.split("/n")[0])
         doc_lang = doc._.language
         if doc_lang['language'] == label:
@@ -192,6 +190,13 @@ def updateResults(val, key):
     results[key][str(val).lower] = results[key][str(val).lower()] + 1
 
 
+# execute one of the above library
+#  key --> key for the library in key_list array
+# librayFunc --> method for the library (in function_list array)
+# text --> text to detect the language
+# label --> language of the specific text
+
+
 def executeLibrary(key, libraryFunc, text, label):
     start = time.perf_counter()
     value = libraryFunc(text, label)
@@ -200,6 +205,7 @@ def executeLibrary(key, libraryFunc, text, label):
     return value, time_elapsed
 
 
+# TODO : parallel processing implementation
 def oneProcess(text, label):
     row = []
     for index, libr in enumerate(function_list):
@@ -210,61 +216,63 @@ def oneProcess(text, label):
 
 
 if __name__ == '__main__':
+    # loading model files and objects for libraries
     nltkO = TextCat()
+    nlp = spacy.load("en")
+    nlp.add_pipe(LanguageDetector(), name="language_detector", last=True)
+    lid_model = fasttext.load_model("./lid.176.ftz")
+
+    # load text data set and label dataset
     text_test = open("Dataset/x_new_test.txt", "r").readlines()
     label_test = open("Dataset/y_new_test.txt", "r").readlines()
     text_train = open("Dataset/x_new_train.txt", "r").readlines()
     label_train = open("Dataset/y_new_train.txt", "r").readlines()
-    temp = []
+
+    # label preprocessing according to one global code
     lang_a = ['eng\n', 'nld\n', 'slk\n', 'spa\n', 'slv\n', 'ita\n', 'deu\n', 'fra\n']
     lang_b = ['en', 'nl', 'sk', 'es', 'sl', 'it', 'de', 'fr']
-    for i in label_test:
-        temp.append(lang_b[lang_a.index(i)])
-    label_test = temp
-    temp = []
-    for i in label_train:
-        temp.append(lang_b[lang_a.index(i)])
-    label_train = temp
-    temp = None
 
-    dataset = zip(text_test[:10] + text_train[:2], label_test[:10] + label_train[:2])
-    # text_final=text_test+text_train
+    label_test = [lang_b[lang_a.index(i)] for i in label_test]
+    label_train = [lang_b[lang_a.index(i)] for i in label_train]
+
+    dataset = zip(text_test + text_train, label_test + label_train)
+    # memory saving code
     text_test = None
     text_train = None
-    # label_final=label_test+label_train
-    # dat=[(x.split("\n")[0] ,y) for x in text_final for y in label_final]
-    lid_model = fasttext.load_model("./lid.176.ftz")
     results = dict();
 
-    # field names
+    # field names for the csv
     fields = ["textblob", "time", "polyglot", "time", "langDedect", "time", "guess_language", "time",
               "langid", "time", "fasttext", "time", "cld2", "time", "nltkDetect", "time", "whatlang",
-              "time", "langua"]
+              "time", "langua", "time"]
 
     # name of csv file
     filename = "lang_detect_comparison.csv"
+    # language detection library list TODO : add additional libraries
     function_list = [textBlob, polyglot, langDedect, guessLanguage, langid_, fasttext_, cld2_,
                      nltkDetect, whatlang, langua]
 
     key_list = ["textblob", "polyglot", "langDedect", "guess_language", "langid", "fasttext", "cld2", "nltkDetect",
                 "whatlang", "langua"]
+
     # writing to csv file
     with open(filename, 'a') as csvfile:
         # creating a csv writer object
         csvwriter = csv.writer(csvfile)
         # writing the fields
         csvwriter.writerow(fields)
+
         count = 0
-        for text, label in dataset:
+        for text, label in dataset:  # looping through each instance of the dataset
             if count % 100 == 0:
                 print("Completed instances : ", count)
             text = text.split("\n")[0]
             row = []
-            for index, libr in enumerate(function_list):
-                value, time_taken = executeLibrary(key_list[index], libr, text, label)
+            for index, libr in enumerate(function_list):  # send text through all libraries
+                value, time_taken = executeLibrary(key_list[index], libr, text, label)  # execute one library
                 row.append(value)
                 row.append(float("{:.2f}".format(time_taken)))
-            csvwriter.writerow(row)
+            csvwriter.writerow(row)  # write one instance result for each library - accuracy and time
             count = count + 1
 
         final = []
@@ -273,5 +281,6 @@ if __name__ == '__main__':
             final.append(results[key]['false'])
 
         csvwriter.writerow([""] * 12)
+
         csvwriter.writerow(final)
         print("Done")
