@@ -1,28 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b89f010-3565-4a64-979f-38d73fc0ecc6" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="0b89f010-3565-4a64-979f-38d73fc0ecc6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/Dataset/DatasetFilter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/Dataset/lang_detect_comparison.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/Dataset/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/Dataset/x_new_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/Dataset/x_new_train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/Dataset/y_new_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/Dataset/y_new_train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/environment.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/input_text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/lang_detect_comparison.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/lang_detect_comparison.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/lid.176.ftz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/output/chardetResult.short.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/output/cld2Result.short.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/output/fastTextResult.short.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/output/guessLanguageResult.short.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/output/langDedectResult.short.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/output/lang_detect_comparison.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/output/langidResult.short.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/output/nltkResult.short.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/output/polyglotResult.short.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/output/spacyResult.short.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/output/textBlobResult.short.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/output/whatlangResult.short.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Language_detection_Comparison/venv/pyvenv.cfg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lang_detect_comparison.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#1#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,57 +47,76 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/lang_detect_comparison.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
-  </component>
+  <component name="ProjectId" id="1a4NrvvmQYQGDVpiWX7yt3NlXN2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="x5DB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="x5DB" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RunManager" selected="Python.lang_detect_comparison">
+    <configuration name="lang_detect_comparison" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="x5DB" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lang_detect_comparison.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="sha256:06dcfa7696f1cba535179263490b301ddb5e31a111e856d42f6d0b2f44533e1c" />
+          <option name="commandLineOptions" value="" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <item itemvalue="Python.lang_detect_comparison" />
       </list>
-    </option>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -96,6 +128,7 @@
     </task>
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
@@ -117,17 +150,53 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+=======
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+>>>>>>> a2aab4b6def7da39421b1402d9ff8d220dd57474
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lang_detect_comparison.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#1#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="689" y="357" width="598" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586074168024">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="689" y="357" width="598" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1586074168024" />
+    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586068347402">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1586068347402" />
+    <state width="1830" height="255" key="GridCell.Tab.0.bottom" timestamp="1586085624448">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="255" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1586085624448" />
+    <state width="1830" height="255" key="GridCell.Tab.0.center" timestamp="1586085624447">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="255" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1586085624447" />
+    <state width="1830" height="255" key="GridCell.Tab.0.left" timestamp="1586085624447">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="255" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1586085624447" />
+    <state width="1830" height="255" key="GridCell.Tab.0.right" timestamp="1586085624448">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="255" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1586085624448" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1586086005702">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1586086005702" />
+    <state x="718" y="466" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1586086217819">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="718" y="466" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1586086217819" />
   </component>
 </project>
