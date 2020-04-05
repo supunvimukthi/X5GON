@@ -130,8 +130,7 @@ def cld2_(text, label):
 # method : spacy
 def spacy_lib(text, label):
     try:
-        nlp = spacy.load("en")
-        nlp.add_pipe(LanguageDetector(), name="language_detector", last=True)
+
         doc = nlp(text.split("/n")[0])
         doc_lang = doc._.language
         if doc_lang['language'] == label:
@@ -211,10 +210,15 @@ def oneProcess(text, label):
 
 if __name__ == '__main__':
     nltkO = TextCat()
+    nlp = spacy.load("en")
+    nlp.add_pipe(LanguageDetector(), name="language_detector", last=True)
+    lid_model = fasttext.load_model("./lid.176.ftz")
+
     text_test = open("Dataset/x_new_test.txt", "r").readlines()
     label_test = open("Dataset/y_new_test.txt", "r").readlines()
     text_train = open("Dataset/x_new_train.txt", "r").readlines()
     label_train = open("Dataset/y_new_train.txt", "r").readlines()
+
     temp = []
     lang_a = ['eng\n', 'nld\n', 'slk\n', 'spa\n', 'slv\n', 'ita\n', 'deu\n', 'fra\n']
     lang_b = ['en', 'nl', 'sk', 'es', 'sl', 'it', 'de', 'fr']
@@ -227,13 +231,13 @@ if __name__ == '__main__':
     label_train = temp
     temp = None
 
-    dataset = zip(text_test[:10] + text_train[:2], label_test[:10] + label_train[:2])
+    dataset = zip(text_test + text_train, label_test + label_train)
     # text_final=text_test+text_train
     text_test = None
     text_train = None
     # label_final=label_test+label_train
     # dat=[(x.split("\n")[0] ,y) for x in text_final for y in label_final]
-    lid_model = fasttext.load_model("./lid.176.ftz")
+
     results = dict();
 
     # field names

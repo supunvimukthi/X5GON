@@ -8014,3 +8014,6 @@ True,0.36,True,0.0,True,0.02,True,0.01,True,0.0,True,0.0,True,0.0,True,1.29,True
 True,0.65,True,0.0,True,0.03,True,0.01,True,0.0,True,0.0,True,0.0,True,2.41,True,0.06,True,0.32
 True,0.75,True,0.0,True,0.02,True,0.01,True,0.0,True,0.0,True,0.0,True,1.41,True,0.06,True,0.31
 True,1.35,True,0.0,True,0.03,True,0.0,True,0.0,True,0.0,True,0.0,True,1.86,True,0.06,True,0.32
+textblob,time,polyglot,time,langDedect,time,guess_language,time,langid,time,fasttext,time,cld2,time,nltkDetect,time,whatlang,time,langua
+True,0.2,True,0.02,True,0.28,True,0.01,True,1.18,True,0.0,True,0.0,True,1.29,True,0.07,True,0.22
+True,0.18,True,0.01,True,0.01,True,0.01,True,0.01,True,0.0,True,0.0,True,2.4,True,0.06,True,0.22
