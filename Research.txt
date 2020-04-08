@@ -1,0 +1,9 @@
+https://github.com/stanfordnlp/stanfordnlp
+http://www.pami.uwaterloo.ca/pub/hammouda/hammouda-kais-nov04.pdf
+https://medium.com/@adriensieg/text-similarities-da019229c894
+https://www.aclweb.org/anthology/P18-1218.pdf
+https://courses.cs.washington.edu/courses/cse573/12sp/lectures/17-ir.pdf
+http://text2vec.org/similarity.html
+https://datascience.stackexchange.com/questions/42219/document-similarity-matching-between-doc2vec-documents
+https://stackoverflow.com/questions/53503049/measure-similarity-between-two-documents-using-doc2vec/53506326#53506326
+https://github.com/raszidzie/Resemblance
