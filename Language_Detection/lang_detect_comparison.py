@@ -28,6 +28,7 @@ def textBlob(text, label):
         sentence = text.strip()
         blob = TextBlob(sentence)
         result = blob.detect_language()
+        print("textBlob",result)
         if result == label:
             return True
     except Exception as e:
@@ -41,6 +42,7 @@ def polyglot(text, label):
     try:
         sentence = text.strip()
         result = Text(sentence)
+        print("polygot",result.detected_languages)
         if result.language.code == label:
             return True
     except Exception as e:
@@ -55,6 +57,7 @@ def chardet_(text, label):
         sentence = text.strip()
         result = chardet.detect(sentence.encode('cp1251'))
         print(result)
+        print("chardet", result)
         # print(sentence, result, file=open("./output/chardetResult.short.txt", "a"))
     except Exception as e:
         print(e)
@@ -67,6 +70,8 @@ def langDedect(text, label):
     try:
         sentence = text.strip()
         result = detect(sentence)
+        r=detect_langs(sentence)
+        print("langdetect", result,r)
         if result == label:
             return True
     except Exception as e:
@@ -80,6 +85,7 @@ def guessLanguage(text, label):
     try:
         sentence = text.strip()
         result = guess_language(sentence)
+        print("guess", result)
         if result == label:
             return True
     except Exception as e:
@@ -93,6 +99,7 @@ def langid_(text, label):
     try:
         sentence = text.strip()
         result = langid.classify(sentence)
+        print("langid", result)
         if result[0] == label:
             return True
     except Exception as e:
@@ -106,6 +113,7 @@ def fasttext_(text, label):
     try:
         sentence = text.split("\n")[0]
         result = lid_model.predict([sentence])
+        print("fasttext", result)
         if result[0][0][0].split("_label__")[1] == label:
             return True
     except Exception as e:
@@ -118,6 +126,7 @@ def fasttext_(text, label):
 def cld2_(text, label):
     try:
         result = cld2.detect(text.strip())
+        print("cld2", result)
         if result[2][0].language_code == label:
             return True
     except Exception as e:
@@ -131,7 +140,9 @@ def spacy_lib(text, label):
     try:
 
         doc = nlp(text.split("/n")[0])
+
         doc_lang = doc._.language
+        print("spacy", doc_lang)
         if doc_lang['language'] == label:
             return True
     except Exception as e:
@@ -156,7 +167,9 @@ def nltkDetect(text, label):
 def whatlang(text, label):
     try:
         wtl = WhatTheLang()
+        r=wtl.predict_lang(text)
         result = wtl.predict_lang(text)
+        print("whatlang",r, result)
         if result == label:
             return True
     except Exception as e:
@@ -170,6 +183,7 @@ def langua(text, label):
     try:
         p = Predict()
         result = p.get_lang(text)
+        print("langua", result)
         if result == label:
             return True
     except Exception as e:
@@ -235,7 +249,8 @@ if __name__ == '__main__':
     label_test = [lang_b[lang_a.index(i)] for i in label_test]
     label_train = [lang_b[lang_a.index(i)] for i in label_train]
 
-    dataset = zip(text_test + text_train, label_test + label_train)
+    # dataset = zip(text_test[:3] + text_train[:3], label_test[:3] + label_train[:3])
+    dataset = zip(text_test[:2], label_test[:2])
     # memory saving code
     text_test = None
     text_train = None
@@ -250,7 +265,7 @@ if __name__ == '__main__':
     filename = "lang_detect_comparison.csv"
     # language detection library list TODO : add additional libraries
     function_list = [textBlob, polyglot, langDedect, guessLanguage, langid_, fasttext_, cld2_,
-                     nltkDetect, whatlang, langua]
+                     nltkDetect, whatlang, langua,spacy_lib]
 
     key_list = ["textblob", "polyglot", "langDedect", "guess_language", "langid", "fasttext", "cld2", "nltkDetect",
                 "whatlang", "langua"]
@@ -285,6 +300,9 @@ if __name__ == '__main__':
         csvwriter.writerow(final)
         print("Done")
 
+
+#  creating combined dataset
+
 texts=text_test+text_train
 labels=label_test+label_train
 import random
@@ -298,7 +316,7 @@ for i in range(0,8000,500):
             if i!=k:
                 randoms_other = [random.randrange(0, 500) for i in range(10)]
                 for m in randoms_other:
-                    percentage=random.randrange(0,100)
+                    percentage=random.randrange(25,42)
                     text1=texts[i+j].split("\n")[0]
                     text2=texts[k+m].split("\n")[0]
                     text1_words=text1.split(" ")
