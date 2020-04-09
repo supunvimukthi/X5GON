@@ -292,7 +292,7 @@ combined_texts=[]
 combined_labels=[]
 combined_percentage=[]
 for i in range(0,8000,500):
-    randoms=[random.randrange(0, 500) for i in range(20)]
+    randoms=[random.randrange(0, 500) for i in range(4)]
     for j in randoms:
         for  k in range(0,8000,500):
             if i!=k:
@@ -311,11 +311,11 @@ for i in range(0,8000,500):
                     combined_percentage.append({labels[i+j]:percentage,labels[k+m]:str(100-percentage)})
 
 f=open("output/combined_text.txt","a")
-for i in combined_texts[:10000]:
+for i in combined_texts[:8000]:
     f.write(i+"\n")
 f=open("output/combined_labels.txt","a")
-for i in combined_texts[:10000]:
+for i in combined_labels[:8000]:
     f.write(str(i)+"\n")
 f=open("output/combined_percentage.txt","a")
-for i in combined_texts[:10000]:
+for i in combined_percentage[:8000]:
     f.write(str(i)+"\n")
