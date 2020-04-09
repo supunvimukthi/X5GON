@@ -284,3 +284,38 @@ if __name__ == '__main__':
 
         csvwriter.writerow(final)
         print("Done")
+
+texts=text_test+text_train
+labels=label_test+label_train
+import random
+combined_texts=[]
+combined_labels=[]
+combined_percentage=[]
+for i in range(0,8000,500):
+    randoms=[random.randrange(0, 500) for i in range(20)]
+    for j in randoms:
+        for  k in range(0,8000,500):
+            if i!=k:
+                randoms_other = [random.randrange(0, 500) for i in range(10)]
+                for m in randoms_other:
+                    percentage=random.randrange(0,100)
+                    text1=texts[i+j].split("\n")[0]
+                    text2=texts[k+m].split("\n")[0]
+                    text1_words=text1.split(" ")
+                    text2_words=text2.split(" ")
+                    combined_texts.append((" ".join(text1_words[0:len(text1_words)*percentage//100]))+(" ".join(text2_words[0:len(text2_words)*(100-percentage)//100])))
+                    if(percentage>50):
+                        combined_labels.append((labels[i+j],labels[k+m]))
+                    else:
+                        combined_labels.append(( labels[k + m],labels[i + j]))
+                    combined_percentage.append({labels[i+j]:percentage,labels[k+m]:str(100-percentage)})
+
+f=open("output/combined_text.txt","a")
+for i in combined_texts[:10000]:
+    f.write(i+"\n")
+f=open("output/combined_labels.txt","a")
+for i in combined_texts[:10000]:
+    f.write(str(i)+"\n")
+f=open("output/combined_percentage.txt","a")
+for i in combined_texts[:10000]:
+    f.write(str(i)+"\n")
