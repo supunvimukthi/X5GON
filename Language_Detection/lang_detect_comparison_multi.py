@@ -1,5 +1,6 @@
 import csv
 import time
+import ast
 import polyglot
 import chardet
 import langid
@@ -13,6 +14,7 @@ import spacy
 from spacy_langdetect import LanguageDetector
 from nltk.classify.textcat import TextCat
 import nltk
+import random
 from whatthelang import WhatTheLang
 from langua import Predict
 
@@ -22,159 +24,106 @@ nltk.download('punkt')
 from pycountry import languages
 
 
-# method: textBlob
-def textBlob(text, label):
-    try:
-        sentence = text.strip()
-        blob = TextBlob(sentence)
-        result = blob.detect_language()
-        if result == label:
-            return True
-    except Exception as e:
-        print(e)
-        pass
-    return False
-
-
 # method: polyglot
 def polyglot(text, label):
+    score=0
     try:
         sentence = text.strip()
         result = Text(sentence)
-        if result.language.code == label:
-            return True
+        if result.detected_languages.languages[0].code in label:
+            score+=1
+        if result.detected_languages.languages[1].code in label:
+            score += 1
+        if result.detected_languages.languages[0].code == label[0]:
+            score += 2
+        if result.detected_languages.languages[0].code == label[0] and result.detected_languages.languages[1].code == label[1]:
+            score += 3
     except Exception as e:
         print(e)
         pass
-    return False
+    return score
 
-
-# method: chardet
-def chardet_(text, label):
-    try:
-        sentence = text.strip()
-        result = chardet.detect(sentence.encode('cp1251'))
-        # print(sentence, result, file=open("./output/chardetResult.short.txt", "a"))
-    except Exception as e:
-        print(e)
-        pass
-    return False
 
 
 # method: langDedect
 def langDedect(text, label):
     try:
+        score=0
         sentence = text.strip()
         result = detect(sentence)
-        if result == label:
-            return True
+        result=detect_langs(sentence)
+        if result.__getitem__(0).lang in label:
+            score+=1
+        if(len(result)==2):
+            if result.__getitem__(1).lang in label:
+                score += 1
+            if result.__getitem__(0).lang == label[0] and result.__getitem__(1).lang == label[1]:
+                score += 3
+        if result.__getitem__(0).lang== label[0]:
+            score += 2
     except Exception as e:
         print(e)
         pass
-    return False
+    return score
 
-
-# method: guessLanguage
-def guessLanguage(text, label):
-    try:
-        sentence = text.strip()
-        result = guess_language(sentence)
-        if result == label:
-            return True
-    except Exception as e:
-        print(e)
-        pass
-    return False
 
 
 # method: lanid
 def langid_(text, label):
+    score=0
     try:
         sentence = text.strip()
-        result = langid.classify(sentence)
-        if result[0] == label:
-            return True
+        result=langid.rank(sentence)
+        if result[0][0] in label:
+            score += 1
+        if result[1][0] in label:
+            score += 1
+        if result[0][0] == label[0]:
+            score += 2
+        if result[0][0] == label[0] and result[1][0] == label[1]:
+            score += 3
     except Exception as e:
         print(e)
         pass
-    return False
+    return score
 
 
 # method : fasttext
 def fasttext_(text, label):
+    score=0
     try:
         sentence = text.split("\n")[0]
-        result = lid_model.predict([sentence])
-        if result[0][0][0].split("_label__")[1] == label:
-            return True
+        result = lid_model.predict([sentence],k=2)
+        if result[0][0][0].split("_label__")[1] in label:
+            score += 1
+        if result[0][0][1].split("_label__")[1] in label:
+            score += 1
+        if result[0][0][0].split("_label__")[1]== label[0]:
+            score += 2
+        if result[0][0][0].split("_label__")[1] == label[0] and result[0][0][1].split("_label__")[1] == label[1]:
+            score += 3
+
     except Exception as e:
         print(e)
         pass
-    return False
-
-
-# method : cld2
-def cld2_(text, label):
-    try:
-        result = cld2.detect(text.strip())
-        if result[2][0].language_code == label:
-            return True
-    except Exception as e:
-        print(e)
-        pass
-    return False
-
+    return score
 
 # method : spacy
-def spacy_lib(text, label):
-    try:
-
-        doc = nlp(text.split("/n")[0])
-        doc_lang = doc._.language
-        if doc_lang['language'] == label:
-            return True
-    except Exception as e:
-        print(e)
-        pass
-    return False
-
-
-# method : nltk
-def nltkDetect(text, label):
-    try:
-        result = nltkO.guess_language(text=text)
-        if str(result) == lang_a[lang_b.index(label)].split("\n")[0]:
-            return True
-    except Exception as e:
-        print(e)
-        pass
-    return False
+# def spacy_lib(text, label):
+#     try:
+#
+#         doc = nlp(text.split("/n")[0])
+#         doc_lang = doc._.language
+#         print("spacy", doc_lang)
+#         if doc_lang['language'] == label:
+#             return True
+#     except Exception as e:
+#         print(e)
+#         pass
+#     return False
 
 
-# method : whatlang
-def whatlang(text, label):
-    try:
-        wtl = WhatTheLang()
-        result = wtl.predict_lang(text)
-        if result == label:
-            return True
-    except Exception as e:
-        print(e)
-        pass
-    return False
 
-
-# method : langua
-def langua(text, label):
-    try:
-        p = Predict()
-        result = p.get_lang(text)
-        if result == label:
-            return True
-    except Exception as e:
-        print(e)
-        pass
-    return False
 
 
 # language_name = languages.get(alpha_2='fr').name  // use this to print the language name using code
@@ -222,37 +171,34 @@ if __name__ == '__main__':
     lid_model = fasttext.load_model("./lid.176.ftz")
 
     # load text data set and label dataset
-    text_test = open("Dataset/x_new_test.txt", "r").readlines()
-    label_test = open("Dataset/y_new_test.txt", "r").readlines()
-    text_train = open("Dataset/x_new_train.txt", "r").readlines()
-    label_train = open("Dataset/y_new_train.txt", "r").readlines()
+    texts = open("output/combined_text.txt", "r").readlines()
+    labels = open("output/combined_labels.txt", "r").readlines()
+
 
     # label preprocessing according to one global code
     lang_a = ['eng\n', 'nld\n', 'slk\n', 'spa\n', 'slv\n', 'ita\n', 'deu\n', 'fra\n']
     lang_b = ['en', 'nl', 'sk', 'es', 'sl', 'it', 'de', 'fr']
 
-    label_test = [lang_b[lang_a.index(i)] for i in label_test]
-    label_train = [lang_b[lang_a.index(i)] for i in label_train]
+    # label_test = [lang_b[lang_a.index(i)] for i in label_test]
+    # label_train = [lang_b[lang_a.index(i)] for i in label_train]
 
-    dataset = zip(text_test + text_train, label_test + label_train)
+    # dataset = zip(text_test[:3] + text_train[:3], label_test[:3] + label_train[:3])
+    dataset = zip(texts,labels)
     # memory saving code
     text_test = None
     text_train = None
     results = dict();
 
     # field names for the csv
-    fields = ["textblob", "time", "polyglot", "time", "langDedect", "time", "guess_language", "time",
-              "langid", "time", "fasttext", "time", "cld2", "time", "nltkDetect", "time", "whatlang",
-              "time", "langua", "time"]
+    fields = ["polyglot", "time", "langDedect", "time",
+              "langid", "time", "fasttext", "time"]
 
     # name of csv file
-    filename = "lang_detect_comparison.csv"
+    filename = "lang_detect_comparison_multi.csv"
     # language detection library list TODO : add additional libraries
-    function_list = [textBlob, polyglot, langDedect, guessLanguage, langid_, fasttext_, cld2_,
-                     nltkDetect, whatlang, langua]
+    function_list = [polyglot, langDedect, langid_, fasttext_]
 
-    key_list = ["textblob", "polyglot", "langDedect", "guess_language", "langid", "fasttext", "cld2", "nltkDetect",
-                "whatlang", "langua"]
+    key_list = [ "polyglot", "langDedect",  "langid", "fasttext"]
 
     # writing to csv file
     with open(filename, 'a') as csvfile:
@@ -266,22 +212,20 @@ if __name__ == '__main__':
             if count % 100 == 0:
                 print("Completed instances : ", count)
             text = text.split("\n")[0]
+            label=ast.literal_eval(label.split("\n")[0])
             row = []
             for index, libr in enumerate(function_list):  # send text through all libraries
                 value, time_taken = executeLibrary(key_list[index], libr, text, label)  # execute one library
                 row.append(value)
-                row.append(float("{:.2f}".format(time_taken)))
+                row.append(float("{:.4f}".format(time_taken)))
             csvwriter.writerow(row)  # write one instance result for each library - accuracy and time
             count = count + 1
 
-        final = []
-        for key in results:
-            final.append(results[key]['true'])
-            final.append(results[key]['false'])
+        print(results)
 
         csvwriter.writerow([""] * 12)
 
-        csvwriter.writerow(final)
+        # csvwriter.writerow(final)
         print("Done")
 
 
@@ -289,7 +233,7 @@ if __name__ == '__main__':
 
 # texts=text_test+text_train
 # labels=label_test+label_train
-# import random
+#
 # combined_texts=[]
 # combined_labels=[]
 # combined_percentage=[]
@@ -300,7 +244,7 @@ if __name__ == '__main__':
 #             if i!=k:
 #                 randoms_other = [random.randrange(0, 500) for i in range(10)]
 #                 for m in randoms_other:
-#                     percentage=random.randrange(0,100)
+#                     percentage=random.randrange(25,42)
 #                     text1=texts[i+j].split("\n")[0]
 #                     text2=texts[k+m].split("\n")[0]
 #                     text1_words=text1.split(" ")
