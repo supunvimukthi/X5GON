@@ -171,8 +171,8 @@ if __name__ == '__main__':
     lid_model = fasttext.load_model("./lid.176.ftz")
     percentage = 40
     # load text data set and label dataset
-    texts = open("output/combined_text_"+str(percentage)+".txt", "r").readlines()
-    labels = open("output/combined_labels_"+str(percentage)+".txt", "r").readlines()
+    texts = open("output/new_data/combined_text_"+str(percentage)+".txt", "r").readlines()
+    labels = open("output/new_data/combined_labels_"+str(percentage)+".txt", "r").readlines()
 
 
     # label preprocessing according to one global code
@@ -251,19 +251,22 @@ if __name__ == '__main__':
 #                     text2=texts[k+m].split("\n")[0]
 #                     text1_words=text1.split(" ")
 #                     text2_words=text2.split(" ")
-#                     combined_texts.append((" ".join(text1_words[0:len(text1_words)*percentage//100]))+(" ".join(text2_words[0:len(text2_words)*(100-percentage)//100])))
+#                     text1_perc=len(text1_words)/(len(text1_words)+len(text2_words))*100
+#                     leng = min(len(text1_words),len(text2_words))
+#                     combined_texts.append((" ".join(text1_words[0:leng*percentage//100]))+(" ".join(text2_words[0:leng*(100-percentage)//100])))
+#                     # combined_texts.append(text1+text2)
 #                     if(percentage>50):
 #                         combined_labels.append((labels[i+j],labels[k+m]))
 #                     else:
 #                         combined_labels.append(( labels[k + m],labels[i + j]))
-#                     combined_percentage.append({labels[i+j]:percentage,labels[k+m]:str(100-percentage)})
+#                     combined_percentage.append({labels[i+j]:str(percentage),labels[k+m]:str(100-percentage)})
 #
-# f=open("output/combined_text_"+str(percentage)+".txt","a")
+# f=open("output/new_data/combined_text_"+str(percentage)+".txt","a")
 # for i in combined_texts[:8000]:
 #     f.write(i+"\n")
-# f=open("output/combined_labels_"+str(percentage)+".txt","a")
+# f=open("output/new_data/combined_labels_"+str(percentage)+".txt","a")
 # for i in combined_labels[:8000]:
 #     f.write(str(i)+"\n")
-# f=open("output/combined_percentage_"+str(percentage)+".txt","a")
+# f=open("output/new_data/combined_percentage_"+str(percentage)+".txt","a")
 # for i in combined_percentage[:8000]:
 #     f.write(str(i)+"\n")

@@ -4,13 +4,16 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node script.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "franc": "^5.0.0",
+    "json2csv": "^5.0.0",
     "n-gram": "^1.1.2",
+    "pandas-js": "^0.2.4",
     "trigram-utils": "^1.0.3",
     "trim": "0.0.1"
   }
