@@ -232,41 +232,41 @@ if __name__ == '__main__':
 
 #  creating combined dataset
 
-texts=text_test+text_train
-labels=label_test+label_train
-
-combined_texts=[]
-combined_labels=[]
-combined_percentage=[]
-percentage = 40
-for i in range(0,8000,500):
-    randoms=[random.randrange(0, 500) for i in range(4)]
-    for j in randoms:
-        for  k in range(0,8000,500):
-            if i!=k:
-                randoms_other = [random.randrange(0, 500) for i in range(10)]
-                for m in randoms_other:
-                    # percentage=random.randrange(25,42)
-                    text1=texts[i+j].split("\n")[0]
-                    text2=texts[k+m].split("\n")[0]
-                    text1_words=text1.split(" ")
-                    text2_words=text2.split(" ")
-                    text1_perc=len(text1_words)/(len(text1_words)+len(text2_words))*100
-                    leng = min(len(text1_words),len(text2_words))
-                    combined_texts.append((" ".join(text1_words[0:leng*percentage//100]))+(" ".join(text2_words[0:leng*(100-percentage)//100])))
-                    # combined_texts.append(text1+text2)
-                    if(percentage>50):
-                        combined_labels.append((labels[i+j],labels[k+m]))
-                    else:
-                        combined_labels.append(( labels[k + m],labels[i + j]))
-                    combined_percentage.append({labels[i+j]:str(percentage),labels[k+m]:str(100-percentage)})
-
-f=open("output/new_data/combined_text_"+str(percentage)+".txt","a")
-for i in combined_texts[:8000]:
-    f.write(i+"\n")
-f=open("output/new_data/combined_labels_"+str(percentage)+".txt","a")
-for i in combined_labels[:8000]:
-    f.write(str(i)+"\n")
-f=open("output/new_data/combined_percentage_"+str(percentage)+".txt","a")
-for i in combined_percentage[:8000]:
-    f.write(str(i)+"\n")
+# texts=text_test+text_train
+# labels=label_test+label_train
+#
+# combined_texts=[]
+# combined_labels=[]
+# combined_percentage=[]
+# percentage = 40
+# for i in range(0,8000,500):
+#     randoms=[random.randrange(0, 500) for i in range(4)]
+#     for j in randoms:
+#         for  k in range(0,8000,500):
+#             if i!=k:
+#                 randoms_other = [random.randrange(0, 500) for i in range(10)]
+#                 for m in randoms_other:
+#                     # percentage=random.randrange(25,42)
+#                     text1=texts[i+j].split("\n")[0]
+#                     text2=texts[k+m].split("\n")[0]
+#                     text1_words=text1.split(" ")
+#                     text2_words=text2.split(" ")
+#                     text1_perc=len(text1_words)/(len(text1_words)+len(text2_words))*100
+#                     leng = min(len(text1_words),len(text2_words))
+#                     combined_texts.append((" ".join(text1_words[0:leng*percentage//100]))+(" ".join(text2_words[0:leng*(100-percentage)//100])))
+#                     # combined_texts.append(text1+text2)
+#                     if(percentage>50):
+#                         combined_labels.append((labels[i+j],labels[k+m]))
+#                     else:
+#                         combined_labels.append(( labels[k + m],labels[i + j]))
+#                     combined_percentage.append({labels[i+j]:str(percentage),labels[k+m]:str(100-percentage)})
+#
+# f=open("output/new_data/combined_text_"+str(percentage)+".txt","a")
+# for i in combined_texts[:8000]:
+#     f.write(i+"\n")
+# f=open("output/new_data/combined_labels_"+str(percentage)+".txt","a")
+# for i in combined_labels[:8000]:
+#     f.write(str(i)+"\n")
+# f=open("output/new_data/combined_percentage_"+str(percentage)+".txt","a")
+# for i in combined_percentage[:8000]:
+#     f.write(str(i)+"\n")
