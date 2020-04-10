@@ -22,10 +22,10 @@ function getData() {
 
 function getCombinedData() {
 	return new Promise((resolve, reject) => {
-		const text = fs.readFileSync('../output/combined_text.txt', (encoding = 'utf-8')).split('\n');
+		const text = fs.readFileSync('../output/new_data/combined_text_40.txt', (encoding = 'utf-8')).split('\n');
 		// text_series = new Series(text)
 
-		const labels = fs.readFileSync('../output/combined_labels copy.txt', (encoding = 'utf-8')).split('\n');
+		const labels = fs.readFileSync('../output/new_data/combined_labels_40.txt', (encoding = 'utf-8')).split('\n');
 
 		// label_series = new Series(labels)
 
@@ -55,15 +55,15 @@ function predictMultipleLanguages(text, label) {
 
 		const lang1 = label.slice(2, 5),
             lang2 = label.slice(9, 12);
-
-
+		
+		if(prediction[0][0] == "und"){
+			resolve([score, ((endTime - startTime) / 1000)]);	
+		}
 		if (prediction[0][0] === lang1 || prediction[0][0]=== lang2) {
             score += 1;
-
 		}
 		if (prediction[1][0] === lang1 || prediction[1][0]=== lang2) {
             score += 1;
-
 		}
 		if (prediction[0][0] === lang1) {
             score += 2;
@@ -85,8 +85,7 @@ async function runTest(mode, input_file, texts, labels) {
 		for (let i = 0; i < texts.length; i++) {
 			if (i % 1000 === 0) {
 				console.log('Predicted on %d texts', i);
-			}
-
+			} 
 			let prediction, time;
 			if (mode === 'single') {
 				[prediction, time] = await predictSingleLanguage(texts[i], labels[i]);
@@ -112,7 +111,7 @@ async function runTest(mode, input_file, texts, labels) {
 
 getCombinedData()
 	.then(([texts, labels]) => {
-		runTest('combined', './output/franc_results_multiple.csv', texts, labels);
+		runTest('combined', './output/franc_results_multiple_40.csv', texts, labels);
 	})
 	.catch((error) => {
 		console.log('Error occured. Reason:', error.message);
