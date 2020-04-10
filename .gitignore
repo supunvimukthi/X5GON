@@ -2,3 +2,4 @@
 venv
 .history
 .vscode
+node_modules
