@@ -169,10 +169,10 @@ if __name__ == '__main__':
     nlp = spacy.load("en")
     nlp.add_pipe(LanguageDetector(), name="language_detector", last=True)
     lid_model = fasttext.load_model("./lid.176.ftz")
-
+    percentage = 40
     # load text data set and label dataset
-    texts = open("output/combined_text.txt", "r").readlines()
-    labels = open("output/combined_labels.txt", "r").readlines()
+    texts = open("output/combined_text_"+str(percentage)+".txt", "r").readlines()
+    labels = open("output/combined_labels_"+str(percentage)+".txt", "r").readlines()
 
 
     # label preprocessing according to one global code
@@ -194,7 +194,8 @@ if __name__ == '__main__':
               "langid", "time", "fasttext", "time"]
 
     # name of csv file
-    filename = "lang_detect_comparison_multi.csv"
+
+    filename = "lang_detect_comparison_multi_"+str(percentage)+".csv"
     # language detection library list TODO : add additional libraries
     function_list = [polyglot, langDedect, langid_, fasttext_]
 
@@ -231,38 +232,38 @@ if __name__ == '__main__':
 
 #  creating combined dataset
 
-texts=text_test+text_train
-labels=label_test+label_train
-
-combined_texts=[]
-combined_labels=[]
-combined_percentage=[]
-percentage = 40
-for i in range(0,8000,500):
-    randoms=[random.randrange(0, 500) for i in range(4)]
-    for j in randoms:
-        for  k in range(0,8000,500):
-            if i!=k:
-                randoms_other = [random.randrange(0, 500) for i in range(10)]
-                for m in randoms_other:
-                    # percentage=random.randrange(25,42)
-                    text1=texts[i+j].split("\n")[0]
-                    text2=texts[k+m].split("\n")[0]
-                    text1_words=text1.split(" ")
-                    text2_words=text2.split(" ")
-                    combined_texts.append((" ".join(text1_words[0:len(text1_words)*percentage//100]))+(" ".join(text2_words[0:len(text2_words)*(100-percentage)//100])))
-                    if(percentage>50):
-                        combined_labels.append((labels[i+j],labels[k+m]))
-                    else:
-                        combined_labels.append(( labels[k + m],labels[i + j]))
-                    combined_percentage.append({labels[i+j]:percentage,labels[k+m]:str(100-percentage)})
-
-f=open("output/combined_text_"+str(percentage)+".txt","a")
-for i in combined_texts[:8000]:
-    f.write(i+"\n")
-f=open("output/combined_labels_"+str(percentage)+".txt","a")
-for i in combined_labels[:8000]:
-    f.write(str(i)+"\n")
-f=open("output/combined_percentage_"+str(percentage)+".txt","a")
-for i in combined_percentage[:8000]:
-    f.write(str(i)+"\n")
+# texts=text_test+text_train
+# labels=label_test+label_train
+#
+# combined_texts=[]
+# combined_labels=[]
+# combined_percentage=[]
+# percentage = 40
+# for i in range(0,8000,500):
+#     randoms=[random.randrange(0, 500) for i in range(4)]
+#     for j in randoms:
+#         for  k in range(0,8000,500):
+#             if i!=k:
+#                 randoms_other = [random.randrange(0, 500) for i in range(10)]
+#                 for m in randoms_other:
+#                     # percentage=random.randrange(25,42)
+#                     text1=texts[i+j].split("\n")[0]
+#                     text2=texts[k+m].split("\n")[0]
+#                     text1_words=text1.split(" ")
+#                     text2_words=text2.split(" ")
+#                     combined_texts.append((" ".join(text1_words[0:len(text1_words)*percentage//100]))+(" ".join(text2_words[0:len(text2_words)*(100-percentage)//100])))
+#                     if(percentage>50):
+#                         combined_labels.append((labels[i+j],labels[k+m]))
+#                     else:
+#                         combined_labels.append(( labels[k + m],labels[i + j]))
+#                     combined_percentage.append({labels[i+j]:percentage,labels[k+m]:str(100-percentage)})
+#
+# f=open("output/combined_text_"+str(percentage)+".txt","a")
+# for i in combined_texts[:8000]:
+#     f.write(i+"\n")
+# f=open("output/combined_labels_"+str(percentage)+".txt","a")
+# for i in combined_labels[:8000]:
+#     f.write(str(i)+"\n")
+# f=open("output/combined_percentage_"+str(percentage)+".txt","a")
+# for i in combined_percentage[:8000]:
+#     f.write(str(i)+"\n")
