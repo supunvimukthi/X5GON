@@ -22,10 +22,10 @@ function getData() {
 
 function getCombinedData() {
 	return new Promise((resolve, reject) => {
-		const text = fs.readFileSync('../output/new_data/combined_text_40.txt', (encoding = 'utf-8')).split('\n');
+		const text = fs.readFileSync('../output/combined_text_40.txt', (encoding = 'utf-8')).split('\n');
 		// text_series = new Series(text)
 
-		const labels = fs.readFileSync('../output/new_data/combined_labels_40.txt', (encoding = 'utf-8')).split('\n');
+		const labels = fs.readFileSync('../output/combined_labels_40 copy.txt', (encoding = 'utf-8')).split('\n');
 
 		// label_series = new Series(labels)
 
@@ -111,7 +111,7 @@ async function runTest(mode, input_file, texts, labels) {
 
 getCombinedData()
 	.then(([texts, labels]) => {
-		runTest('combined', './output/franc_results_multiple_40.csv', texts, labels);
+		runTest('combined', './output/franc_results_multiple_pd_40.csv', texts, labels);
 	})
 	.catch((error) => {
 		console.log('Error occured. Reason:', error.message);
