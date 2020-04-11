@@ -230,103 +230,50 @@ if __name__ == '__main__':
         print("Done")
 
 
-#  creating combined dataset
-
-# texts=text_test+text_train
-# labels=label_test+label_train
+# import json
+# import csv
 #
-# combined_texts=[]
-# combined_labels=[]
-# combined_percentage=[]
-# percentage = 40
-# for i in range(0,8000,500):
-#     randoms=[random.randrange(0, 500) for i in range(4)]
-#     for j in randoms:
-#         for  k in range(0,8000,500):
-#             if i!=k:
-#                 randoms_other = [random.randrange(0, 500) for i in range(10)]
-#                 for m in randoms_other:
-#                     # percentage=random.randrange(25,42)
-#                     text1=texts[i+j].split("\n")[0]
-#                     text2=texts[k+m].split("\n")[0]
-#                     text1_words=text1.split(" ")
-#                     text2_words=text2.split(" ")
-#                     text1_perc=len(text1_words)/(len(text1_words)+len(text2_words))*100
-#                     leng = min(len(text1_words),len(text2_words))
-#                     combined_texts.append((" ".join(text1_words[0:leng*percentage//100]))+(" ".join(text2_words[0:leng*(100-percentage)//100])))
-#                     # combined_texts.append(text1+text2)
-#                     if(percentage>50):
-#                         combined_labels.append((labels[i+j],labels[k+m]))
-#                     else:
-#                         combined_labels.append(( labels[k + m],labels[i + j]))
-#                     combined_percentage.append({labels[i+j]:str(percentage),labels[k+m]:str(100-percentage)})
+# f=open("final_sorted.txt","r")
+# x=f.readlines()
+# y=[i.split("-->")[1] for i in x]
+# y=[json.loads(i.replace(" ","").replace("'",'"')) for i in y]
+# scores=["7","3","2","1","0"]
+# count=0
+# with open("final_data_sorted.csv", 'a') as csvfile:
+#     # creating a csv writer object
+#     csvwriter = csv.writer(csvfile)
+#     for b in y:
 #
-# f=open("output/new_data/combined_text_"+str(percentage)+".txt","a")
-# for i in combined_texts[:8000]:
-#     f.write(i+"\n")
-# f=open("output/new_data/combined_labels_"+str(percentage)+".txt","a")
-# for i in combined_labels[:8000]:
-#     f.write(str(i)+"\n")
-# f=open("output/new_data/combined_percentage_"+str(percentage)+".txt","a")
-# for i in combined_percentage[:8000]:
-#     f.write(str(i)+"\n")
+#         csvwriter.writerow(["x"]+[i for i in y[0]])
+#         for i in scores:
+#             csvwriter.writerow([i]+[y[count][j][i]/8000*100 for j in y[count]])
+#         count+=1
 
-# import pandas as pd
-# train_text = open( './Dataset/x_new_train.txt', "r").readlines()
-# train_text_dataframe = pd.DataFrame(train_text)
-# train_label= open( './Dataset/y_new_train.txt', "r").readlines()
-# train_label_dataframe = pd.DataFrame(train_label)
-# test_text = open( './Dataset/x_new_test.txt', "r").readlines()
-# test_text_dataframe = pd.DataFrame(test_text)
-# test_label= open( './Dataset/y_new_test.txt', "r").readlines()
-# test_label_dataframe = pd.DataFrame(test_label)
-# train_text_dataframe.rename(columns={0:'text'},inplace=True)
-# train_label_dataframe.rename(columns={0:'label'},inplace=True)
-# test_text_dataframe.rename(columns={0:'text'},inplace=True)
-# test_label_dataframe.rename(columns={0:'label'},inplace=True)
-# train_data = pd.concat([train_text_dataframe,train_label_dataframe],axis=1)
-# test_data = pd.concat([test_text_dataframe,test_label_dataframe],axis=1)
-# data = pd.concat([train_data,test_data],axis=0)
-# data.index = data['text'].str.len()
-# data = data.sort_index().reset_index(drop=True)
-# grouped_data = data.groupby(['label'],as_index=False)
-# #access text by row index
-# grouped_data.get_group('eng\n').iloc[0].text
+# import numpy as np
+# import matplotlib.pyplot as plt
 #
-# lang_a = ['eng\n', 'nld\n', 'slk\n', 'spa\n', 'slv\n', 'ita\n', 'deu\n', 'fra\n']
-# lang_b = ['en', 'nl', 'sk', 'es', 'sl', 'it', 'de', 'fr']
-# combined_texts=[]
-# combined_labels=[]
-# combined_percentage=[]
-# percentage = 40
-# for i in lang_a:
-#     randoms = [random.randrange(0, 999) for i in range(20)]
-#     for j in randoms:
-#         for m in lang_a:
-#             for n in range(j,j+10):
-#                 if n<1000 and m!=i:
-#                     text1=grouped_data.get_group(i).iloc[j].text.split("\n")[0]
-#                     text2=grouped_data.get_group(m).iloc[n].text.split("\n")[0]
-#                     text1_words = text1.split(" ")
-#                     text2_words=text2.split(" ")
-#                     text1_perc=len(text1_words)/(len(text1_words)+len(text2_words))*100
-#                     leng = min(len(text1_words),len(text2_words))
-#                     combined_texts.append((" ".join(text1_words[0:leng*percentage//100]))+(" ".join(text2_words[0:leng*(100-percentage)//100])))
-#                     # combined_texts.append(text1+text2)
-#                     if(percentage>50):
-#                         combined_labels.append((lang_b[lang_a.index(i)],lang_b[lang_a.index(m)]))
-#                     else:
-#                         combined_labels.append((lang_b[lang_a.index(m)],lang_b[lang_a.index(i)]))
-#                     combined_percentage.append({lang_b[lang_a.index(i)]:str(percentage),lang_b[lang_a.index(m)]:str(100-percentage)})
+# # set width of bar
+# barWidth = 0.25
 #
-# f=open("output/combined_text_"+str(percentage)+".txt","a")
-# for i in combined_texts[:8000]:
-#     f.write(i+"\n")
-# f=open("output/combined_labels_"+str(percentage)+".txt","a")
-# for i in combined_labels[:8000]:
-#     f.write(str(i)+"\n")
-# f=open("output/combined_percentage_"+str(percentage)+".txt","a")
-# for i in combined_percentage[:8000]:
-#     f.write(str(i)+"\n")
-
-
+# # set height of bar
+# bars1 = [12, 30, 1, 8, 22]
+# bars2 = [28, 6, 16, 5, 10]
+# bars3 = [29, 3, 24, 25, 17]
+#
+# # Set position of bar on X axis
+# r1 = np.arange(len(bars1))
+# r2 = [x + barWidth for x in r1]
+# r3 = [x + barWidth for x in r2]
+#
+# # Make the plot
+# plt.bar(r1, bars1, color='#7f6d5f', width=barWidth, edgecolor='white', label='var1')
+# plt.bar(r2, bars2, color='#557f2d', width=barWidth, edgecolor='white', label='var2')
+# plt.bar(r3, bars3, color='#2d7f5e', width=barWidth, edgecolor='white', label='var3')
+#
+# # Add xticks on the middle of the group bars
+# plt.xlabel('group', fontweight='bold')
+# plt.xticks([r + barWidth for r in range(len(bars1))], ['A', 'B', 'C', 'D', 'E'])
+#
+# # Create legend & Show graphic
+# plt.legend()
+# plt.show()
