@@ -66,7 +66,22 @@ def langDedect(text, label):
         pass
     return score
 
-
+def cld2_(text, label):
+    score=0
+    try:
+        result = cld2.detect(text.strip())
+        if result[2][0].language_code in label:
+            score+=1
+        if result[2][1].language_code in label:
+            score+=1
+        if result[2][0].language_code == label[0]:
+            score+=2
+        if result[2][0].language_code == label[0] and result[2][1].language_code == label[1]:
+            score+=3
+    except Exception as e:
+        print(e)
+        pass
+    return score
 
 # method: lanid
 def langid_(text, label):
@@ -171,8 +186,8 @@ if __name__ == '__main__':
     lid_model = fasttext.load_model("./lid.176.ftz")
     percentage = 40
     # load text data set and label dataset
-    texts = open("output/combined_text_"+str(percentage)+".txt", "r").readlines()
-    labels = open("output/combined_labels_"+str(percentage)+".txt", "r").readlines()
+    texts = open("Dataset/combined/combined_text_"+str(percentage)+".txt", "r").readlines()
+    labels = open("Dataset/combined/combined_labels_"+str(percentage)+".txt", "r").readlines()
 
 
     # label preprocessing according to one global code
@@ -277,3 +292,25 @@ if __name__ == '__main__':
 # # Create legend & Show graphic
 # plt.legend()
 # plt.show()
+# start=time.perf_counter()
+# for percentage in [20,30,40]:
+#     results=dict()
+#     texts = open("Dataset/combined_sorted/combined_text_" + str(percentage) + ".txt", "r").readlines()
+#     labels = open("Dataset/combined_sorted/combined_labels_" + str(percentage) + ".txt", "r").readlines()
+#     dataset = zip(texts, labels)
+#     time_avg=0
+#     for text, label in dataset:  # looping through each instance of the dataset
+#         # if count % 100 == 0:
+#         #     # print("Completed instances : ", count)
+#         text = text.split("\n")[0]
+#         label = ast.literal_eval(label.split("\n")[0])
+#         row = []
+#         value, time_taken = executeLibrary(key_list[0], cld2_, text, label)  # execute one library
+#         count = count + 1
+#         time_avg+=time_taken
+#     print(time_avg/8000*1000)
+#     print(results)
+# print((time.perf_counter()-start)/24000)
+# resultss=[{'polyglot': {'0': 511, '3': 4741, '7': 2461, '1': 177, '2': 110}},
+# {'polyglot': {'7': 4278, '2': 324, '1': 331, '0': 461, '3': 2606}},
+# {'polyglot': {'7': 4041, '2': 1108, '1': 459, '3': 1885, '0': 507}}]
