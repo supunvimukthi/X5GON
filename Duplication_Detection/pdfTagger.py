@@ -5,7 +5,7 @@ from selenium import webdriver
 dictionary = collections.defaultdict(list)
 i = 0
 readFile = []
-with open('out_url.csv') as csvfile:
+with open('out_url.csv', encoding="utf-8") as csvfile:
     readCSV = csv.reader(csvfile)
     for row in readCSV:
         if (row[0] != ''):
@@ -15,7 +15,7 @@ with open('out_url.csv') as csvfile:
             dictionary[i].append(row[1])
 csvfile.close()
 
-f = open('out_url.csv')
+f = open('out_url.csv', encoding="utf-8")
 reader = csv.reader(f)
 readFile = list(reader)
 f.close()
@@ -72,7 +72,7 @@ for category in dictionary:
         k = tempURL.get(url)[0]
         readFile[k].append(url)
 
-with open('tagged.csv', "w", newline='') as out_file:
+with open('tagged.csv', "w", newline='', encoding="utf-8") as out_file:
     writeCSV = csv.writer(out_file)
     writeCSV.writerows(readFile)
 out_file.close()

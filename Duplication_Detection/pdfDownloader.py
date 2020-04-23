@@ -16,26 +16,17 @@ def md5(fname):
 
 currentPath = os.getcwd()
 
-f = open('tagged.csv')
+f = open('tagged.csv', encoding="utf-8")
 reader = csv.reader(f)
 readFile = list(reader)
 f.close()
-
-tempFileNames = collections.defaultdict(list)
-tempFileHash = collections.defaultdict(list)
 
 lastNum = 1
 i = -1
 for r in readFile:
     i = i + 1
     if(r[0])==str(lastNum):
-        # for name in tempFileNames:
-        #     k = tempFileNames.get(name)[0]
-        #     readFile[k].append(' ')
         tempFileNames = collections.defaultdict(list)
-        # for hash_val in tempFileHash:
-        #     h = tempFileHash.get(hash_val)[0]
-        #     readFile[h].append(hash_val)
         tempFileHash = collections.defaultdict(list)
         path = os.path.join(currentPath, str(lastNum))
         os.mkdir(path)
@@ -67,7 +58,7 @@ for r in readFile:
             pdf_info = pd.getDocumentInfo()
             readFile[i].append(str(pdf_info))
 
-with open('final.csv', "w", newline='') as out_file:
+with open('final.csv', "w", newline='', encoding="utf-8") as out_file:
     writeCSV = csv.writer(out_file)
     writeCSV.writerows(readFile)
 out_file.close()
