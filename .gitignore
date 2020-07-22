@@ -3,3 +3,4 @@ venv
 .history
 .vscode
 node_modules
+Duplication_Detection\log_dir
