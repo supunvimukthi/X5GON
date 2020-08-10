@@ -8,7 +8,7 @@ readFile = []
 with open('out_url.csv', encoding="utf-8") as csvfile:
     readCSV = csv.reader(csvfile)
     for row in readCSV:
-        if (row[0] != ''):
+        if row[0] != '':
             i = i + 1
             dictionary[i].append(row[1])
         else:
@@ -24,7 +24,7 @@ f.close()
 temp = []
 for category in dictionary:
     for link in dictionary[category]:
-        if (link not in temp):
+        if link not in temp:
             temp.append(link)
         else:
             print(category, link)
@@ -38,13 +38,13 @@ for category in dictionary:
         i = i + 1
         driver = webdriver.Firefox()
         driver.get(link)
-        if (driver.current_url != link):
+        if driver.current_url != link:
             link = driver.current_url
             print((category, link))
             readFile[i].append(link)
-            if (link[-4:] == '.pdf'):
+            if link[-4:] == '.pdf':
                 readFile[i].append('PDF')
-                if (link not in tempURL.keys()):
+                if link not in tempURL.keys():
                     tempURL[link].append(i)
                 else:
                     readFile[i].append('Duplicate Redirect')
@@ -56,9 +56,9 @@ for category in dictionary:
                 driver.close()
         else:
             readFile[i].append('No Redirect')
-            if (link[-4:] == '.pdf'):
+            if link[-4:] == '.pdf':
                 readFile[i].append('PDF')
-                if (link not in tempURL.keys()):
+                if link not in tempURL.keys():
                     tempURL[link].append(i)
                 else:
                     readFile[i].append('Duplicate PDF')
