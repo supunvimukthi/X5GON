@@ -8,6 +8,7 @@ import flask
 import numpy as np
 import fasttext
 import cld2
+import psycopg2
 
 # The flask app for x5Db use cases
 app = flask.Flask(__name__)
@@ -16,6 +17,14 @@ lid_model = fasttext.load_model("./lid.176.ftz")
 
 # method : fastText
 def fasttext_detector(text):
+    """
+
+    Args:
+        text:
+
+    Returns:
+
+    """
     try:
         sentence = text.split("\n")[0]
         result = lid_model.predict([sentence])
@@ -52,7 +61,7 @@ def ping():
 
 
 @app.route('/language_detection', methods=['POST'])
-def receive():
+def language_detect():
     """
     Detects language of the text sent. the text goes through two libraries : FastText and cld2. FastText is used to
     determine the prominent language, if there are multiple languages cld2 is used and both detected languages are
@@ -74,6 +83,39 @@ def receive():
                     "confidence": [str(fastText_detection[1])]}
 
     return flask.Response(response=json.dumps(response), status=200, mimetype='application/json')
+
+
+@app.route('/duplicate_detection', methods=['POST'])
+def duplicate_detect():
+    """
+      Detects whether this is a duplicate with any document in the db based on TF and WIKI similarity metrics
+
+      :return: material_id for the root of duplicate
+      """
+    content = flask.request.json
+    value = content["value"]
+    length = len(value.split(" "))
+    """ Connect to the PostgreSQL database server and get all urls """
+    conn = None
+    try:
+        print('Connecting to the PostgreSQL database...')
+        conn = psycopg2.connect(host="localhost", database="x5db", user="postgres", password="hayleys")
+        cur = conn.cursor()
+        cur.execute(
+            "select material_contents.value,oer_materials.id,material_contents.type,material_contents.language from "
+            "material_contents,oer_materials where material_contents.type!='translation' and extension='plain' and "
+            "oer_materials.word_count>" + str(length - 50) + " and oer_materials.word_count<" + str(length + 50) +
+            "and oer_materials.id=material_contents.material_id")
+
+        docs = cur.fetchall()
+        cur.close()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+    finally:
+        if conn is not None:
+            conn.close()
+            print('Database connection closed.')
+    print(len(docs))
 
 
 app.run(host="0.0.0.0", debug=True)
