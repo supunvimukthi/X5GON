@@ -37,4 +37,5 @@ def language_detect():
     return flask.Response(response=json.dumps(response), status=200, mimetype='application/json')
 
 
+app.run(host="0.0.0.0", debug=True)
 

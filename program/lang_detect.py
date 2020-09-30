@@ -14,7 +14,7 @@ COLUMN_SEARCH_QUERY = "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE 
 COLUMN_INSERT_QUERY = "ALTER TABLE oer_materials \
               ADD language_detected TEXT[]"
 
-LANGUAGE_API_URL = "http://0.0.0.0:5000/language_detection"
+LANGUAGE_API_URL = "http://127.0.0.1:5000/language_detection"
 conn = None
 count = 0
 
@@ -25,7 +25,7 @@ def parse_args():
     parser.add_argument('--host', dest='host', help='database host',
                         default="localhost")
     parser.add_argument('--database', dest='database', help='database name',
-                        default='x5gon_dirty')
+                        default='x5db')
     parser.add_argument('--user', dest='user', help='database user',
                         default="postgres")
     parser.add_argument('--password', dest='password', help='database password',

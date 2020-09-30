@@ -17,4 +17,4 @@ def test_language_post():
 
     resp_dict = resp.get_json()
 
-    assert type(resp_dict) == int
+    assert type(resp_dict) == dict

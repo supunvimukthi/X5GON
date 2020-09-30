@@ -129,5 +129,5 @@ def duplicate_detect():
             print('Database connection closed.')
     print(len(docs))
 
-app.run(host="0.0.0.0",debug=True)
+# app.run(host="0.0.0.0",debug=True)
 
