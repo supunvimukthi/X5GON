@@ -6,7 +6,6 @@ import argparse
 from tqdm import tqdm
 
 start = time.perf_counter()
-
 COLUMN_SEARCH_QUERY = "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'oer_materials' \
                 ORDER BY ORDINAL_POSITION;"
 
@@ -46,7 +45,7 @@ if __name__ == '__main__':
         cur.execute(COLUMN_SEARCH_QUERY)
         columns = cur.fetchall()
         cur.close()
-        print ("Searched for all the columns in 'oer_materials' table")
+        print("Searched for all the columns in 'oer_materials' table")
 
         # check if the column already exists
         if "word_count" not in [i[0] for i in columns]:
@@ -60,7 +59,7 @@ if __name__ == '__main__':
             cur.execute(INDEX_QUERY)
             conn.commit()
             cur.close()
-            print ("created Index on 'word_count' column")
+            print("created Index on 'word_count' column")
 
         cur = conn.cursor()
         cur.execute(SEARCH_QUERY)
@@ -72,14 +71,14 @@ if __name__ == '__main__':
         corpus = [[i[0]['value'], len(i[0]['value'].split(" ")), i[1], i[2], i[3]] for i in docs]
         df = pd.DataFrame(corpus)
 
-        a = list(df.sort_values(1)[1].values)  # lengths
-        b = list(df.sort_values(1)[0].values)  # values
-        c = list(df.sort_values(1)[2].values)  # material_ids
+        lengths = list(df.sort_values(1)[1].values)  # lengths
+        values = list(df.sort_values(1)[0].values)  # values
+        material_ids = list(df.sort_values(1)[2].values)  # material_ids
         cur = conn.cursor()
         print("updating word count for each oer material..")
 
-        for i in tqdm(range(len(a))):
-            UPDATE_QUERY = "UPDATE oer_materials SET word_count=" + str(a[i]) + " WHERE id=" + str(c[i]) + ";"
+        for i in tqdm(range(len(lengths))):
+            UPDATE_QUERY = "UPDATE oer_materials SET word_count=" + str(lengths[i]) + " WHERE id=" + str(material_ids[i]) + ";"
             cur.execute(UPDATE_QUERY)
             conn.commit()
         cur.close()
@@ -92,5 +91,3 @@ if __name__ == '__main__':
             print('Database connection closed.')
 
     print("Time Elapsed : " + str(time.perf_counter() - start))
-
-

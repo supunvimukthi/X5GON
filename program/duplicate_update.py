@@ -3,7 +3,6 @@ import time
 import argparse
 
 start = time.perf_counter()
-
 COLUMN_SEARCH_QUERY = "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'oer_materials' \
                 ORDER BY ORDINAL_POSITION;"
 

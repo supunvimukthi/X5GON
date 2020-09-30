@@ -5,25 +5,24 @@ from __future__ import print_function
 import json
 
 import flask
-import numpy as np
 import fasttext
 import cld2
 import psycopg2
+import string
 
 # The flask app for x5Db use cases
 app = flask.Flask(__name__)
 lid_model = fasttext.load_model("./lid.176.ftz")
 
 
-# method : fastText
 def fasttext_detector(text):
     """
-
+    fastText library functionality implementation for the language detection API
+    this library is used for prominent language detection
     Args:
-        text:
+        text: (string) text value sent for language detection
 
-    Returns:
-
+    Returns: (dict) detected language with its confidence value or (boolean) if error returns false
     """
     try:
         sentence = text.split("\n")[0]
@@ -35,9 +34,18 @@ def fasttext_detector(text):
     return False
 
 
-# method : cld2
 def cld2_detector(text):
+    """
+    cld2 library functionality implementation for the language detection API
+    this library is used for multiple language detection
+    Args:
+        text: (string) text value sent for language detection
+
+    Returns: (dict) detected languages with its confidence values or (boolean) if error returns false
+
+    """
     try:
+        text = ''.join(x for x in text if x in string.printable)
         result = cld2.detect(text.strip())
         if result[2][1].language_code != "un":
             return [(result[2][0].language_code, result[2][0].percent),
@@ -56,7 +64,6 @@ def ping():
     """Determine if the container is working and healthy. In this sample container, we declare
     it healthy by sending 200 response"""
 
-    # Return status = 200
     return flask.Response(response="OK \n", status=200, mimetype='application/json')
 
 
@@ -66,11 +73,12 @@ def language_detect():
     Detects language of the text sent. the text goes through two libraries : FastText and cld2. FastText is used to
     determine the prominent language, if there are multiple languages cld2 is used and both detected languages are
     returned with respective confidence values
-
-    :return: Detected languages with confidence values.
+    Args:
+        flask.request.json: (json) json object with 'value' as key
+    Returns: (json) Detected languages with confidence values.
     """
     content = flask.request.json
-    text = content["text"]
+    text = content["value"]
     fastText_detection = fasttext_detector(text)
     cld2_detection = cld2_detector(text)
 
@@ -79,8 +87,12 @@ def language_detect():
                     "confidence": [str(cld2_detection[0][1]),
                                    str(cld2_detection[1][1])]}
     else:
-        response = {"detected_lang": [fastText_detection[0]],
-                    "confidence": [str(fastText_detection[1])]}
+        if cld2_detection[0][1] > fastText_detection[1]:
+            response = {"detected_lang": [fastText_detection[0]],
+                        "confidence": [str(fastText_detection[1])]}
+        else:
+            response = {"detected_lang": [cld2_detection[0][0]],
+                        "confidence": [str(cld2_detection[0][1])]}
 
     return flask.Response(response=json.dumps(response), status=200, mimetype='application/json')
 
@@ -90,7 +102,7 @@ def duplicate_detect():
     """
       Detects whether this is a duplicate with any document in the db based on TF and WIKI similarity metrics
 
-      :return: material_id for the root of duplicate
+      Returns: material_id for the root of duplicate
       """
     content = flask.request.json
     value = content["value"]
@@ -117,5 +129,5 @@ def duplicate_detect():
             print('Database connection closed.')
     print(len(docs))
 
+app.run(host="0.0.0.0",debug=True)
 
-app.run(host="0.0.0.0", debug=True)

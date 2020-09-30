@@ -1,4 +1,4 @@
-import predictor as myapp
+from x5gon_rest import x5db_app as myapp
 
 # This is just a simple wrapper for gunicorn to find your app.
 # If you want to change the algorithm file, simply change "predictor" above to the
