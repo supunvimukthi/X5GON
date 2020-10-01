@@ -5,7 +5,7 @@ from x5gon_rest.fieldnames import DETECTED_LANGUAGE, CONFIDENCE, ERROR
 def detect_language(text):
     fastText_detection = fasttext_detector(text)
     cld2_detection = cld2_detector(text)
-    
+
     if type(fastText_detection) != tuple:
         response = {ERROR: fastText_detection}
         return response
