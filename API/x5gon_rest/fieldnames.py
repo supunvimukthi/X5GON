@@ -6,5 +6,6 @@ VALUE = "value"
 
 DETECTED_LANGUAGE = "detected_lang"
 CONFIDENCE = "confidence"
+ERROR = "error"
 
 

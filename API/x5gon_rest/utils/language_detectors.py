@@ -19,9 +19,7 @@ def fasttext_detector(text):
         result = get_or_create_fasttext_model().predict([sentence])
         return result[0][0][0].split("_label__")[1], result[1][0][0]
     except Exception as e:
-        print(e)
-        pass
-    return False
+        return str(e)
 
 
 def cld2_detector(text):
@@ -44,6 +42,4 @@ def cld2_detector(text):
             return [(result[2][0].language_code, result[2][0].percent)]
 
     except Exception as e:
-        print(e)
-        pass
-    return False
+        return str(e)
