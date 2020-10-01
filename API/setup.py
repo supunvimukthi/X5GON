@@ -13,6 +13,9 @@ setup(
         'Flask>=1.0.2',
         'gunicorn>=19.9.0',
         'werkzeug',
-        'fasttext'
+        'fasttext',
+        'psycopg2',
+        'requests',
+        'tqdm'
     ]
 )

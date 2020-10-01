@@ -1,8 +1,10 @@
+import time
+import os
 import argparse
 import psycopg2
 import requests
 from tqdm import tqdm
-import time
+
 
 START = time.perf_counter()
 VALUE_QUERY = "SELECT value,material_id FROM material_contents WHERE material_id IN (SELECT id FROM oer_materials " \
@@ -14,7 +16,7 @@ COLUMN_SEARCH_QUERY = "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE 
 COLUMN_INSERT_QUERY = "ALTER TABLE oer_materials \
               ADD language_detected TEXT[]"
 
-LANGUAGE_API_URL = "http://127.0.0.1:5000/language_detection"
+LANGUAGE_API_URL = os.environ["LANGUAGE_API_URL"]
 conn = None
 count = 0
 
@@ -79,4 +81,4 @@ if __name__ == '__main__':
             conn.close()
             print('Database connection closed.')
 
-print(str(count) + " " + str(time.perf_counter() - START))
+print(str(count) + " " + str((time.perf_counter() - START)/60)+" mins")

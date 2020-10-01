@@ -1,5 +1,5 @@
 # This is the file that implements a flask server to do following use cases :
-# language detection, db updates, duplicate detection.
+# language detection, TODO : db updates, duplicate detection.
 
 from __future__ import print_function
 import json

@@ -1,2 +1,0 @@
-test
-x5gon_rest

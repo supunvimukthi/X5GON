@@ -39,7 +39,7 @@ def get_or_create_fasttext_model():
     """Gets an existing instance of new version of the fasttext model
 
     Returns:
-        (QualityModel): singleton FastText language model
+        (FastText Model): singleton FastText language model
 
     """
     global fasttext_model
