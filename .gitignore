@@ -1,6 +1,6 @@
 .idea
 API/__pycache__
-**pyc
+*.pyc
 venv
 .history
 .vscode
