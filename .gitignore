@@ -1,4 +1,6 @@
 .idea
+API/__pycache__
+**pyc
 venv
 .history
 .vscode
