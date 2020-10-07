@@ -120,3 +120,32 @@ for i in combined_labels[:8000]:
 f = open("output/combined_percentage_sorted_" + str(percentage) + ".txt", "a")
 for i in combined_percentage[:8000]:
     f.write(str(i) + "\n")
+
+
+# dat=[]
+# ... for i in lang_b+['un']:
+# ...       k=[]
+# ...       for j in lang_b+['un']:
+# ...           if((i,j) in fin):
+# ...               k.append(fin[(i,j)])
+# ...           else:
+# ...              print((i,j))
+# ...              k.append(0)
+# ...       dat.append(k)
+# final=[]
+# ... for i,j in enumerate(texts):
+# ...      payload = {"value": str(j)}
+# ...      r = requests.post(LANGUAGE_API_URL, json=payload)
+# ...      final.append([r.json()['detected_lang'][0],labels[i]])
+# ...
+# fin={}
+# ... for j in final:
+# ...       if (j[0],j[1]) not in fin:
+# ...           fin[(j[0],j[1])]=0
+# ...       fin[(j[0],j[1])]+=1
+# ax = plt.axes()
+# ... sns.heatmap(df.transpose()/10,annot=True, fmt=".1f")
+# ... ax.set_title('Language Model Predictions %')
+# ... ax.set_xlabel("Predicted")
+# ... ax.set_ylabel("Actual")
+# ... plt.show()

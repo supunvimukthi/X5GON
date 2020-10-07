@@ -25,7 +25,7 @@ def parse_args():
     parser.add_argument('--host', dest='host', help='database host',
                         default="localhost")
     parser.add_argument('--database', dest='database', help='database name',
-                        default='x5db')
+                        default='x5gon_dirty')
     parser.add_argument('--user', dest='user', help='database user',
                         default="postgres")
     parser.add_argument('--password', dest='password', help='database password',
