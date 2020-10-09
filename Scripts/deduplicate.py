@@ -87,8 +87,9 @@ def duplicate_detect(z):
     tf_transform = tf_vectorizer.fit_transform(b)
     sim_tf = cosine_similarity(tf_transform[b.index(z[0]['value'])], tf_transform, dense_output=True)
 
-    tf = [c[j] for j, i in enumerate(sim_tf[0]) if i > 0.85]
-    wiki = [c[j] for j, i in enumerate(sim_wiki[0]) if i > 0.95]
+    assert c == ids, "invalid wiki and tf set"
+    tf = [c[j] for j, k in enumerate(sim_tf[0]) if k > 0.85]
+    wiki = [c[j] for j, k in enumerate(sim_wiki[0]) if k > 0.95]
     return z[1], len(list(set(tf) & set(wiki))), tf, wiki
 
 
