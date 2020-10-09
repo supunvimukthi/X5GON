@@ -7,15 +7,16 @@ setup(
               'x5gon_rest.models'],
     url='www.x5gon.org',
     license='',
-    author='Supun Ranawaka',
+    author='',
     description='The API implementation for x5db Duplicate detection and language detection',
     install_requires=[
-        'Flask>=1.0.2',
-        'gunicorn>=19.9.0',
-        'werkzeug',
-        'fasttext',
-        'psycopg2',
-        'requests',
-        'tqdm'
+        'Flask==1.1.2',
+        'gunicorn==20.0.4',
+        'Werkzeug==1.0.1',
+        'fasttext==0.9.2',
+        'psycopg2==2.8.6',
+        'requests==2.24.0',
+        'tqdm==4.50.0',
+        'flask-restplus==0.13.0'
     ]
 )

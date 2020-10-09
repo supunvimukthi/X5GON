@@ -1,0 +1,5 @@
+.idea
+__pycache__
+*.pyc
+lang_detect
+x5gon_rest_api.egg-info

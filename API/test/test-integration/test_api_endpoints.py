@@ -1,5 +1,5 @@
-from API.x5gon_rest.fieldnames import VALUE
-from API.x5gon_rest.x5db_app import app
+from x5gon_rest.fieldnames import VALUE
+from x5gon_rest.x5db_app import app
 
 
 def test_language_post():
