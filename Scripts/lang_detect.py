@@ -11,7 +11,7 @@ def parse_args():
     parser.add_argument('--host', dest='host', help='database host',
                         default="localhost")
     parser.add_argument('--database', dest='database', help='database name',
-                        default='x5gon_dirty')
+                        default='x5db')
     parser.add_argument('--user', dest='user', help='database user',
                         default="postgres")
     parser.add_argument('--password', dest='password', help='database password',
@@ -44,10 +44,10 @@ def main(args):
         cur.execute(VALUE_QUERY)
         values = cur.fetchall()
         cur.close()
-        count = len(values)
 
         """ update all oer_materials with detected languages from the language API"""
         cur = conn.cursor()
+        print("updating "+str(len(values))+" documents..")
         for value in tqdm(values):
             payload = {"value": str(value[0]['value'])}
             r = requests.post(LANGUAGE_API_URL, json=payload)
@@ -67,16 +67,18 @@ def main(args):
 
 if __name__ == '__main__':
     VALUE_QUERY = "SELECT value,material_id FROM material_contents WHERE material_id IN (SELECT id FROM oer_materials " \
-                  ") AND type!='translation' AND extension='plain';"
+                  "WHERE language_detected IS NULL) AND type!='translation' AND extension='plain';"
 
     COLUMN_SEARCH_QUERY = "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'oer_materials' \
                     ORDER BY ORDINAL_POSITION;"
 
     COLUMN_INSERT_QUERY = "ALTER TABLE oer_materials \
                   ADD language_detected TEXT[]"
-
-    LANGUAGE_API_URL = os.environ["LANGUAGE_API_URL"]
-    conn = None
-    count = 0
-    args = parse_args()
-    main(args)
+    try:
+        LANGUAGE_API_URL = os.environ["LANGUAGE_API_URL"]
+        conn = None
+        count = 0
+        args = parse_args()
+        main(args)
+    except KeyError as e:
+        print("Please add environment variable 'LANGUAGE_API_URL' to run this Script")

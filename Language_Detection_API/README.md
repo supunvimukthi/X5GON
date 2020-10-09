@@ -2,10 +2,19 @@
 
 #####  Language detection API detects the languages in the  request text and return results with their confidence values  ###
 ## HOW TO ##
-1. Change environment variable ```$REPO_PATH``` in the ```init.sh``` file in the <b>x5gon_rest</b> directory to match your repo directory. Change python version also if necessary to match your python version
+1. Create conda virtual environment 
+     
+      ``` conda create --name lang_detect python=3.7 ```
+      
+2. Activate conda environment
+
+    ``` conda activate lang_detect ```
+     
 2. Run ```init.sh``` file this way 
 
       ``` . init.sh```
+      
+3. Set environment variables for <b>FASTTEXT_MODEL_DIR</b> and <b> LANGUAGE_API_URL </b>
 3. Then run the gunicorn server to deploy the language detection server using wsgi
 
       ``` gunicorn --bind localhost:5000 wsgi:app ```
@@ -17,8 +26,9 @@
 
 ``` python
 
-GET - /ping
-    Determine if the server is healthy if healthy returns 200 response
+GET - /docs
+    Documentation for the API
+
 
 POST - /language_detection
     Detects language of the text sent

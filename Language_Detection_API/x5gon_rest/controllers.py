@@ -6,7 +6,7 @@ def detect_language(text):
     """
     send the text string through fastText and cld2 language detection libraries to detect language
     FastText is used to detect the prominent language
-    Cld2 is used to check whether multiple languages are present
+    Cld2 is used to check whether multple languages are present
     :param text: (string) text that is sent for language detection
     :return: (JSON) detected results with confidence values or (string) error output
     """
@@ -27,7 +27,7 @@ def detect_language(text):
                     CONFIDENCE: [str(cld2_detection[0][1]),
                                  str(cld2_detection[1][1])]}
     else:
-        if cld2_detection[0][1] > fastText_detection[1]:
+        if cld2_detection[0][1] < fastText_detection[1]:
             response = {DETECTED_LANGUAGE: [fastText_detection[0]],
                         CONFIDENCE: [str(fastText_detection[1])]}
         else:

@@ -1,22 +1,8 @@
+import os
 import argparse
 import psycopg2
 import requests
 from tqdm import tqdm
-import time
-
-START = time.perf_counter()
-VALUE_QUERY = "SELECT value,material_id FROM material_contents WHERE material_id IN (SELECT id FROM oer_materials " \
-              ") AND type!='translation' AND extension='plain';"
-
-COLUMN_SEARCH_QUERY = "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'oer_materials' \
-                ORDER BY ORDINAL_POSITION;"
-
-COLUMN_INSERT_QUERY = "ALTER TABLE oer_materials \
-              ADD language_detected TEXT[]"
-
-LANGUAGE_API_URL = "http://127.0.0.1:5000/language_detection"
-conn = None
-count = 0
 
 
 def parse_args():
@@ -34,8 +20,7 @@ def parse_args():
     return arguments
 
 
-if __name__ == '__main__':
-    args = parse_args()
+def main(args):
     try:
         """ Get all column names in the oer material table to check whether 'language_detected' column exists"""
         print('Connecting to the PostgreSQL database...')
@@ -59,10 +44,10 @@ if __name__ == '__main__':
         cur.execute(VALUE_QUERY)
         values = cur.fetchall()
         cur.close()
-        count = len(values)
 
         """ update all oer_materials with detected languages from the language API"""
         cur = conn.cursor()
+        print("updating "+str(len(values))+" documents..")
         for value in tqdm(values):
             payload = {"value": str(value[0]['value'])}
             r = requests.post(LANGUAGE_API_URL, json=payload)
@@ -79,4 +64,21 @@ if __name__ == '__main__':
             conn.close()
             print('Database connection closed.')
 
-print(str(count) + " " + str(time.perf_counter() - START))
+
+if __name__ == '__main__':
+    VALUE_QUERY = "SELECT value,material_id FROM material_contents WHERE material_id IN (SELECT id FROM oer_materials " \
+                  "WHERE language_detected IS NULL) AND type!='translation' AND extension='plain';"
+
+    COLUMN_SEARCH_QUERY = "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'oer_materials' \
+                    ORDER BY ORDINAL_POSITION;"
+
+    COLUMN_INSERT_QUERY = "ALTER TABLE oer_materials \
+                  ADD language_detected TEXT[]"
+    try:
+        LANGUAGE_API_URL = os.environ["LANGUAGE_API_URL"]
+        conn = None
+        count = 0
+        args = parse_args()
+        main(args)
+    except KeyError as e:
+        print("Please add environment variable 'LANGUAGE_API_URL' to run this Script")

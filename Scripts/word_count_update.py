@@ -5,20 +5,6 @@ import argparse
 
 from tqdm import tqdm
 
-start = time.perf_counter()
-COLUMN_SEARCH_QUERY = "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'oer_materials' \
-                ORDER BY ORDINAL_POSITION;"
-
-INSERT_QUERY = "ALTER TABLE oer_materials \
-              ADD word_count INT NOT NULL DEFAULT(0)"
-
-INDEX_QUERY = "CREATE INDEX index_word_count_oer ON oer_materials(word_count);"
-
-SEARCH_QUERY = "SELECT material_contents.value,oer_materials.id,material_contents.type,material_contents.language FROM \
-            material_contents,oer_materials WHERE material_contents.type!='translation' AND extension='plain' \
-             AND oer_materials.id=material_contents.material_id"
-conn = None
-
 
 def parse_args():
     """Parse input arguments. Refer to default values to set each argument."""
@@ -26,7 +12,7 @@ def parse_args():
     parser.add_argument('--host', dest='host', help='database host',
                         default="localhost")
     parser.add_argument('--database', dest='database', help='database name',
-                        default='x5gon_dirty')
+                        default='x5db')
     parser.add_argument('--user', dest='user', help='database user',
                         default="postgres")
     parser.add_argument('--password', dest='password', help='database password',
@@ -35,8 +21,7 @@ def parse_args():
     return arguments
 
 
-if __name__ == '__main__':
-    args = parse_args()
+def update_word_count():
     try:
         print('Connecting to the PostgreSQL database...')
         conn = psycopg2.connect(host=args.host, database=args.database, user=args.user, password=args.password)
@@ -72,7 +57,6 @@ if __name__ == '__main__':
         df = pd.DataFrame(corpus)
 
         lengths = list(df.sort_values(1)[1].values)  # lengths
-        values = list(df.sort_values(1)[0].values)  # values
         material_ids = list(df.sort_values(1)[2].values)  # material_ids
         cur = conn.cursor()
         print("updating word count for each oer material..")
@@ -90,4 +74,21 @@ if __name__ == '__main__':
             conn.close()
             print('Database connection closed.')
 
-    print("Time Elapsed : " + str(time.perf_counter() - start))
+
+if __name__ == '__main__':
+    args = parse_args()
+    start = time.perf_counter()
+    COLUMN_SEARCH_QUERY = "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'oer_materials' \
+                    ORDER BY ORDINAL_POSITION;"
+
+    INSERT_QUERY = "ALTER TABLE oer_materials \
+                  ADD word_count INT NOT NULL DEFAULT(0)"
+
+    INDEX_QUERY = "CREATE INDEX index_word_count_oer ON oer_materials(word_count);"
+
+    SEARCH_QUERY = "SELECT material_contents.value,oer_materials.id,material_contents.type,material_contents.language FROM \
+                material_contents,oer_materials WHERE material_contents.type!='translation' AND extension='plain' \
+                 AND oer_materials.id=material_contents.material_id"
+    conn = None
+    update_word_count()
+    print("Time Elapsed :{:.2f} s ".format(time.perf_counter() - start))

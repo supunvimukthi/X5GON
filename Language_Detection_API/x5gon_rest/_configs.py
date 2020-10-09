@@ -1,4 +1,5 @@
 import os
 
 LATEST_API_VERSION = 1.0
+
 FASTTEXT_MODEL_DIR_PATH = os.environ['FASTTEXT_MODEL_DIR']
