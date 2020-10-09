@@ -6,3 +6,5 @@ venv
 .vscode
 node_modules
 Duplication_Detection\log_dir
+documents.txt
+documents.zip

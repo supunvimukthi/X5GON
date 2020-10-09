@@ -10,24 +10,30 @@ from sklearn.feature_extraction import DictVectorizer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from tqdm import tqdm
+import ray
+ray.init()
+sw = stopwords.words("english")
 
-val_query = "select value,material_id from material_contents where type!='translation' and extension='plain'"
-
-try:
-    # print('Connecting to the PostgreSQL database...')
-    conn = psycopg2.connect(host="localhost", database="x5gon_dirty", user="postgres", password="hayleys")
-    cur = conn.cursor()
-    cur.execute(val_query)
-    docsX = cur.fetchall()
-    cur.close()
-except (Exception, psycopg2.DatabaseError) as error:
-    print(error)
-finally:
-    if conn is not None:
-        conn.close()
+# val_query = "select value,material_id from material_contents where type!='translation' and extension='plain'"
+#
+# try:
+#     # print('Connecting to the PostgreSQL database...')
+#     conn = psycopg2.connect(host="localhost", database="x5gon_dirty", user="postgres", password="hayleys")
+#     cur = conn.cursor()
+#     cur.execute(val_query)
+#     docsX = cur.fetchall()
+#     cur.close()
+# except (Exception, psycopg2.DatabaseError) as error:
+#     print(error)
+# finally:
+#     if conn is not None:
+#         conn.close()
         # print('Database connection closed.')
-
+f=open("../documents.txt","r")
+docsX=eval(f.read())
 final=[i[1] for i in docsX]
+
+@ray.remote
 def duplicate_detect(z):
     value = z[0]['value']
     length = len(value.split(" "))
@@ -95,7 +101,7 @@ def duplicate_detect(z):
         wiki.append(dicTemp)
         # lengths.append(len(row[2]["value"]))
         ids.append(row[0])
-    sw = stopwords.words("english")
+
 
     wiki_vectorizer = DictVectorizer(sparse=True)
     wiki_transform = wiki_vectorizer.fit_transform(wiki)
@@ -111,7 +117,7 @@ def duplicate_detect(z):
     wiki=[c[j] for j,i in enumerate(sim_wiki[0]) if i>0.95]
     # print(tf,wiki,len(list(set(tf)&set(wiki))))
     # print(final.index(z[1]))
-    return [z[1],len(list(set(tf)&set(wiki))),tf,wiki]
+    return z[1],len(list(set(tf)&set(wiki))),tf,wiki
     #print("{:-<40} {:.2f} s".format("* Time Elapsed TF similarity ", (time.perf_counter() - start))
     #      )
     #print("{:-<40} {}".format("* TF transform shape ", tf_transform.shape))
@@ -122,12 +128,13 @@ def duplicate_detect(z):
     # print([i for i in sim[0] if i > 0.8])
     # print(len([i for i in sim[0] if i > 0.8]))
     #print("{:-<40} {:.2f} s".format("* Total time elapsed ", (time.perf_counter() - start)))
-from multiprocessing import Pool
-p=Pool(8)
+
+final=[]
 print("start")
-fin=[]
-for z in tqdm(docsX):
-    fin.append(duplicate_detect(z))
-# fin=p.imap(duplicate_detect,docsX,20)
-f=open("sd.txt","w")
-f.write(str(fin))
+for i in tqdm(range(0,len(docsX[:100]),6)):
+    futures = [duplicate_detect.remote(i) for i in docsX[i:i+6]]
+    final.append(ray.get(futures))
+
+f=open("output.txt","w")
+f.write(final)
+
