@@ -107,7 +107,7 @@ def parse_args():
     parser.add_argument('--procs', dest='procs', help='number of parallel processes',
                         default=10)
     parser.add_argument('--out', dest='out', help='output file name',
-                        default="output1")
+                        default="output")
     parser.add_argument('--tf_conf', dest='tf_conf', help='threshold for TF similarity',
                         default=0.85)
     parser.add_argument('--wiki_conf', dest='wiki_conf', help='threshold for WIKI similarity',
@@ -133,7 +133,7 @@ if __name__ == '__main__':
     print("{:-<40} {}_tf_{}_wiki_{}_procs_{}.txt".format("* Output File Name ", args.out, args.tf_conf, args.wiki_conf, args.procs))
     # using ray to run multiple duplicate detection jobs in parallel
     try:
-        for i in tqdm(range(0, len(documents[40000:40100]), args.procs)):
+        for i in tqdm(range(0, len(documents[50000:60000]), args.procs)):
             futures = [duplicate_detect.remote(i) for i in documents[i:i + args.procs]]
             final.append(ray.get(futures))
     except Exception as e:
