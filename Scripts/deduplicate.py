@@ -117,13 +117,14 @@ def parse_args():
 
 
 if __name__ == '__main__':
-    ray.init()
+    ray.init(num_gpus=1)
     sw = stopwords.words("english")
     VAL_QUERY = "SELECT value,material_id FROM material_contents,oer_materials WHERE " \
                 "oer_materials.id=material_contents.material_id AND material_contents.type!='translation' AND " \
                 "extension='plain' AND oer_materials.duplicate=FALSE "
     args = parse_args()
     documents = load_data(VAL_QUERY, args)
+    print(len(documents))
     conn = None
     final = []
     print("Running Duplicate Detection .. ")

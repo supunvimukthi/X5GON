@@ -1,5 +1,5 @@
-# X5GON
+# X5GON PROJECT
 
-- Laguage Detection
-- Duplicate Detection
-- Removing mismatched Documents
+-[X] Laguage Detection
+-[X] Duplicate Detection
+- [ ] Removing mismatched Documents

@@ -1,0 +1,2102 @@
+Financial Accounting
+1
+Passage-In simple terms, a decision is the making of a choice between two or more alternatives. Every time a problem arises and we need to make a decision, we consciously or unconsciously follow four main steps, which can be framed as questions.
+Question-What is a decision?
+Answer- a decision is the making of a choice between two or more alternatives
+
+2
+
+Passage- Every time a problem arises and we need to make a decision, we consciously or unconsciously follow four main steps, which can be framed as questions.
+1. What are we trying to achieve?
+2. What information do we need?
+3. What are the consequences of different alternatives?
+4. Which course of action will we choose?
+Question-What are the 4 main steps which can be framed as questions?
+Answer -1. What are we trying to achieve?, 2.What information do we need? 3. What are the consequences of different alternatives? 4. Which course of action will we choose?
+
+3
+
+Passage-The decision-making process involves four main steps: (1) establishing goals, (2) gathering information on alternatives, (3) determining the consequences of alternatives, and (4) choosing a course of action.
+Question-What are the steps in the decision making process?
+Answer- (1) establishing goals, (2) gathering information on alternatives, (3) determining the consequences of alternatives, (4) choosing a course of action.
+
+4
+
+Passage-Many (if not most) of the decisions that we make involve the use of economic resources. These are resources that are traded in the marketplace at a price because they are in limited or scarce supply.
+Question-What is an Economic Resource?
+Answer- Resources that are traded in the marketplace at a price because they are in limited or scarce supply.
+
+5
+
+Passage- Accounting has been defined as the process of identifying, measuring, recording and communicating economic information to permit informed judgments and economic decisions by users of the information.
+Question-What is accounting?
+Answer - The process of identifying, measuring, recording and communicating economic information to permit informed judgments and economic decisions by users of the information.
+
+6
+
+Passage- Identification involves observing economic events and determining which of those events represent economic activities relevant to a particular business.
+Question-What is meant by Identification in the Accounting process?
+Answer-Identification involves observing economic events and determining which of those events represent economic activities relevant to a particular business.
+
+7
+
+Passage - Selling goods to a customer, paying wages to employees and providing services to a client are examples of economic activities.
+Question - Examples of Economic activities?
+Answer - Selling goods to a customer, paying wages to employees and providing services to a client are examples of economic activities.
+
+8
+
+Passage- Accountants traditionally have been viewed as the ‘bean counters’ or ‘number-crunchers’ of an organization, but this is no longer their major task. Computerized accounting systems can now do much of the work. Even small businesses have access to computerized accounting systems such as Mind Your Own Business (MYOB), so the role of accountants has changed radically.
+Question- Why has the role of an accountant changed radically?
+Answer-Accountants traditionally have been viewed as the ‘bean counters’ or ‘number-crunchers’ of an organization, but this is no longer their major task. Computerized accounting systems can now do much of the work. Even small businesses have access to computerized accounting systems such as Mind Your Own Business (MYOB), so the role of accountants has changed radically.
+
+9
+Passage-One thing is certain: change will continue. In order to cope, accountants of the future need to have not only record-keeping knowledge but also analytical and communication skills and business strategy and planning know-how. They need the ability to think clearly and critically in order to solve problems, a familiarity with information systems and technology, strong interpersonal communication skills with clients and business associates, and sound ethical behavior in different cultural environments.
+Question- What are the skills needed for a modern accountant?
+Answer- accountants of the future need to have not only record-keeping knowledge but also analytical and communication skills and business strategy and planning know-how. They need the ability to think clearly and critically in order to solve problems, a familiarity with information systems and technology, strong interpersonal communication skills with clients and business associates, and sound ethical behavior in different cultural environments.
+
+10
+
+Passage - Accounting is usually a core unit in business degrees as it is the ‘language of businesses.
+Question- What is the language of Business?
+Answer-Accounting
+
+11
+
+Passage- Economic decisions are made for consumption purposes, investment purposes and/or financial purposes.
+Question-What purposes are Economic decisions made?
+Answer- consumption purposes, investment purposes and/or financial purposes
+
+12
+
+Passage- Various factors must be considered when making economic decisions such as: financial aspects,
+Personal taste, social factors, environmental factors, religious and/or moral factors, and government policy.
+Question-What factors should be considered when making an economic decision?
+Answer-: financial aspects, Personal taste, social factors, environmental factors, religious and/or moral factors, and government policy.
+
+13
+Passage-In addition, shareholders, creditors, government departments and not-for-profit organizations (such as clubs and societies) need financial information to help make investing, lending, regulatory and tax-related decisions.
+Question-Why do organizations need financial information
+Answer- organizations need financial information to help make investing, lending, regulatory and tax-related decisions.
+
+14
+Passage- Economic events of an entity are referred to by accountants as transactions
+Question-What is a transaction
+Answer- Economic events of an entity are referred to by accountants as transactions
+
+15
+
+Passage- Transactions constitute the inputs of the accounting information system.
+Question-What does a transaction constitute of?
+Answer-- Transactions constitute the inputs of the accounting information system.
+
+16
+
+Passage-Economic events of an entity are referred to by accountants as transactions, and are of two types, external and internal
+Question-What are the 2 types of transactions?
+Answer-Internal transactions & External Transactions
+
+17
+
+Passage-External transactions (often called exchange transactions) are those that involve economic events between one entity and another entity.
+Question- What is an External transaction?
+Answer- External transactions (often called exchange transactions) are those that involve economic events between one entity and another entity.
+
+18
+
+Passage- When an entity purchases goods from a supplier, borrows money from a bank, or sells goods and services to customers, it participates in external or exchange transactions.
+Question-  Examples for External Transactions?
+Answer- When an entity purchases goods from a supplier, borrows money from a bank, or sells goods and services to customers, it participates in external or exchange transactions.
+
+19
+
+Passage- Internal transactions are those economic events that take place entirely within one entity.
+Question-What are internal transactions?
+Answer- Internal transactions are those economic events that take place entirely within one entity
+
+20
+ Passage- the depreciation of machinery used in the production of goods must be accounted for, and since it does not concern an outside party, it is an internal transaction
+Question- Examples for Internal transactions?
+Answer- the depreciation of machinery used in the production of goods must be accounted for, and since it does not concern an outside party, it is an internal transaction
+
+21
+ Passage- Money serves as both a medium of exchange and as a measure of value, allowing us to compare the value or worth of diverse objects and to add and subtract the economic effects of various transactions.
+Question-What is the Function of Money in Accounting?
+Answer- Money serves as both a medium of exchange and as a measure of value, allowing us to compare the value or worth of diverse objects and to add and subtract the economic effects of various transactions.
+
+22
+
+Passage- Recording provides a history of the economic activities of a particular entity. Recording is the process of systematically maintaining a file of all transactions which have affected the business entity after they have been identified and measured.
+Question-What is meant by recording in accounting terms?
+Answer-  Recording is the process of systematically maintaining a file of all transactions which have affected the business entity after they have been identified and measured.
+
+23
+Passage-Classification allows thousands of transactions to be placed into more meaningful groups or categories. All transactions involving the sale of goods, for example, can be grouped into one total sales figure and all transactions involving cash received can be grouped to report a single cash receipt figure.
+Question- What is meant by data classification?
+Answer- Classification allows thousands of transactions to be placed into more meaningful groups or categories. All transactions involving the sale of goods, for example, can be grouped into one total sales figure and all transactions involving cash received can be grouped to report a single cash receipt figure.
+
+24
+
+Passage- Summarization of financial data is presented in reports and financial statements, which are provided for use by both management and external users of accounting information. These reports usually summarize the effects of all transactions occurring during some time period such as a month, a quarter or a year.
+Question – What is meant by summarization of Financial Data?
+Answer- Summarization of financial data is presented in reports and financial statements, which are provided for use by both management and external users of accounting information. These reports usually summarize the effects of all transactions occurring during some time period such as a month, a quarter or a year.
+
+25
+ Passage- Communication can be described as the process of preparing and distributing accounting reports to potential users of accounting information
+Question- What is the role played by  communication in the accounting process?
+Answer- Communication can be described as the process of preparing and distributing accounting reports to potential users of accounting information
+
+26
+
+Passage- Communication is the final part of the accounting process.
+Question-What is the final part of the Accounting process?
+Answer-Communication
+
+27
+
+Passage- Accounting has been defined as the process of identifying, measuring, recording and communicating economic information to permit informed judgments and economic decisions by users of the information.
+Question-What are the 4 steps in the accounting process?
+Answer- identifying, measuring, recording and communicating
+
+28
+
+Passage- The recording or record-keeping process involves measuring and recording business transactions and may take place in one of several forms: handwritten records, mechanical or electronic devices, or simply magnetic tapes or disks in a computerized system.
+Question- How does you record business transactions?
+Answer- handwritten records, mechanical or electronic devices, or simply magnetic tapes or disks in a computerized system
+
+29
+Passage- Computers have had a significant impact on the recording phase of the accounting process. The processes of recording, classification and summarization can be done electronically, and hence the recording process is much more automated.
+Question-How is the recording process automated?
+Answer-Computers have had a significant impact on the recording phase of the accounting process. The processes of recording, classification and summarization can be done electronically, and hence the recording process is much more automated
+
+30
+
+Passage-The data are presented to management in the form of special purpose
+Financial statements. These are prepared for users who have specialized needs and who possess the
+Authority to obtain information to meet those needs. Apart from internal management, including marketing, production, finance, human resources, research and development, information systems and general managers, some external users such as banks and government agencies  also have the authority to command the type and nature of the information they require and hence can demand special purpose reports.
+Question- who are the recipients of special purpose financial statements?
+Answer- These are prepared for users who have specialized needs and who possess the
+Authority to obtain information to meet those needs. Apart from internal management, including marketing, production, finance, human resources, research and development, information systems and general managers, some external users such as banks and government agencies  also have the authority to command the type and nature of the information they require and hence can demand special purpose reports.
+
+
+31
+
+Passage- Reports prepared for external users include financial statements which generally consist of an income statement (also called a statement of comprehensive income), a balance sheet (also called a statement of financial position), a statement of changes in equity and a statement of cash flows
+Question- Who are the recipients of Financial statements?
+Answer-Reports prepared for external users include financial statements which generally consist of an income statement (also called a statement of comprehensive income), a balance sheet (also called a statement of financial position), a statement of changes in equity and a statement of cash flows
+
+32
+
+Passage-Reports prepared for external users include financial statements which generally consist of an income statement (also called a statement of comprehensive income), a balance sheet (also called a statement of financial position), a statement of changes in equity and a statement of cash flows.
+Question- What statements constitutes within a financial statements?
+Answer- income statement, (also called a statement of comprehensive income), a balance sheet (also called a statement of financial position), a statement of changes in equity and a statement of cash flows.
+
+33
+
+Passage-Internal decision makers — managers — require special purpose financial statements to help in planning and controlling the operations of an entity.
+Question-Who are the internal decision makers?
+Answer-Board of directors, Top management, middle level managers, lower level managers
+
+34
+
+Passage-Internal decision makers — managers — require special purpose financial statements to help in planning and controlling the operations of an entity.
+Question-Why do managers require financial reports, special purpose reports?
+Answer- require special purpose financial statements to help in planning and controlling the operations of an entity
+
+35
+
+Passage- External decision makers — creditors, investors, customers, employees, unions, government agencies— receive general purpose financial statements to obtain information about an entity. These are designed to meet the information needs of a wide range of users who are unable to command the
+preparation of statements tailored specifically for their needs.
+Question-Who are the external Decision makers?
+Answer- creditors, investors, customers, employees, unions, government agencies
+
+36
+
+Passage- Management accounting (also referred to as managerial accounting) is that area of accounting concerned with providing financial and other information to all levels of management in an organization to enable them to carry out their planning, controlling and decision-making responsibilities.
+Question-What is Management Accounting?
+Answer- Management accounting (also referred to as managerial accounting) is that area of accounting
+concerned with providing financial and other information to all levels of management in an organization to enable them to carry out their planning, controlling and decision-making responsibilities.
+
+37
+
+Passage- Management accounting covers many activities, including cost behaviour and cost–volume–profit relationships, decision making through incremental analysis, capital budgeting, budgeting for financial planning and control, flexible budgeting for performance evaluation, the determination of manufacturing costs and costing systems, and accounting and reporting for business segment operations.
+Question-What are the roles played by a Management Accountant in a organization?
+Answer-- Management accounting covers many activities, including cost behaviour and cost–volume–profit relationships, decision making through incremental analysis, capital budgeting, budgeting for financial planning and control, flexible budgeting for performance evaluation, the determination of manufacturing costs and costing systems, and accounting and reporting for business segment operations.
+
+38
+
+Passage-Financial accounting is concerned with reporting information to users external to an entity in order to help them to make sound economic decisions about the entity’s performance and financial position.
+Question- What is Financial Accounting?
+Answer- Financial accounting is concerned with reporting information to users external to an entity in order to help them to make sound economic decisions about the entity’s performance and financial position.
+
+39
+
+Passage- Financial Accounting-Users of reports-Users are outside the entity: shareholders, lenders, potential investors, creditors, customers, Government, interest groups
+Question- Who are the users of financial Accounting Reporting?
+Answer-: shareholders, lenders, potential investors, creditors, customers, Government, interest groups
+
+40
+
+Passage- Financial Accounting –Types of reports-General purpose financial statements for external users: balance sheet, income statement, statement of changes in equity, statement of cash flows.
+Question-What type of reports do financial accountants produce?
+Answer- General purpose financial statements for external users: balance sheet, income statement, statement of changes in equity, statement of cash flows
+
+41
+
+Passage- Accountants generally practice in three main areas: public accounting, commercial accounting and not for- profit accounting.
+Question-What are the main areas that accounting is practiced ?
+Answer- public accounting, commercial accounting and not for- profit accounting.
+
+42
+
+Passage- Because of the complexity of today’s business structure and increasing regulation by government, members of public accounting businesses tend to specialize in one of four general services: auditing and assurance services, taxation services, advisory services, and insolvency and administration.
+Question-What are the 4 general services offered by a public Accountant?
+Answer- auditing and assurance services, taxation services, advisory services, and insolvency and administration.
+
+43
+
+Passage- An audit is an independent examination of a business entity’s financial statements, supporting documents and records in order to form an opinion as to whether they comply with certain levels of quality, as specified in accounting standards, and present a true and fair view of the entity’s performance and financial position.
+Question- What is an Audit?
+Answer- An audit is an independent examination of a business entity’s financial statements, supporting documents and records in order to form an opinion as to whether they comply with certain levels of quality, as specified in accounting standards, and present a true and fair view of the entity’s performance and financial position.
+
+44
+
+Passage-Assurance services are defined as ‘independent professional services that improve
+the quality of information, or its context, for decision makers’
+Question-What is Assurance Services?
+Answer--Assurance services are defined as ‘independent professional services that improve
+the quality of information, or its context, for decision makers’
+
+45
+
+Passage-assessment of risk — evaluates whether an entity has appropriate systems in place to effectively manage business risk
+Question-What is meant by Assessment of risk?
+Answer- evaluates whether an entity has appropriate systems in place to effectively manage business risk
+
+46
+
+Passage- business performance measurement — evaluates whether an entity’s accounting system contains measures to assess the degree to which an entity is achieving its goals and objectives, and how the entity’s performance compares with its competitors
+Question-What is meant by Business performance measurement?
+Answer- evaluates whether an entity’s accounting system contains measures to assess the degree to which an entity is achieving its goals and objectives, and how the entity’s performance compares with its competitors
+
+47
+
+Passage- information systems reliability — assesses whether the entity’s accounting system provides reliable information for making economic decisions
+Question-What is  meant by information systems reliability?
+Answer- assesses whether the entity’s accounting system provides reliable information for making economic decisions
+
+48
+
+ Passage- sustainability audits — independent assessment of compliance with environmental requirements and the assessment of risks and preventative or corrective actions. For example, the assurance of carbon emissions and water reporting.
+Question-What is a sustainability Audit?
+Answer- independent assessment of compliance with environmental requirements and the assessment of risks and preventative or corrective actions. For example, the assurance of carbon emissions and water reporting.
+
+49
+
+Passage-Accountants provide advice concerning the tax consequences of business decisions. Individuals and business entities have to collect or pay various forms of taxes including income tax, capital gains tax, fringe benefits tax, goods and services tax, local government rates, and other taxes. Accountants are often engaged to help in tax planning to minimize the tax liability of the business, consistent with the rules and regulations established by taxing agencies. Accountants also are often called on to prepare tax returns, including business activity statements(BASs), required by law. To offer such services, accountants must be thoroughly familiar with tax laws and regulations.
+Question- What is an accountants role in taxation?
+Answer- Accountants provide advice concerning the tax consequences of business decisions. Individuals and business entities have to collect or pay various forms of taxes including income tax, capital gains tax, fringe benefits tax, goods and services tax, local government rates, and other taxes. Accountants are often engaged to help in tax planning to minimize the tax liability of the business, consistent with the rules and regulations established by taxing agencies. Accountants also are often called on to prepare tax returns, including business activity statements(BASs), required by law. To offer such services, accountants must be thoroughly familiar with tax laws and regulations.
+
+50
+
+Passage- Public accountants offer a wide range of advisory services, including advice
+on such events as installation of computer systems, production systems and quality control; installation or modification of accounting systems; budgeting, forecasting and general financial planning; design or modification of superannuation plans; company mergers and takeovers; personal financial planning; and advice for clients in managing deceased estates
+Question- What is an public accountants role in Consulting?
+Answer- Public accountants offer a wide range of advisory services, including advice
+on such events as installation of computer systems, production systems and quality control; installation or modification of accounting systems; budgeting, forecasting and general financial planning; design or modification of superannuation plans; company mergers and takeovers; personal financial planning; and advice for clients in managing deceased estates
+
+51
+Passage-Some businesses have difficulty in paying their short-term debts as they fall due, which means that they are becoming illiquid. If an entity cannot pay its long-term debts, the entity is said to be insolvent
+Question-What is meant by insolvency?
+Answer--Some businesses have difficulty in paying their short-term debts as they fall due, which means that they are becoming illiquid. If an entity cannot pay its long-term debts, the entity is said to be insolvent
+
+52
+
+Passage-Public accountants are employed to help businesses administer their recovery from trading difficulties or insolvency, if possible. However, if recovery is not possible, accountants then assist in the winding-up of the business’s affairs. In the case of the company form of business organization, such a wind-up is referred to as liquidation.
+Question-What is meant by Liquidation?
+Answer-Public accountants are employed to help businesses administer their recovery from trading difficulties or insolvency, if possible. However, if recovery is not possible, accountants then assist in the winding-up of the business’s affairs. In the case of the company form of business organization, such a wind-up is referred to as liquidation
+
+53
+
+Passage-Cost accounting deals with the collection, allocation and control of the costs of producing specific products and services.
+Question-What is meant by Cost Accounting?
+Answer--Cost accounting deals with the collection, allocation and control of the costs of producing specific products and services.
+
+54
+
+Passage-Budgeting is the phase of accounting that deals with the preparation of a plan or forecast of future operations. Its main function is to provide management with a projection of the activities necessary to reach established goals. Budgets are generally prepared for the business entity as a whole as well as for subunits. They serve as control devices when used in conjunction with performance reports, which measure actual results for the period.
+Question- What is Budgeting?
+Answer-Budgeting is the phase of accounting that deals with the preparation of a plan or forecast of future operations. Its main function is to provide management with a projection of the activities necessary to reach established goals. Budgets are generally prepared for the business entity as a whole as well as for subunits. They serve as control devices when used in conjunction with performance reports, which measure actual results for the period
+
+55
+
+Passage-Businesses are assessed for a variety of taxes — including income tax, capital gains tax, GST and fringe benefits tax
+Question- What are the different types of taxes that a business has to deal with?
+Answer- ding income tax, capital gains tax, GST and fringe benefits tax
+56
+
+Passage- To supplement the annual audit by the external auditor, many organizations also maintain an internal audit department. Its main function is to conduct ongoing reviews to make certain that established procedures and policies are being followed.
+Question- What is the main function of the Internal Audit Department?
+Answer- Its main function is to conduct ongoing reviews to make certain that established procedures and policies are being followed.
+
+57
+
+Passage-Accounting for not-for-profit entities may require a different approach in some respects because of the absence of a profit motive. Government accounting is concerned with the efficient use of its resources, consistent with the provisions of city, shire, state and federal laws. Other not-for-profit organizations (churches, hospitals, charities, clubs, private educational institutions) also have specialized accounting needs.
+Question- How is not-for-profit Accounting different from other forms of accounting?
+Answer- Accounting for not-for-profit entities may require a different approach in some respects because of the absence of a profit motive. Government accounting is concerned with the efficient use of its resources, consistent with the provisions of city, shire, state and federal laws. Other not-for-profit organizations (churches, hospitals, charities, clubs, private educational institutions) also have specialized accounting needs.
+
+58
+
+Passage- commercial accounting — where accountants are employed by business entities, and are involved in general accounting, cost accounting, accounting information systems, budgeting, taxation, and internal auditing
+Question-What are the accounting responsibilities of a commercial accountant?
+Answer- involved in general accounting, cost accounting, accounting information systems, budgeting, taxation, and internal auditing
+
+59
+
+Passage- The code of ethics establishes the fundamental principles of professional ethics and provides a conceptual framework for applying those principles.
+Question-What is meant by Code of Ethics?
+Answer-- The code of ethics establishes the fundamental principles of professional ethics and provides a conceptual framework for applying those principles.
+
+60
+
+Passage-A single proprietorship or sole trader is a business entity owned by one person. Many small service enterprises, retail stores and professional practices are operated as single proprietorships
+Question-What is a Sole proprietorship?
+Answer- A single proprietorship or sole trader is a business entity owned by one person. Many small service enterprises, retail stores and professional practices are operated as single proprietorships
+
+61
+
+Passage- The owner of a single proprietorship business contributes cash (or other assets) to the business, is entitled to all profits, and is legally liable for its debts. A sole trader is not a separate legal entity. From an accounting perspective, however, the business entity is treated as an entity separate from its owner, and accounting is done only for the affairs of the business entity. The owner’s personal affairs and records are kept separate from those of the entity for accounting purposes.
+Question-What are the key Characteristics of a Sole proprietorship?
+Answer- The owner of a single proprietorship business contributes cash (or other assets) to the business, is entitled to all profits, and is legally liable for its debts. A sole trader is not a separate legal entity. From an accounting perspective, however, the business entity is treated as an entity separate from its owner, and accounting is done only for the affairs of the business entity. The owner’s personal affairs and records are kept separate from those of the entity for accounting purposes.
+
+62
+
+Passage- A partnership is a business owned by two or more people acting as partners
+Question-What is a partnership?
+Answer- A partnership is a business owned by two or more people acting as partners
+
+63
+
+Passage- No special legal requirements need be met to form a partnership. All that is necessary is an agreement among the people joining together as partners. Although the partnership agreement may be oral, a written agreement will help resolve disagreements which may arise between partners. The partners supply the resources and share the profits and losses. Partnerships are not separate legal entities. Consequently, the individual partners are personally liable for the debts of the partnership. From an accounting perspective, however, partnerships are treated as entities separate from their owners. Like single proprietorships, partnerships are widely used for small service enterprises, retail stores and professional practices.
+Question-What are the key characteristics of a partnership?
+Answer-- No special legal requirements need be met to form a partnership. All that is necessary is an agreement among the people joining together as partners. Although the partnership agreement may be oral, a written agreement will help resolve disagreements which may arise between partners. The partners supply the resources and share the profits and losses. Partnerships are not separate legal entities. Consequently, the individual partners are personally liable for the debts of the partnership. From an accounting perspective, however, partnerships are treated as entities separate from their owners. Like single proprietorships, partnerships are widely used for small service enterprises, retail stores and professional practices.
+
+64
+
+Passage-A company or corporation is a separate legal entity formed under the Corporations Act 2001.Commonly, its owners are called shareholders and their ownership interests are represented by shares in the company. Given that a company is a separate legal entity, shareholders in a limited company are not liable for the company’s debts once the shares they hold have been paid for in full. This feature is known as limited liability, which simply means that the liability of a shareholder to contribute to the assets of the company is limited to the amount unpaid on the shares held in the company. The word ‘limited’ (abbreviated to Ltd) is required by law to appear in the company name if limited liability applies to shareholders of that company.
+Question-What is a company or a corporation & it’s Characteristics?
+Answer--A company or corporation is a separate legal entity, its owners are called shareholders and their ownership interests are represented by shares in the company. Given that a company is a separate legal entity, shareholders in a limited company are not liable for the company’s debts once the shares they hold have been paid for in full. This feature is known as limited liability, which simply means that the liability of a shareholder to contribute to the assets of the company is limited to the amount unpaid on the shares held in the company. The word ‘limited’ (abbreviated to Ltd) is required by law to appear in the company name if limited liability applies to shareholders of that company.
+
+65
+
+Passage- The three types of organizations used in profit-making businesses are the sole trader (single proprietorship), partnership, and company (or corporation).
+Question-What are the 3 types of Organization used in profit-making businesses?
+Answer- The three types of organizations used in profit-making businesses are the sole trader (single proprietorship), partnership, and company (or corporation).
+
+66
+
+Passage- A sole trader is owned by one person who is entitled to all the profits and is liable for its debts. From an accounting perspective, the owner’s personal affairs and records are kept separate from those of the entity. A partnership business is owned by two or more people and the partners are personally liable for the debts of the partnership. Accounting records of the partnership are kept separate from the personal records of each partner. A company is a separate legal entity owned usually by shareholders who, in a limited company, are not liable for the company’s debts once the shares they hold are paid for in full.
+Question-What are is the Major Difference between Sole proprietorship, partnership & Limited companies?
+Answer-- A sole trader is owned by one person who is entitled to all the profits and is liable for its debts. From an accounting perspective, the owner’s personal affairs and records are kept separate from those of the entity. A partnership business is owned by two or more people and the partners are personally liable for the debts of the partnership. Accounting records of the partnership are kept separate from the personal records of each partner. A company is a separate legal entity owned usually by shareholders who, in a limited company, are not liable for the company’s debts once the shares they hold are paid for in full.
+
+67
+
+Passage-An organization is defined as a group of people who share common goals with a well-defined division of labor
+Question- What is an Organization?
+Answer- An organization is defined as a group of people who share common goals with a well-defined division of labor.
+
+68
+
+Passage- Efficiency means maintaining a satisfactory relationship between an entity’s resource inputs and its outputs of products or services (e.g. the number of labor hours required to process a loan application or to produce a product)
+Question- What is meant by Efficiency?
+Answer-- Efficiency means maintaining a satisfactory relationship between an entity’s resource inputs and its outputs of products or services (e.g. the number of labor hours required to process a loan application or to produce a product)
+
+69
+
+Passage-Effectiveness refers to how well an entity attains its goals (e.g. the number of services provided to customers compared with the number planned).
+Question-What is meant by Effectiveness?
+Answer- Effectiveness refers to how well an entity attains its goals (e.g. the number of services provided to customers compared with the number planned).
+
+70
+
+Passage-
+Question- What are the steps in the management decision making process?
+Answer-Planning, Organizing, Directing, controlling
+
+71
+
+Passage - A successful business entity plans for the future by carefully setting goals. Managers must decide what action the entity should take in the future and how it should be accomplished. Alternative courses of action are identified, their probable results are evaluated, and the course of action that will best achieve the entity’s goals is selected. Planning is required so that managers can anticipate future events and be proactive rather than react to circumstances once they are known. Much of management planning is concerned with the efficiency and effectiveness of future operations
+Question- Why is planning important in the management process?
+Answer-A successful business entity plans for the future by carefully setting goals. Managers must decide what action the entity should take in the future and how it should be accomplished. Alternative courses of action are identified, their probable results are evaluated, and the course of action that will best achieve the entity’s goals is selected. Planning is required so that managers can anticipate future events and be proactive rather than react to circumstances once they are known.
+
+72
+
+Passage-Plans are only words and numbers on paper until they are implemented. The organizing function provides the resource structure or capacity within which management works to achieve its plans. The entity may be divided into segments (such as departments, divisions, plants and offices) to take advantage of the specialization of skills and abilities. Consider the case of a university and its division into faculties based on academic discipline areas to take advantage of the specialization of skills and abilities. Dividing an entity into segments ensures the right people are hired, trained and assigned to specific jobs. Well-defined lines of authority and responsibility are established. Sources of resources (such as raw materials, supplies and advertising) are selected, physical facilities (land, buildings, machinery and equipment) are obtained, and finance is arranged to fund the operations.
+Question- Why is Organizing important within the Management process?
+Answer- Plans are only words and numbers on paper until they are implemented. The organizing function provides the resource structure or capacity within which management works to achieve its plans. The entity may be divided into segments (such as departments, divisions, plants and offices) to take advantage of the specialization of skills and abilities. Consider the case of a university and its division into faculties based on academic discipline areas to take advantage of the specialization of skills and abilities. Dividing an entity into segments ensures the right people are hired, trained and assigned to specific jobs.
+
+73
+
+Passage- This function deals with the day-to-day management of the entity. Actions, decision making, communication and leadership are combined to carry out the planned activities within the organizational structure. Problems are solved, questions are answered, disagreements are resolved and the various segments are coordinated.
+Question-Why is Directing important in the Management process?
+Answer-This function deals with the day-to-day management of the entity. Actions, decision making, communication and leadership are combined to carry out the planned activities within the organizational structure. Problems are solved, questions are answered, disagreements are resolved and the various segments are coordinated
+
+74
+
+Passage-Managers must be sure that the actual performance of the entity and its segments compares favorably with the goals established during the planning function. If managers are to be held accountable for their performance, they should know where and why actual results differ from those planned. Control is based on the concept of management by exception
+Question-Why is controlling important in the management process?
+Answer- Managers must be sure that the actual performance of the entity and its segments compares favorably with the goals established during the planning function. If managers are to be held accountable for their performance, they should know where and why actual results differ from those planned. Control is based on the concept of management by exception
+
+75
+
+Passage- A performance report is a type of financial report issued periodically to inform management of any significant variations from the expected results, so action can be taken to improve the efficiency or effectiveness of future operations, whenever possible. Some businesses have established internal audit committees, to help management achieve its plans
+Question- What is a Performance report & why is it important?
+Answer- A performance report is a type of financial report issued periodically to inform management of any significant variations from the expected results, so action can be taken to improve the efficiency or effectiveness of future operations, whenever possible. Some businesses have established internal audit committees, to help management achieve its plans
+
+76
+
+Passage- Management by exception recognizes that, because management time is a scarce resource, the main concern should be for any performance that deviates significantly from planned performance.
+Question-What is meant by management by exception?
+Answer-- Management by exception recognizes that, because management time is a scarce resource, the main concern should be for any performance that deviates significantly from planned performance.
+
+77
+
+Passage-The final outcome of the accounting process is the preparation of a set of financial statements which serve to communicate important information to users both within and external to the business
+Question-What is the final outcome of the accounting Process?
+Answer--The final outcome of the accounting process is the preparation of a set of financial statements which serve to communicate important information to users both within and external to the business
+
+78
+
+Passage-Firstly, users want information about the entity’s financial performance, that is, the ability to operate its assets efficiently and effectively in the conduct of its activities, whether for profit or not for profit. In order to assess performance, users need to be aware of the entity’s overall objectives or goals.
+Question-Why do users (external & Internal) want information about the financial performance?
+Answer-, users want information about the entity’s financial performance, that is, the ability to operate its assets efficiently and effectively in the conduct of its activities, whether for profit or not for profit. In order to assess performance, users need to be aware of the entity’s overall objectives or goals.
+
+79
+
+Passage-The financial position of an entity, as discussed in the Framework for the Preparation and Presentation of Financial Statements (considered later in this book, and hereafter referred to as the Framework), deals with the economic resources controlled by an entity, its financial structure, its capacity to adapt to changes in its environment, and its liquidity and solvency. The information which would help to assess these aspects includes the different types of assets held by the business, the amounts of money borrowed from other entities, the amount of cash or other assets supplied by the owner of the business, the time needed to repay borrowed money, the current state of repair of the entity’s assets, the cost and fair value of these assets, and the possible sources of finance available to the business in an emergency.
+Question-Why do users need information about the financial position?
+Answer- Financial Statements, deals with the economic resources controlled by an entity, its financial structure, its capacity to adapt to changes in its environment, and its liquidity and solvency. The information which would help to assess these aspects includes the different types of assets held by the business, the amounts of money borrowed from other entities, the amount of cash or other assets supplied by the owner of the business, the time needed to repay borrowed money, the current state of repair of the entity’s assets, the cost and fair value of these assets, and the possible sources of finance available to the business in an emergency.
+
+80
+
+Passage- information about the entity’s cash flows is useful in order to assess the entity’s operating, investing and financing activities.
+Question-Why do users need information about the Cash flow?
+Answer- information about the entity’s cash flows is useful in order to assess the entity’s operating, investing and financing activities.
+
+81
+
+Passage- Operating activities are those associated with the provision of goods or services.
+Question-What is meant by operating Profits?
+Answer-- Operating activities are those associated with the provision of goods or services.
+
+82
+
+Passage-Typical operating activities for a business entity include collecting cash for services provided, selling goods to customers, purchasing goods for sale, paying suppliers for goods or services purchased, collecting from customers outstanding debts owed to the entity, paying wages to employees and paying income tax to the government.
+Question-What are some examples for Operating profit activities?
+Answer-operating activities for a business entity include collecting cash for services provided, selling goods to customers, purchasing goods for sale, paying suppliers for goods or services purchased, collecting from customers outstanding debts owed to the entity, paying wages to employees and paying income tax to the government
+
+83
+
+Passage-Investing activities in an entity are those associated with the acquisition and disposal of long-term resources used in the entity’s production, selling or administrative tasks
+Question-What is meant by Investing Activities?
+Answer--Investing activities in an entity are those associated with the acquisition and disposal of long-term resources used in the entity’s production, selling or administrative tasks
+
+84
+
+Passage-investing activities include purchasing an office building, constructing a factory, purchasing long-term investments, purchasing equipment or vehicles, and selling such long-term assets.
+Question- Examples for Investing Activities?
+Answer--investing activities include purchasing an office building, constructing a factory, purchasing long-term investments, purchasing equipment or vehicles, and selling such long-term assets.
+
+85
+
+Passage-Financing activities are those which relate to the raising of funds for an entity to carry out its operating and investing activities
+Question- What is meant by Financing Activities?
+Answer--Financing activities are those which relate to the raising of funds for an entity to carry out its operating and investing activities
+
+86
+Passage: Accounting is the process of identifying measuring and communicating economic information to permit informed judgments and decisions by users of information.
+Question: What is Accounting?
+Answer:  process of identifying, measuring and communicating economic information to permit informed judgments and decisions by users of information.
+87
+Passage: Management Accounting is the process of identification, measurement accumulation, analysis, preparation, interpretation and communication of financial information used by management to plan, evaluate and control within an organization and to ensure appropriate use of and accountability for is resources.
+Question: What is Management Accounting?
+Answer: process of identification, measurement accumulation, analysis, preparation, interpretation and communication of financial information used by management to plan, evaluate and control within an organization and to ensure appropriate use of and accountability for is resources.
+88
+Passage: Financial Accounting is the process of measuring, classifying, summarizing and reporting financial information used in making economic decisions. It’s also concerned with the preparation of financial statements to be used by the firm’s stakeholders.
+Question: What is Financial Accounting?
+Answer: process of measuring, classifying, summarizing and reporting financial information used in making economic decisions and the preparation of Financial statements to be usef by the firm’s stakeholders.
+89
+Passage: Cost accounting is the process of cost ascertainment and cost control. It is a formal system of accounting by means of which cost of product and services are ascertained and controlled.
+Question: What is cost accounting?
+Answer: process of cost ascertainment and cost control. It is a formal system of accounting by means of which cost of product and services are ascertained and controlled
+
+
+90
+Passage: Information is anything that is communicated and is sometimes said to be processed data. It’s data processed in such a way as to be of meaning to the person receiving it.
+Question: What is Information?
+Answer: Anything that is communicated & processed data which is valuable, meaningful for the receiver
+91
+Passage: Management process involves planning, organizing, controlling, directing, communicating and motivating.
+Question: What features are there in the management process?
+Answer: planning, organizing, controlling, directing, communicating and motivating.
+92
+Passage: Decision making is the process of choosing among alternatives.
+Question: What is Decision making?
+Answer: process of choosing among alternatives
+93
+Passage: Decision making environment helps organizations to keep in mind changes that could affect decisions made in the organization such as risk and competition. This will enable the organization to make the right decision regardless of the circumstances.
+Question: How does the decision making Environment help the organization?
+Answer: enable the organization to make the right decision regardless of the circumstances by keeping in mind the changes that could affect the decisions made such as risk and competition.
+94
+Passage: Internal users who are parties within the organization e.g. the management or the employees.
+Question: Who are Internal users?
+Answer:  parties within the organization e.g. the management or the employees
+95
+Passage: External users who on the other hand, are parties outside the organization e.g. the shareholder, creditors, government, customers, etc.
+Question: Who are External users?
+Answer: parties outside the organization e.g. the shareholder, creditors, government, customers, etc.
+96
+Passage: Management Accounting also comprises the preparation of financial reports for non-management groups such as shareholders, creditors, regulatory agencies and tax authorities.(Robert E. Malcolm)
+Question: What does Management accounting comprise of?
+Answer: preparation of financial reports for non-management groups such as shareholders, creditors, regulatory agencies and tax authorities
+97
+Passage: Management is concerned with identifying, presenting and interpretation of information used for: Formulating strategy, Planning and controlling activities, Decision making, Optimizing use of resources, Disclosure to shareholders and others external to the entity, Disclosure to employees, Safeguarding assets.
+
+Question: Why does the Management use information?
+
+Answer:  Formulating strategy, Planning and controlling activities, Decision making, Optimizing use of resources, Disclosure to shareholders and others external to the entity, Disclosure to employees, Safeguarding assets.
+
+98
+Passage: Therefore for the above to work, management needs to: Formulate plans to meet objectives (Strategy planning), Formulate short term operation plans (Budgeting/profit planning), Acquire and use finance (financial management) and record transactions (Financial Accounting and Cost Accounting), Communicate financial and operating information, Take corrective action to bring plans and results into line (Financial control), Reviewing and reporting on systems and operation (Internal audit.)
+Question:  What does the Management need to do efficiently formulate strategies, decision making, optimizing resources?
+Answer: Formulate plans to meet objectives (Strategy planning), Formulate short term operation plans (Budgeting/profit planning), Acquire and use finance (financial management) and record transactions (Financial Accounting and Cost Accounting), Communicate financial and operating information, Take corrective action to bring plans and results into line (Financial control), Reviewing and reporting on systems and operation (Internal audit.)
+99
+Passage: Key differences between Management Accounting (MA) and Financial Accounting (FA)
+
+
+	MA	FA
+
+Users	Internal	External
+
+Nature	Future	Historical
+
+Details	More detailed	Summarized
+
+Legality	Not legal	Legal
+
+Format	Not standard	Standard
+
+
+Question: What is the difference between financial and management accounting?
+Answer?
+	MA	FA
+
+Users	Internal	External
+
+Nature	Future	Historical
+
+Details	More detailed	Summarized
+
+Legality	Not legal	Legal
+
+Format	Not standard	Standard
+
+
+
+100
+Passage: Economic Reality, The information should correctly reflect the underlying economic realities. This is the prime requirement and may mean adjusting conventionally prepared accounting information to show more effectively the economic consequences.
+Question: What is Economic Reality?
+Answer: information should correctly reflect the underlying economic realities. This is the prime requirement and may mean adjusting conventionally prepared accounting information to show more effectively the economic consequences.
+101
+Passage: Accuracy of information, As stated in the introduction to management accountant, information should always be sufficiently accurate for its intended purpose. Accuracy will be determine e.g. by collection and processing technique. However, there’s no such thing as absolute accuracy. This may mean that a realistic, speedily prepared estimate may be more useful than a more precise answer produced some time later.
+Question: What is meant by Accuracy of information?
+Answer: As stated in the introduction to management accountant, information should always be sufficiently accurate for its intended purpose. Accuracy will be determine e.g. by collection and processing technique
+102
+Passage: Systematic bias - Inaccuracy due to a feature of the system used for collection and processing data.
+Question: What is Systematic Bias?
+Answer: - Inaccuracy due to a feature of the system used for collection and processing data.
+103
+Passage: Collection bias - it distorts by withholding some information. This could mean that the system had either been deliberately or accidentally designed in such a way to fail to collect relevant data.
+Question: What is Collection bias?
+Answer: distorts by withholding some information. This could mean that the system had either been deliberately or accidentally designed in such a way to fail to collect relevant data.
+104
+Passage: Presentation bias - when data is presented in such a way that it only presents one point of view.
+Question: What is Presentation Bias?
+Answer: when data is presented in such a way that it only presents one point of view.
+105
+Passage: Error, usually occurs as a result of the inherent variability in the system used to record data. Other sources include incorrect methods of data collection and measurement, loss of data and failure to process some data.
+Question: What is an Error?
+Answer: usually occurs as a result of the inherent variability in the system used to record data. Other sources include incorrect methods of data collection and measurement, loss of data and failure to process some data.
+106
+Passage: Relevance, The information must be relevant for the person and purpose intended. Relevance is the attribute of data which amongst other things is meaningful. In designing the system, planners will define informational requirements and from this, relevant data can be identified.
+Question? Why is relevance important do determine the quality of information?
+Answer: The information must be relevant for the person and purpose intended. Relevance is the attribute of data which amongst other things is meaningful. In designing the system, planners will define informational requirements and from this, relevant data can be identified.
+107
+Passage: Timing, The information must be produced in time for it to be used effectively. The age of data is the time that has elapsed since the data was collected.
+Question: How is timing important to the quality of information?
+Answer: The information must be produced in time for it to be used effectively. The age of data is the time that has elapsed since the data was collected.
+108
+Passage: Understandability, The information must be capable of being understood by the recipient. To increase comprehension one can: avoid the use of jargons, use charts and diagrams, exception reporting and comparative figures
+Question: What is meant by understandability of information?
+Answer: The information must be capable of being understood by the recipient. To increase comprehension one can: avoid the use of jargons, use charts and diagrams, exception reporting and comparative figures
+109
+Passage: Detail, The amount of detail should be that which is sufficient for the intended purpose. The amount of detail will depend on the recipients’ level in the organization as explained earlier.
+Question: What do you mean by the level of detail of information?
+Answer: The amount of detail should be that which is sufficient for the intended purpose. The amount of detail will depend on the recipients’ level in the organization as explained earlier
+110
+Passage: Source Reliability, Data may be collected from sources internal and external. Internal sources can be verified e.g. comparison between sales data and finished goods stock records. However other sources e.g. employees’ time sheet can’t be easily verified because there’s no cross references
+Question: What is Source reliability?
+Answer: Data may be collected from sources internal and external. Internal sources can be verified e.g. comparison between sales data and finished goods stock records. However other sources e.g. employees’ time sheet can’t be easily verified because there’s no cross references.
+111
+Passage: Planning, It is deciding what to do, and who, where, when, why and how to do it. (Robert Malcolm)
+Question:  What is Planning?
+Answer: It is deciding what to do, and who, where, when, why and how to do it.
+
+112
+Passage: Here managers decide what goals to be accomplished, how they will be accomplished. It gives the manager some warning of crises that might occur in the future. The management accountant’s role in assisting in formulation of future plans is by providing information to e.g. decide what to sell, in what markets and at what prices. In budgeting the management accountant provides historical data of past performance to be used as a benchmark.
+Question: What is the Management Accountants Role in the planning process?
+Answer: Assisting in formulation of future plans is by providing information to e.g. decide what to sell, in what markets and at what prices. In budgeting the management accountant provides historical data of past performance to be used as a benchmark
+113
+Passage: Control, This process involves a comparison of actual performance with the plan so that deviations from the plans can be identified and corrective action taken.
+Question : What is Control in the management process?
+Answer:  This process involves a comparison of actual performance with the plan so that deviations from the plans can be identified and corrective action taken.
+114
+Passage: The management accountant here provides performance reports that compare actual performance with plans for each responsibility centre.
+Question: What is the Management Accountants role within the Control phase?
+Answer: management accountant here provides performance reports that compare actual performance with plans for each responsibility centre.
+115
+Passage: Responsibility centre: A unit of the firm where an individual manager is held responsible for the unit’s performance (Drury)
+Question: What is a Responsibility Centre?
+Answer: A unit of the firm where an individual manager is held responsible for the unit’s performance (Drury)
+116
+Passage: Organizing, It is the establishment of a framework within which the required activities are to be performed and the designation of who should perform these activities i.e. coming up with the different departments. Each with goals that is congruent to the overall goals of the organization.
+Question : What do you mean by Organizing in the management process?
+Answer: It is the establishment of a framework within which the required activities are to be performed and the designation of who should perform these activities i.e. coming up with the different departments. Each with goals that is congruent to the overall goals of the organization.
+117
+Passage: Motivation, This involves influencing the human behaviour so that participants can identify with the organizational goals and make decisions that are in harmony with these objectives. It involves, for example, setting goals that are challenging but attainable.
+Question: what is Motivation in the Management process?
+Answer: This involves influencing the human behaviour so that participants can identify with the organizational goals and make decisions that are in harmony with these objectives. It involves, for example, setting goals that are challenging but attainable.
+118
+Passage: Communication, The communication process involves perceiving of information by the sender, encoding it in a form that is most suitable; sending it to a recipient who will decode it to aid in his understanding of the message. The next stage would be for him to give feedback to the sender containing his reaction to the message.
+Question: What is the communication in the management process?
+Answer: The communication process involves perceiving of information by the sender, encoding it in a form that is most suitable; sending it to a recipient who will decode it to aid in his understanding of the message. The next stage would be for him to give feedback to the sender containing his reaction to the message.
+
+119
+Passage: Strategic Planning, “It is the process of deciding on objectives of the organization, on changes in these objectives, on resources to attain these objectives and on the policies that are to govern the acquisition use and disposal of these resources.”
+Question: What is strategic Planning?
+Answer: It is the process of deciding on objectives of the organization, on changes in these objectives, on resources to attain these objectives and on the policies that are to govern the acquisition use and disposal of these resources
+120
+Passage: Management Control, The process by which managers ensure resources are obtained and used effectively and efficiently in the accomplishment of the organizations objectives
+Question: What is Management Control?
+Answer: The process by which managers ensure resources are obtained and used effectively and efficiently in the accomplishment of the organizations objectives
+121
+Passage-The Summa made Pacioli a celebrity and ensured him a place in
+history as ‘The Father of Accounting’.
+Question-Who is the father of accounting?
+Answer-Luca Pacioli
+122
+Passage-External transactions- An entity may engage in transactions with outside parties that affect its financial statements.
+Question-What is an External Transaction?
+Answer- An entity may engage in transactions with outside parties that affect its financial statements.
+
+123
+
+Passage- the purchase of equipment the performance of services for others (e.g. medical, legal, cleaning, marketing, public relations)the provision by others of a service for the entity
+borrowing money from a bank the purchase of supplies.
+Question- Examples for External transactions?
+Answer-- the purchase of equipment the performance of services for others (e.g. medical, legal, cleaning, marketing, public relations)the provision by others of a service for the entity
+borrowing money from a bank the purchase of supplies.
+
+124
+
+Passage-economic events that do not involve external transactions are recorded because they affect the internal relationships between the entity’s assets, liabilities and equity.
+
+Question-What are Internal transactions?
+Answer- economic events that do not involve external transactions are recorded because they affect the internal relationships between the entity’s assets, liabilities and equity.
+125
+Passage- Use of office supplies by the entity’s employees and of equipment to perform a service
+Question-Examples for internal transactions?
+Answer- Use of office supplies by the entity’s employees and of equipment to perform a service
+126
+Passage- Non-transaction events. Some events are not usually recorded because there has not been an exchange of goods or services. For example: receiving an order from a customer signing a contract to purchase an asset in the future hiring an employee changing interest rates.
+
+Question – What are non-transaction event?
+
+Answer -- Non-transaction events. Some events are not usually recorded because there has not been an exchange of goods or services.
+
+127
+
+Passage- Non-transaction events. Some events are not usually recorded because there has not been an exchange of goods or services. For example: receiving an order from a customer signing a contract to purchase an asset in the future hiring an employee changing interest rates.
+
+Question-What are the examples for non-transaction event?
+
+Answer- receiving an order from a customer signing a contract to purchase an asset in the future hiring an employee changing interest rates.
+
+128
+Passage- Assets represent resources controlled by an entity which are expected to provide future economic benefits to the entity
+Question-What is meant by an Asset?
+Answer- Assets represent resources controlled by an entity which are expected to provide future economic benefits to the entity
+
+129
+
+Passage- source document, such as a tax invoice for the performance of services, purchase order, cash register tape, credit card slip or cheque, is prepared for every external transaction entered into by an entity and has two purposes: (1) it provides written evidence of a transaction and is used by accountants to support entries in the accounting records; (2) it is an important part of controlling an entity’s resources. For each external transaction recognised by the accountant, there should be at least one supporting source document.
+
+
+
+Question- What is a Source Document?
+Answer - Source document, such as a tax invoice for the performance of services, purchase order, cash register tape, credit card slip or cheque, is prepared for every external transaction entered into by an entity and has two purposes: (1) it provides written evidence of a transaction and is used by accountants to support entries in the accounting records; (2) it is an important part of controlling an entity’s resources. For each external transaction recognised by the accountant, there should be at least one supporting source document.
+
+130
+
+Passage-purchase order — when goods or services are ordered from a supplier
+
+Question - What is a Purchase order?
+
+Answer- purchase order — when goods or services are ordered from a supplier
+131
+Passage- tax invoice for purchases — invoice received from a supplier of goods/services
+Question- What is a tax invoice for purchases?
+Answer- tax invoice for purchases — invoice received from a supplier of goods/services
+133
+Passage- cash register tapes — to record cash received for cash sales through a cash register
+Question-What is Cash register tages?
+Answer- cash register tapes — to record cash received for cash sales through a cash register
+134
+Passage- credit card slips — to record sales made on credit cards
+Question- What is a Credit card slip?
+Answer- credit card slips — to record sales made on credit cards
+135
+Passage- Cheque butts — to record payments made by Cheque to creditors for goods and services.
+Question- What is Cheque butts?
+Answer- Cheque butts — to record payments made by Cheque to creditors for goods and services.
+136
+Passage-Transactions are economic events recorded in an accounting system.
+Question-What is a transaction?
+Answer- Transactions are economic events recorded in an accounting system.
+
+137
+Passage- During the life of the entity, financial statement users must regularly make decisions regarding the entity, and therefore must be provided with timely information on a periodic basis. In order to report on the periodic progress of the entity over time, its life is divided into arbitrary time periods of equal length called accounting periods.
+
+Question- What is an Accounting period?
+Answer- During the life of the entity, financial statement users must regularly make decisions regarding the entity, and therefore must be provided with timely information on a periodic basis. In order to report on the periodic progress of the entity over time, its life is divided into arbitrary time periods of equal length called accounting periods.
+
+138
+Passage-The basic accounting period for which financial statements are presented is 1 year, but half-yearly and quarterly statements are sometimes required by external parties to provide more timely information on the activities of the entity. Many entities also prepare monthly or weekly statements for internal use by management.
+
+Question-How often do you need to produce financial statements?
+Answer- The basic accounting period for which financial statements are presented is 1 year, but half-yearly and quarterly statements are sometimes required by external parties to provide more timely information on the activities of the entity. Many entities also prepare monthly or weekly statements for internal use by management.
+
+139
+Passage- Statements prepared for external users before the end of the annual period
+are called interim statements.
+Question- What is the interim statement?
+Answer-Statements prepared for external users before the end of the annual period
+are called interim statements.
+140
+Passage-During each period, steps and procedures are followed within the accounting function to ensure that all transactions are properly recorded, and records are kept to ensure that the financial statements can be prepared at the end of the accounting period. These steps and procedures, culminating in the preparation of financial statements, are referred to as the accounting cycle.
+Question-What is the Accounting Cycle?
+Answer-During each period, steps and procedures are followed within the accounting function to ensure that all transactions are properly recorded, and records are kept to ensure that the financial statements can be prepared at the end of the accounting period. These steps and procedures, culminating in the preparation of financial statements, are referred to as the accounting cycle
+
+141
+
+Passage-An account provides a record of increases and decreases in each item that appears in the financial statements.
+
+Question-What is an account?
+Answer- An account provides a record of increases and decreases in each item that appears in the financial statements.
+
+142
+
+Passage- All the accounts maintained by an entity to enable preparation of the financial statements are collectively called the general ledger.
+
+Question- What is a general ledger?
+
+Answer-All the accounts maintained by an entity to enable preparation of the financial statements are collectively called the general ledger.
+
+143
+
+Passage-Each account has three basic parts: (1) a title, which should be descriptive of the nature of the items being recorded in the account; (2) a place for recording increases; and (3) a place for recording decreases. Also, accounts typically provide space for recording an account number, the date of the transaction and an explanation of the transaction. One format, called a T account
+
+Question-What is a T Account?
+Answer- Each account has three basic parts: (1) a title, which should be descriptive of the nature of the items being recorded in the account; (2) a place for recording increases; and (3) a place for recording decreases. Also, accounts typically provide space for recording an account number, the date of the transaction and an explanation of the transaction. One format, called a T account
+
+144
+Passage- A T account has a left-hand side, called the debit side, and a right-hand side, called the credit side. An account is debited when an amount is entered on the left-hand side and credited when an amount is entered on the right-hand side. These terms have come down to us from Latin origins through Luca Pacioli’s original work on accounting.
+Question-What do you mean by credit & debit system
+Answer-A T account has a left-hand side, called the debit side, and a right-hand side, called the credit side. An account is debited when an amount is entered on the left-hand side and credited when an amount is entered on the right-hand side. These terms have come down to us from Latin origins through Luca Pacioli’s original work on accounting.
+
+145
+
+Passage-Cash at bank -The Cash at Bank account is used to record deposits into and withdrawals from a bank account. This account is the bank account of the entity. Although an entity could have several accounts at the one bank and/or accounts at several banks, for simplicity in this book a single Cash at Bank account is used.
+Question-What is meant by Cash in bank?
+Answer- Cash at Bank account is used to record deposits into and withdrawals from a bank account. This account is the bank account of the entity. Although an entity could have several accounts at the one bank and/or accounts at several banks, for simplicity in this book a single Cash at Bank account is used
+
+146
+
+Passage-Accounts receivable -Accounts receivable are amounts owed to an entity by customers to whom the entity has provided goods or services on credit. An account receivable may be based on an oral agreement to pay, but is more commonly recognized when an invoice for goods sold or services rendered is issued. The Accounts Receivable account is often called the Trade Debtors account or simply Debtors.
+
+Question-What is meant by Accounts receivable?
+Answer- Accounts receivable are amounts owed to an entity by customers to whom the entity has provided goods or services on credit. An account receivable may be based on an oral agreement to pay, but is more commonly recognized when an invoice for goods sold or services rendered is issued. The Accounts Receivable account is often called the Trade Debtors account or simply Debtors.
+
+147
+Passage- Other receivables or debtors at the end of the period, the entity may have receivables resulting from a variety of other transactions. For example, cash advances may have been made to employees, deposits may have been made with another entity for goods or services to be received in the future, GST may be receivable from the ATO as a result of input tax credits (see the appendix to this chapter), and a tenant may owe the entity rent. An entity normally establishes an individual account for each type of debtor.
+Question- What is meant by other receivables?
+Answer- Other receivables or debtors at the end of the period, the entity may have receivables resulting from a variety of other transactions. For example, cash advances may have been made to employees, deposits may have been made with another entity for goods or services to be received in the future, GST may be receivable from the ATO as a result of input tax credits and a tenant may owe the entity rent. An entity normally establishes an individual account for each type of debtor.
+
+148
+
+Passage- Prepaid expenses are goods or services that have been paid for in advance but not yet received or used. At the time of payment, an asset is recorded and subsequently expensed as the asset is used to earn income. Included in this category are advance payments of rent and insurance premiums. Each type of prepaid expense may be recorded in a separate account, e.g. Prepaid Rent, Prepaid Insurance.
+Question-What is a prepaid expense?
+Answer- Prepaid expenses are goods or services that have been paid for in advance but not yet received or used. At the time of payment, an asset is recorded and subsequently expensed as the asset is used to earn income. Included in this category are advance payments of rent and insurance premiums. Each type of prepaid expense may be recorded in a separate account, e.g. Prepaid Rent, Prepaid Insurance.
+
+149
+
+Passage-  The Land account is used to record land controlled by the entity. Land is recorded in an account separate from any buildings on the land.
+Question-What is meant by the Land Account?
+Answer-The Land account is used to record land controlled by the entity. Land is recorded in an account separate from any buildings on the land.
+
+150
+
+Passage-The Buildings account is used to record buildings controlled by the entity.
+Question-What is the building Account?
+Answer- The Buildings account is used to record buildings controlled by the entity.
+
+151
+
+Passage- Plant and equipment Physical items used in the entity for a relatively long period of time are recorded in plant and equipment accounts. In general, these accounts include any item not permanently attached to land or buildings. The accounts are used to record acquisitions of delivery equipment, office furniture, computer equipment, factory equipment, machinery, motor vehicles, store and office fixtures, and store furniture. A separate account for each major type of equipment owned is usually established, e.g. Office Furniture, Store Furniture.
+Question-What is meant by the plant & equipment Account?
+Answer-- Plant and equipment Physical items used in the entity for a relatively long period of time are recorded in plant and equipment accounts. In general, these accounts include any item not permanently attached to land or buildings. The accounts are used to record acquisitions of delivery equipment, office furniture, computer equipment, factory equipment, machinery, motor vehicles, store and office fixtures, and store furniture. A separate account for each major type of equipment owned is usually established, e.g. Office Furniture, Store Furniture.
+
+152
+
+Passage-Accounts payable- An account payable is an obligation to pay an amount to an outside party — a creditor— for the purchase of goods, supplies or services on credit. The account is also commonly called Trade Creditors or simply Creditors.
+Question-What is meant by Accounts Payable?
+Answer- An account payable is an obligation to pay an amount to an outside party
+
+153
+
+Passage- a creditor— The purchase of goods, supplies or services on credit. The account is also commonly called Trade Creditors or simply Creditors.
+Question-Who is a creditor?
+Answer- The purchase of goods, supplies or services on credit. The account is also commonly called Trade Creditors or simply Creditors
+
+154
+
+Passage- Unearned income Cash received from customers for goods yet to be delivered or services yet to be performed is not reported as income because the entity has a liability to the customer until the goods are delivered or the services are performed.
+
+Question-What is unearned Income?
+Answer-Unearned income Cash received from customers for goods yet to be delivered or services yet to be performed is not reported as income because the entity has a liability to the customer until the goods are delivered or the services are performed.
+
+155
+Passage-Other current liabilities-At any given time, the entity may owe money to employees, the ATO, or other parties for services received. For example, many entities are required to collect GST on goods sold or services provided; a company may owe income tax; a telephone account may have been received for the quarter but not yet paid.
+Question- What is meant by other current Liabilities?
+Answer- At any given time, the entity may owe money to employees, the ATO, or other parties for services received. For example, many entities are required to collect GST on goods sold or services provided; a company may owe income tax; a telephone account may have been received for the quarter but not yet paid.
+
+156
+
+Passage- Mortgage payable This account is used to record a particular kind of liability for which the creditor has a claim secured by a mortgage deed against one or more of the entity’s assets. A secured claim means that if the entity is unable to pay the obligation when due, the creditor may force the sale of the assets pledged as security to recover the debt.
+Question- What is meant by Mortgage Payable account?
+Answer-This account is used to record a particular kind of liability for which the creditor has a claim secured by a mortgage deed against one or more of the entity’s assets. A secured claim means that if the entity is unable to pay the obligation when due, the creditor may force the sale of the assets pledged as security to recover the debt
+
+157
+
+Passage-Four main types of transactions affect the owner’s interest or equity in the entity: (1) investment of assets in the entity by the owner; (2) withdrawal of assets by the owner; (3) income earned; and (4) expenses incurred.
+Question-What are the 4 main types of transactions that affect the owner’s interest or equity in the entity?
+Answer- (1) investment of assets in the entity by the owner; (2) withdrawal of assets by the owner; (3) income earned; and (4) expenses incurred.
+
+158
+
+Passage-Capital Assets invested in the entity by the owner are recorded as an increase in assets and an increase in the capital account established in the name of the owner.
+Question-What are Capital Assets?
+Answer- Capital Assets invested in the entity by the owner are recorded as an increase in assets and an increase in the capital account established in the name of the owner.
+
+159
+
+Passage- Drawings or withdrawals The drawings account is used to record the withdrawal of assets, usually cash, from the entity by the owner. Thus, drawings are recorded as a reduction in both assets and equity
+Question-What is meant by Drawings/Withdrawals Account?
+Answer- The drawings account is used to record the withdrawal of assets, usually cash, from the entity by the owner. Thus, drawings are recorded as a reduction in both assets and equity.
+
+160
+
+Passage- Income represents increases in economic benefits during the period in the form of inflows or enhancements of assets or decreases in liabilities that result in increases in equity, other than contributions by the owners.
+Question-What is meant by Income?
+Answer-- Income represents increases in economic benefits during the period in the form of inflows or enhancements of assets or decreases in liabilities that result in increases in equity, other than contributions by the owners.
+
+161
+
+Passage-Revenue represents income which arises in the course of the ordinary activities of an entity.
+Such revenues commonly occur in the performance of services by service organizations or in the sale of
+merchandise by retail and wholesale entities.
+Question-What is meant by Revenue?
+Answer- Revenue represents income which arises in the course of the ordinary activities of an entity.
+Such revenues commonly occur in the performance of services by service organizations or in the sale of
+merchandise by retail and wholesale entities.
+
+162
+
+Passage- A gain represents income which does not usually arise from the ordinary activities of an entity
+Question-What is a gain?
+Answer-- A gain represents income which does not usually arise from the ordinary activities of an entity
+
+163
+
+Passage-An example is the gain from the sale of assets such as buildings or machinery which are used by the entity in carrying out its main activities.
+Question- Example of a gain?
+Answer- An example is the gain from the sale of assets such as buildings or machinery which are used by the entity in carrying out its main activities.
+
+164
+
+Passage-The cost of services and economic benefits consumed or lost or liabilities incurred during the period, other than a withdrawal of capital or profits by the owner, are called expenses
+Question-What is an Expense?
+Answer--The cost of services and economic benefits consumed or lost or liabilities incurred during the period, other than a withdrawal of capital or profits by the owner, are called expenses
+
+165
+
+Passage-When total income (revenues and gains) exceeds total expenses, the difference is called profit.
+Question-What is meant by Profit?
+Answer- When total income (revenues and gains) exceeds total expenses, the difference is called profit.
+
+166
+
+Passage- When total expenses exceed total income, the entity is said to incur a loss
+Question-What is a loss?
+Answer- When total expenses exceed total income, the entity is said to incur a loss
+
+167
+
+Passage- the collection of all the individual accounts for a particular business is referred to as a general ledger.
+Question-What is a general Ledger?
+Answer- the collection of all the individual accounts for a particular business is referred to as a general ledger.
+
+168
+
+Passage- A chart of accounts is a listing of the complete ledger account titles and their related numbers, and is maintained in both manual and computerized systems.
+Question- What is a chart of accounts?
+Answer-- A chart of accounts is a listing of the complete ledger account titles and their related numbers, and is maintained in both manual and computerized systems.
+
+
+169
+
+Passage-During each period, steps and procedures are followed to properly record all transactions, culminating in the preparation of financial statements. These steps and procedures are known as the accounting cycle.
+Question-What is an Accounting cycle?
+Answer- During each period, steps and procedures are followed to properly record all transactions, culminating in the preparation of financial statements. These steps and procedures are known as the accounting cycle.
+
+170
+
+Passage- Asset, liability and equity accounts are reported in the balance sheet; income and expense accounts are reported in the income statement
+Question-What is the difference between the balance sheet & the income statement?
+Answer-- Asset, liability and equity accounts are reported in the balance sheet; income and expense accounts are reported in the income statement
+
+171
+
+Passage-the left-hand side of a T account is called the debit side and the right-hand side is called the credit side.
+Question-What is the left-hand side of the T Account?
+Answer- the left-hand side of a T account is called the debit side
+
+172
+
+Passage-the left-hand side of a T account is called the debit side and the right-hand side is called the credit side.
+Question-What is the right-hand side of the T account?
+Answer- the right-hand side is called the credit side.
+
+173
+
+Passage- A journal entry involving more than two accounts is called a compound journal entry
+Question-What is a Compound Journal Entry?
+Answer- A journal entry involving more than two accounts is called a compound journal entry
+
+174
+
+Passage- The process of transferring amounts entered in the journal to the proper ledger accounts is called posting. The aim is to classify the effects of all transactions on each individual asset, liability, equity, income and expense account.
+Question-What is posting?
+Answer- The process of transferring amounts entered in the journal to the proper ledger accounts is called posting. The aim is to classify the effects of all transactions on each individual asset, liability, equity, income and expense account.
+
+175
+
+Passage- trial balance — a list of all of the accounts in the order in which they appear in the general ledger with their current balances.
+Question- What is a trial balance?
+Answer- A list of all of the accounts in the order in which they appear in the general ledger with their current balances.
+
+176
+
+Passage-If the debit and credit totals do not agree, errors exist in the ledger accounts. Two errors called transpositions and slides may have occurred in the posting process.
+Question-What are the 2 types of errors occurred in the posting process?
+Answer- Two errors called transpositions and slides may have occurred in the posting process.
+
+177
+
+Passage- The difference between accrual and cash accounting is that accrual accounting records transactions when they take place (for example, a purchase is made or a service is provided) rather than when cash changes hands
+Question-What is the difference between Accrual & Cash Accounting?
+Answer-- The difference between accrual and cash accounting is that accrual accounting records transactions when they take place (for example, a purchase is made or a service is provided) rather than when cash changes hands
+
+178
+
+Passage-The portion of a cost that is expected to provide economic benefits in a future period represents an unexpired cost and is reported as an asset in the balance sheet (also called the statement of financial position) at the end of the period.
+Question-What is an unexpired cost?
+Answer- The portion of a cost that is expected to provide economic benefits in a future period represents an unexpired cost and is reported as an asset in the balance sheet (also called the statement of financial position) at the end of the period.
+
+179
+
+Passage- The costs of assets that have been consumed during the current period are reported in the income statement as expenses called expired costs
+Question-What is an expired Asset?
+Answer-- The costs of assets that have been consumed during the current period are reported in the income statement as expenses called expired costs
+
+180
+
+Passage-financial statements are prepared on the assumption that the entity will
+continue to operate in the future, the going concern assumption unless there is evidence to the contrary. Going concern is the underlying basis for accrual accounting. If there were no need for periodic reports or if the entity were to liquidate in the near future, the cash basis would be satisfactory
+Question- What is meant by the going concern?
+Answer- financial statements are prepared on the assumption that the entity will
+continue to operate in the future, the going concern assumption unless there is evidence to the contrary. Going concern is the underlying basis for accrual accounting. If there were no need for periodic reports or if the entity were to liquidate in the near future, the cash basis would be satisfactory
+
+181
+
+Passage- Income statements are prepared for periods of equal length to enable statement users to make meaningful comparisons of current-period results with those of previous periods. To enable the preparation of the next period’s income statement, all income and expense accounts are reduced to a zero balance at the end of the accounting period , this process is  called closing the accounts- by transferring these account balances to an equity account.
+Question-What is meant by closing the accounts?
+Answer-- Income statements are prepared for periods of equal length to enable statement users to make meaningful comparisons of current-period results with those of previous periods. To enable the preparation of the next period’s income statement, all income and expense accounts are reduced to a zero balance at the end of the accounting period , this process is  called closing the accounts- by transferring these account balances to an equity account.
+
+182
+
+Passage-Because the income and expense accounts are reduced to a zero balance at the end of the accounting period, they are called temporary (or nominal) accounts
+
+Question- What is a temporary Account?
+Answer- the income and expense accounts are reduced to a zero balance at the end of the accounting period, they are called temporary
+183
+Passage- Accounts reported in the balance sheet are not closed; their ending balances of one period are carried forward and become the beginning balances of the next period. These accounts are called permanent (or real) accounts
+
+Question-What is meant by permanent Accounts?
+
+Answer- Accounts reported in the balance sheet are not closed; their ending balances of one period are carried forward and become the beginning balances of the next period. These accounts are called permanent (or real) accounts
+
+
+184
+
+Passage- Under the cash basis of accounting, income (including revenues) is recorded in the period in which cash is received and expenses are recorded in the period in which cash is paid.
+
+Question- How is income recorded under Cash Basis of Accounting?
+Answer- Under the cash basis of accounting, income (including revenues) is recorded in the period in which cash is received and expenses are recorded in the period in which cash is paid.
+
+185
+Passage-Under the accrual basis of accounting, income (including revenues) is recognized in the period in which the expected inflow of economic benefits can be measured reliably; expenses are recognized when the consumption of goods or services is capable of reliable measurement.
+
+Question- How is income recorded under the Accrual Basis of Accounting?
+
+Answer--Under the accrual basis of accounting, income (including revenues) is recognized in the period in which the expected inflow of economic benefits can be measured reliably; expenses are recognized when the consumption of goods or services is capable of reliable measurement.
+
+186
+
+Passage-The adjusting process involves an analysis of the accounts and supporting documents to determine whether entries are needed to adjust account balances to their proper amounts for financial statement purposes. Once this analysis is completed, adjusting entries are entered in the journal and posted to the accounts.
+Question- What does the Adjusting Process involve?
+Answer- The adjusting process involves an analysis of the accounts and supporting documents to determine whether entries are needed to adjust account balances to their proper amounts for financial statement purposes. Once this analysis is completed, adjusting entries are entered in the journal and posted to the accounts.
+
+187
+
+Passage- Adjusting entries are needed because in some cases the period in which the cash is paid or received does not coincide with the period in which the expense or income should be recognized.
+Question-Why are Adjusting Entries needed?
+Answer- Adjusting entries are needed because in some cases the period in which the cash is paid or received does not coincide with the period in which the expense or income should be recognized.
+
+188
+
+Passage- Adjusting entries are classified into two major categories, deferrals and accruals
+
+Question-What are the 2 Major categories of Adjusting Entries?
+Answer-, deferrals and accruals
+189
+Passage-Deferrals are expenses paid in advance (called ‘prepaid expenses’) or revenues received in advance (called ‘unearned revenues’) which need to be allocated over future accounting periods
+
+Question-What is a deferral?
+Answer-Deferrals are expenses paid in advance (called ‘prepaid expenses’) or revenues received in advance (called ‘unearned revenues’) which need to be allocated over future accounting periods
+
+190
+Passage-Accruals are the recognition of expenses incurred but not yet paid for (called ‘accrued expenses’) or the recognition of revenue earned but for which cash has not yet been received (called ‘accrued revenues’).
+
+Question-What is an Accrual?
+Answer- Accruals are the recognition of expenses incurred but not yet paid for (called ‘accrued expenses’) or the recognition of revenue earned but for which cash has not yet been received (called ‘accrued revenues’).
+191
+
+Passage-Useful life is the estimated amount of time over which the asset is expected to be consumed by the entity.
+Question-What is meant by Useful life?
+Answer-Useful life is the estimated amount of time over which the asset is expected to be consumed by the entity.
+
+192
+
+Passage-The balance in the Accumulated Depreciation account reflects the portion of the cost that has been assigned to expense and accumulated since the item was purchased.
+Question-What is accumulated Depreciation?
+Answer- The balance in the Accumulated Depreciation account reflects the portion of the cost that has been assigned to expense and accumulated since the item was purchased.
+
+193
+Passage- Accumulated Depreciation account is called a contra account.
+Question-What is the contra Account?
+Answer- Accumulated Depreciation account is called a contra account.
+
+194
+
+Passage-adjusted trial balance, and it seeks to verify the equality of debits and credits in the accounts after posting the adjusting entries.
+Question-What is an Adjusted Trial Balance?
+Answer- adjusted trial balance seeks to verify the equality of debits and credits in the accounts after posting the adjusting entries.
+
+195
+
+Passage- Current assets are cash and other types of assets that are held primarily for the purpose of sale or trading, or are reasonably expected to be converted to cash, sold or consumed by a business within its next operating cycle, or are expected to be realized within 12 months after the end of the
+Entity’s reporting period.
+Question- What is a current Asset?
+Answer- Current assets are cash and other types of assets that are held primarily for the purpose of sale or trading, or are reasonably expected to be converted to cash, sold or consumed by a business within its next operating cycle, or are expected to be realized within 12 months after the end of the
+Entity’s reporting period.
+
+196
+
+Passage- Current assets are expected to be used up within 12 months.
+Question-What is the time span of a current Asset?
+Answer- Current assets are expected to be used up within 12 months.
+
+
+197
+
+Passage-Non-current assets are expected to provide benefits for more than 12 months.
+Question-What is the time span of a non-current asset?
+Answer--Non-current assets are expected to provide benefits for more than 12 months.
+
+198
+Passage-Current liabilities are expected to be settled within 12 months.
+Question-What is the time span of a current liability?
+Answer- Current liabilities are expected to be settled within 12 months.
+
+199
+Passage-Non-current liabilities are expected to take longer than 12 months to settle.
+Question-What is the time span of a non-current liability?
+Answer- Non-current liabilities are expected to take longer than 12 months to settle.
+
+200
+Passage- adding or subtracting across the worksheet horizontally — is called Crossadding. The crossadding must be done very carefully because it is easy to make an error.
+Question-What is Crossadding?
+Answer- adding or subtracting across the worksheet horizontally — is called Crossadding. The crossadding must be done very carefully because it is easy to make an error.
+
+201
+
+Passage- A worksheet is a useful device for gathering and organizing the information needed to complete the financial statements and to close off the income and expense accounts (temporary accounts) at the end of the period.
+Question-Why is a worksheet Useful?
+Answer-- A worksheet is a useful device for gathering and organizing the information needed to complete the financial statements and to close off the income and expense accounts (temporary accounts) at the end of the period.
+
+202
+
+Passage-The final output from the accounting cycle is the financial statements
+Question-What is the final output from the Accounting Cycle?
+Answer- The final output from the accounting cycle is the financial statements
+
+203
+
+Passage- The financial statements can be analyzed to assess an entity’s profitability, possible expansion, solvency, working capital and long-term borrowings, and thus provide information for decision making
+Question-Financial  statements are analyzed for what purpose?
+Answer- The financial statements can be analyzed to assess an entity’s profitability, possible expansion, solvency, working capital and long-term borrowings, and thus provide information for decision making
+
+204
+
+Passage- The difference between the original cost of the asset and its accumulated depreciation is called the carrying amount
+Question-What is a carrying amount?
+Answer- The difference between the original cost of the asset and its accumulated depreciation is called the carrying amount
+
+205
+
+Passage- Adjusting entries are needed for accruals to recognize revenue in the period when it is earned but not recorded and an expense in the period in which it is consumed but not recorded.
+Question-Why are Adjusting entries needed?
+Answer- Adjusting entries are needed for accruals to recognize revenue in the period when it is earned but not recorded and an expense in the period in which it is consumed but not recorded.
+
+206
+
+Passage- a new temporary account called the Profit or Loss Summary account is established to summarize the balances in the income and expense accounts and to calculate profit (loss).  This is the only time in the accounting process that this account is used.
+Question-what is a profit or loss summary account?
+Answer-- a new temporary account called the Profit or Loss Summary account is established to summarize the balances in the income and expense accounts and to calculate profit (loss).  This is the only time in the accounting process that this account is used.
+
+207
+
+Passage-The balance in each income account is transferred to the Profit or Loss Summary account. The balance in each expense account is transferred to the Profit or Loss Summary account. The balance in the Profit or Loss Summary account is transferred to the Capital account. The Drawings account is transferred to the Capital account.
+Question-How are closing entries made?
+Answer- The balance in each income account is transferred to the Profit or Loss Summary account. The balance in each expense account is transferred to the Profit or Loss Summary account. The balance in the Profit or Loss Summary account is transferred to the Capital account. The Drawings account is transferred to the Capital account.
+
+208
+
+Passage- Income and expense accounts (temporary accounts) are closed at the end of the accounting period by transferring their balances to a Profit or Loss Summary account in order to calculate profit. Journal entries to close the temporary accounts are called closing entries.
+Question-What is a closing account?
+Answer- Income and expense accounts (temporary accounts) are closed at the end of the accounting period by transferring their balances to a Profit or Loss Summary account in order to calculate profit. Journal entries to close the temporary accounts are called closing entries.
+
+209
+
+Passage- The balances in the Profit or Loss Summary account and the Drawings account are transferred to the Capital account.
+Question-Where are the balances of the Profit or loss summary & drawing account transferred to?
+Answer- The balances in the Profit or Loss Summary account and the Drawings account are transferred to the Capital account.
+
+210
+
+Passage- It is common practice for an entity to prepare monthly financial statements for use by managers, and most large entities are required to issue quarterly and/or half-yearly statements to external statement users. Such statements are called interim statements.
+Question-What is an interim statement?
+Answer-- It is common practice for an entity to prepare monthly financial statements for use by managers, and most large entities are required to issue quarterly and/or half-yearly statements to external statement users. Such statements are called interim statements.
+
+211
+
+Passage-After the closing entries have been posted, it is desirable to prepare a post-closing trial balance to verify the equality of debits and credits in the general ledger, and confirm that the ledger is ‘in balance’. At this point, only the permanent accounts will have balances. It is these balances that are then used to prepare the end-of-period post-closing trial balance and the balance sheet. These balances are also the starting point for the next accounting period.
+Question-What is a post - closing trial balance?
+Answer- After the closing entries have been posted, it is desirable to prepare a post-closing trial balance to verify the equality of debits and credits in the general ledger, and confirm that the ledger is ‘in balance’. At this point, only the permanent accounts will have balances. It is these balances that are then used to prepare the end-of-period post-closing trial balance and the balance sheet. These balances are also the starting point for the next accounting period.
+
+212
+
+Passage- An income account normally contains a credit balance, so to close the account an offsetting credit is made to the Profit or Loss Summary account, and the income accounts are debited.
+Question-what happens when you close an income account?
+Answer-- An income account normally contains a credit balance, so to close the account an offsetting credit is made to the Profit or Loss Summary account, and the income accounts are debited.
+
+213
+
+Passage-Expense accounts normally have debit balances, so to close these accounts the Profit or Loss Summary account is debited for the sum of all balances, and each expense account is credited.
+Question-What happens to the Expense account when closing?
+Answer- Expense accounts normally have debit balances, so to close these accounts the Profit or Loss Summary account is debited for the sum of all balances, and each expense account is credited.
+
+214
+
+Passage- If income exceeds expenses, the Profit or Loss Summary account contains a credit balance, indicating a profit. (A debit balance indicates a loss.) This balance is then transferred to the Capital account.
+Question-What happens to the capital account when income exceeds expenses?
+Answer-If income exceeds expenses, the Profit or Loss Summary account contains a credit balance, indicating a profit. (A debit balance indicates a loss.) This balance is then transferred to the Capital account.
+
+215
+
+Passage-The post-closing trial balance lists the balances in all permanent accounts.
+Question-What is the main function of the post-closing trial balance?
+Answer- The post-closing trial balance lists the balances in all permanent accounts.
+
+216
+
+Passage- An alternative approach to the treatment of accrual entries in subsequent periods, as discussed in the previous section, is the preparation of reversing entries. This involves adding another step to the accounting cycle after the closing entries have been posted to the ledger.
+Question- What is a reversing entry?
+Answer-- An alternative approach to the treatment of accrual entries in subsequent periods, as discussed in the previous section, is the preparation of reversing entries. This involves adding another step to the accounting cycle after the closing entries have been posted to the ledger.
+
+217
+
+Passage-In accounting for a partnership, separate Capital and Drawings accounts are maintained for each partner as a minimum. Any investment by a partner is credited to his or her Capital account, and a withdrawal of cash or other assets from the partnership is debited to his or her Drawings account. Any salary paid to a partner is normally regarded as drawings by that partner. At the end of the accounting period, the Profit or Loss Summary account is closed by the balance, i.e. profit (loss), being allocated to each partner’s Capital account in accordance with the partners’ profit and loss sharing agreement. Each Drawings account is also closed to the appropriate Capital accounts so that the total of each partner’s equity at the end of the period represents his or her capital contribution plus share of the profits as retained by him or her in the business.
+Question-How does accounting for a partnership work?
+Answer- In accounting for a partnership, separate Capital and Drawings accounts are maintained for each partner as a minimum. Any investment by a partner is credited to his or her Capital account, and a withdrawal of cash or other assets from the partnership is debited to his or her Drawings account. Any salary paid to a partner is normally regarded as drawings by that partner. At the end of the accounting period, the Profit or Loss Summary account is closed by the balance, i.e. profit (loss), being allocated to each partner’s Capital account in accordance with the partners’ profit and loss sharing agreement. Each Drawings account is also closed to the appropriate Capital accounts so that the total of each partner’s equity at the end of the period represents his or her capital contribution plus share of the profits as retained by him or her in the business.
+
+218
+
+Passage- The owners of a company are called shareholders because their ownership interests are represented by shares held in the company. The equity section of a company balance sheet (statement of financial position) is separated into two main account categories: (1) share capital, which represents the amount of assets invested in the company by the shareholders, and (2) retained earnings (or accumulated losses), which reflect the accumulated profits (or losses) earned by the company and retained in the business.
+Question-How does accounting for Companies work?
+Answer- The owners of a company are called shareholders because their ownership interests are represented by shares held in the company. The equity section of a company balance sheet (statement of financial position) is separated into two main account categories: (1) share capital, which represents the amount of assets invested in the company by the shareholders, and (2) retained earnings (or accumulated losses), which reflect the accumulated profits (or losses) earned by the company and retained in the business.
+
+219
+
+Passage-Just as the owner of a single proprietorship may periodically withdraw cash from the business in anticipation of profits, cash distributions called dividends may be made to the owners of a company. However, before a dividend can be paid, it must be ‘declared
+Question-What is dividends?
+Answer-Just as the owner of a single proprietorship may periodically withdraw cash from the business in anticipation of profits, cash distributions called dividends may be made to the owners of a company. However, before a dividend can be paid, it must be ‘declared.
+
+220
+
+Passage-Unlike sole trader and partnership businesses, companies are separate taxable entities and must file tax returns and pay tax.
+Question-how does Sole traders & partnerships get taxed?
+Answer--Unlike sole trader and partnership businesses, companies are separate taxable entities and must file tax returns and pay tax.
+
+221
+
+Passage-Manufacturing businesses purchase raw materials and component parts for conversion into finished products for sale.
+Question-What is a manufacturing Business?
+Answer- Manufacturing businesses purchase raw materials and component parts for conversion into finished products for sale.
+
+222
+
+Passage- Retailing businesses, which often distribute at both the wholesale and retail levels, purchase goods that are in a form ready to be sold to their customers
+Question-What is a retain business?
+Answer-- Retailing businesses, which often distribute at both the wholesale and retail levels, purchase goods that are in a form ready to be sold to their customers
+
+223
+
+Passage-Wholesale businesses normally buy commodities in bulk from manufacturers/producers and then distribute in smaller lots or units to retail businesses, which in turn sell to the final consumer.
+Question-What is a wholesale business?
+Answer- Wholesale businesses normally buy commodities in bulk from manufacturers/producers and then distribute in smaller lots or units to retail businesses, which in turn sell to the final consumer.
+
+224
+
+Passage- Inventory is the term used in retail operations to refer to goods or property purchased and held for sale in the operating cycle of the business.
+Question-What is meant by inventory in accounting?
+Answer-Inventory is the term used in retail operations to refer to goods or property purchased and held for sale in the operating cycle of the business.
+225
+
+Passage-Income (revenue) is the first item reported in both cases, but for a retail business the most important revenue is sales.
+Question-What is a sale?
+Answer--Income (revenue) is the first item reported in both cases, but for a retail business the most important revenue is sales.
+
+226
+
+Passage-A major difference is the inclusion of the cost of sales, which shows the total cost of the inventory that was sold during the period. The cost of sales is subtracted from net sales revenue to arrive at an intermediate amount called gross profit (or gross margin) on sales.
+Question-What is gross profit?
+Answer- A major difference is the inclusion of the cost of sales, which shows the total cost of the inventory that was sold during the period. The cost of sales is subtracted from net sales revenue to arrive at an intermediate amount called gross profit (or gross margin) on sales.
+
+227
+
+Passage- Selling and distribution expenses result from efforts to sell the inventory and include storage costs, advertising, sales salaries and commissions, and the cost of delivering goods to customers.
+Question-What are Selling & distribution expenses?
+Answer- Selling and distribution expenses result from efforts to sell the inventory and include storage costs, advertising, sales salaries and commissions, and the cost of delivering goods to customers.
+
+228
+
+Passage- Administrative expenses are expenses associated with operating the general office, accounting systems and personnel.
+Question-What are Administrative expenses?
+Answer- Administrative expenses are expenses associated with operating the general office, accounting systems and personnel.
+
+229
+
+Passage- finance expenses, represents expenses of financing the business’s operations, collecting debts and running the credit department, e.g. interest, bad debts, and cash discounts allowed for prompt payment by debtors
+Question- What are Finance expenses?
+Answer-- finance expenses, represents expenses of financing the business’s operations, collecting debts and running the credit department, e.g. interest, bad debts, and cash discounts allowed for prompt payment by debtors
+
+230
+Passage-Expenses for a retail business include selling and distribution expenses, administrative expenses, and finance and other expenses.
+Question-What are the 4 types of Expenses?
+Answer-Expenses for a retail business include selling and distribution expenses, administrative expenses, and finance and other expenses.
+
+231
+
+Passage-When goods sold are later returned by the customer, or an allowance is given, it is a legislative requirement for the seller to give the customer an adjustment note detailing amendments to the GST amount for all adjustments totaling more than $50.
+Question-What is an Adjustment note?
+Answer- When goods sold are later returned by the customer, or an allowance is given, it is a legislative requirement for the seller to give the customer an adjustment note detailing amendments to the GST amount for all adjustments totaling more than $50.
+
+232
+
+Passage- Sales returns and allowances are subtracted from sales in the income statement in order to show net sales revenue
+Question-How is Sales return and allowances subjected in the income statement?
+Answer- Sales returns and allowances are subtracted from sales in the income statement in order to show net sales revenue
+
+233
+
+Passage- The parties involved in an inventory transaction may agree that payment is to be made immediately on transfer of the goods as in a cash sale, or payment may be delayed for some specific length of time called the credit period.
+Question-What is a credit period?
+Answer-- The parties involved in an inventory transaction may agree that payment is to be made immediately on transfer of the goods as in a cash sale, or payment may be delayed for some specific length of time called the credit period.
+
+234
+
+Passage-When inventory is sold on credit, the terms of payment, called the credit terms, agreed to by the buyer and seller should be clear about the amount due and the credit period.
+Question-What is meant by a credit period?
+Answer- When inventory is sold on credit, the terms of payment, called the credit terms, agreed to by the buyer and seller should be clear about the amount due and the credit period.
+
+235
+
+Passage- To provide an incentive for the buyer to make payment before the end of the credit period, the seller may grant a cash discount called discount allowed by the seller and discount received by the buyer.
+Question-What is a cash discount/discount allowed?
+Answer-To provide an incentive for the buyer to make payment before the end of the credit period, the seller may grant a cash discount called discount allowed by the seller
+
+236
+
+Passage- To provide an incentive for the buyer to make payment before the end of the credit period, the seller may grant a cash discount called discount allowed by the seller and discount received by the buyer.
+Question-What is discount received?
+Answer-- To provide an incentive for the buyer to make payment before the end of the credit period, the seller may grant a cash discount called discount allowed by the seller and discount received by the buyer.
+
+237
+
+Passage- To provide an incentive for the buyer to make payment before the end of the credit period, the seller may grant a cash discount called discount allowed by the seller and discount received by the buyer.
+Question-How does buyers get persuaded to buy before the end of the credit period?
+Answer- grant a cash discount called discount allowed by the seller and discount received by the buyer.
+
+238
+
+Passage- A cash discount entitles the buyer to deduct a specified percentage of the sales price if payment is made within a given time span, the discount period.
+Question-What is a discount period?
+Answer- A cash discount entitles the buyer to deduct a specified percentage of the sales price if payment is made within a given time span, the discount period.
+
+239
+
+Passage- trade discount is a percentage reduction granted to a customer from the normal list price. In contrast to a cash discount, a trade discount is not related to early payment but is used in determining the actual invoice price to the customer.
+Question-What is a trade Discount?
+Answer- trade discount is a percentage reduction granted to a customer from the normal list price. In contrast to a cash discount, a trade discount is not related to early payment but is used in determining the actual invoice price to the customer.
+
+240
+
+Passage- The freight term EXW means that the buyer of the goods pays the freight costs, and the term DDP means that the seller pays for the delivery of the goods to the buyer.
+Question-What does the freight term EXW mean?
+Answer-- The freight term EXW means that the buyer of the goods pays the freight costs, and the term DDP means that the seller pays for the delivery of the goods to the buyer.
+241
+
+Passage-A perpetual inventory system involves keeping a current and continuous record of all inventory transactions on a separate computer record or inventory card for each type of inventory item held. Each record shows the quantity, unit cost and total cost for each purchase and each sale, and the inventory balance
+Question-What is a perpetual inventory system?
+Answer--A perpetual inventory system involves keeping a current and continuous record of all inventory transactions on a separate computer record or inventory card for each type of inventory item held. Each record shows the quantity, unit cost and total cost for each purchase and each sale, and the inventory balance
+
+242
+
+Passage-A physical inventory count involves (1) counting all inventory units on hand, (2) determining the unit cost of items in stock from purchase invoices, and (3) multiplying unit cost by units of inventory to determine the total cost of inventory
+Question-What does a physical inventory count involve?
+Answer--A physical inventory count involves (1) counting all inventory units on hand, (2) determining the unit cost of items in stock from purchase invoices, and (3) multiplying unit cost by units of inventory to determine the total cost of inventory
+
+243
+
+Passage-Net sales revenue = Sales revenue − Sales returns and allowances − Discount allowed
+Question-What is the accounting formula for Net sales revenue?
+Answer- Net sales revenue = Sales revenue − Sales returns and allowances − Discount allowed
+
+244
+
+Passage- Gross profit = Net sales revenue − Cost of sales
+Question-What is the accounting formula for gross profit?
+Answer- Gross profit = Net sales revenue − Cost of sales
+
+245
+
+Passage-Cost of sales = Cost of beginning inventory + Cost of net purchases − Cost of ending inventory
+Question-What is the Accounting formula for cost of sales?
+ Answer- Cost of sales = Cost of beginning inventory + Cost of net purchases − Cost of ending inventory
+
+246
+
+Passage- Cost of net purchases = Cost of purchases + Freight inwards − Purchases returns and allowances −Discount received
+Question-What is the accounting formula for Cost of net purchases?
+Answer- Cost of net purchases = Cost of purchases + Freight inwards − Purchases returns and allowances −Discount received
+
+247
+
+Passage-In a periodic inventory system, the ending inventory is determined by a physical count at the end of them period and the cost of sales is equal to the beginning inventory plus net purchases less ending inventory.
+Question-What is the difference between perpetual & periodic inventory system?
+Answer- In a periodic inventory system, the ending inventory is determined by a physical count at the end of them period and the cost of sales is equal to the beginning inventory plus net purchases less ending inventory.
+
+248
+
+Passage- The worksheet prepared under a perpetual inventory system is identical to that prepared under the periodic inventory system except for the disclosure of cost of sales components. Whereas the perpetual worksheet shows cost of sales and closing inventory only as separate line items, the periodic worksheet shows both opening and closing inventories, together with separate line items for purchases and purchases returns.
+Question-Difference between the worksheets of perpetual inventory system &  periodic inventory system?
+Answer-- The worksheet prepared under a perpetual inventory system is identical to that prepared under the periodic inventory system except for the disclosure of cost of sales components. Whereas the perpetual worksheet shows cost of sales and closing inventory only as separate line items, the periodic worksheet shows both opening and closing inventories, together with separate line items for purchases and purchases returns.
+
+249
+
+Passage-The general journal closing entries are the same under both systems of inventory, except for the treatment of beginning and ending inventory accounts, and the accounts necessary for determining cost of sales.
+Question - What are the General journal closing entry differences?
+Answer- The general journal closing entries are the same under both systems of inventory, except for the treatment of beginning and ending inventory accounts, and the accounts necessary for determining cost of sales.
+
+250
+
+Passage- An income statement for a retail business using the periodic inventory system includes a detailed cost of-sales section, whereas under the perpetual inventory system cost of sales is shown on one line.
+Question-What is the nature of the income statements In a retail business?
+Answer-An income statement for a retail business using the periodic inventory system includes a detailed cost of-sales section, whereas under the perpetual inventory system cost of sales is shown on one line.
+
+251
+
+Passage-The gross profit ratio expresses gross profit as a percentage of net sales, and represents the portion of the sales dollar that is reflected in gross profit.
+Question-What is the gross profit ratio?
+Answer- The gross profit ratio expresses gross profit as a percentage of net sales, and represents the portion of the sales dollar that is reflected in gross profit.
+
+252
+
+Passage- Expenses to sales ratio reflects the portion of each sales dollar that is needed to meet the entity’s expenses other than cost of sales.
+Question-What is the expense to sales ratio?
+Answer- Expenses to sales ratio reflects the portion of each sales dollar that is needed to meet the entity’s expenses other than cost of sales
+
+253
+
+Passage- This ratio indicates the number of times average inventory has been sold during a period
+Question-What is inventory turnover?
+Answer- This ratio indicates the number of times average inventory has been sold during a period
+
+254
+
+Passage- The profitability of a retail business can be analyzed over time using ratios to ascertain trends
+Question-How can a profitability of a retail business be analyzed?
+Answer- The profitability of a retail business can be analyzed over time using ratios to ascertain trends
+
+255
+
+Passage- The gross profit ratio expresses gross profit as a percentage of net sales; the profit margin ratio expresses profit as a proportion of net sales; the expenses to sales ratio shows how much of each sales dollar is needed to meet expenses; the inventory turnover ratio indicates how many times average inventory has been sold during a period.
+Question-What are the types of ratio’s & its functions?
+Answer- The gross profit ratio expresses gross profit as a percentage of net sales; the profit margin ratio expresses profit as a proportion of net sales; the expenses to sales ratio shows how much of each sales dollar is needed to meet expenses; the inventory turnover ratio indicates how many times average inventory has been sold during a period.
+
+256
+
+Passage- Data are recorded facts
+Question-What is Data?
+Answer-- Data are recorded facts
+
+257
+
+Passage-information is data that have been processed in some prescribed manner so as to be more useful to a potential user. For example, sales data are collected chronologically on invoices, processed through the accounting system, and reported as sales information (revenue) in the income statement
+Question-What is information?
+Answer- information is data that have been processed in some prescribed manner so as to be more useful to a potential user. For example, sales data are collected chronologically on invoices, processed through the accounting system, and reported as sales information (revenue) in the income statement
+
+258
+
+Passage- The installation and/or revision of an accounting system consists of three phases: (1) systems analysis, (2) systems design, and (3) systems implementation and review.
+Question-What are the 3 phases of the accounting system?
+Answer-(1) systems analysis, (2) systems design, and (3) systems implementation and review.
+
+259
+
+Passage-The objective of the systems analysis phase is to gather facts that provide a thorough understanding of a business’s information requirements and the sources of information.
+Question-What is the objective of the system analysis phase?
+Answer- The objective of the systems analysis phase is to gather facts that provide a thorough understanding of a business’s information requirements and the sources of information.
+
+260
+
+Passage- The design must include a consideration of the personnel required to operate the system, the source documents needed to record transactions, the accounting records and procedures to be used to process data, job descriptions for personnel, the reports to be prepared for interested parties and any automated features of the system. The basic concern in the design phase is to develop an accounting system with the most efficient flow of information, given the funds committed to the system and the information requirements involved. A fundamental part of the design phase is the development of reliable internal control
+Question- What is included in system design phase?
+Answer-- The design must include a consideration of the personnel required to operate the system, the source documents needed to record transactions, the accounting records and procedures to be used to process data, job descriptions for personnel, the reports to be prepared for interested parties and any automated features of the system. The basic concern in the design phase is to develop an accounting system with the most efficient flow of information, given the funds committed to the system and the information requirements involved. A fundamental part of the design phase is the development of reliable internal control
+
+261
+
+Passage-Systems implementation and review is the final phase in the development or revision of an accounting system. This step involves the implementation of the decisions made during the design phase. The source documents, records and equipment chosen must be purchased. The personnel needed to operate the system must be selected, trained and supervised closely to ensure that they understand how the system should function. An accounting manual should be prepared as a formalized description of the procedures required to transform economic data into useful information.
+Question-What is included in the system implementation & review phase?
+Answer- Systems implementation and review is the final phase in the development or revision of an accounting system. This step involves the implementation of the decisions made during the design phase. The source documents, records and equipment chosen must be purchased. The personnel needed to operate the system must be selected, trained and supervised closely to ensure that they understand how the system should function. An accounting manual should be prepared as a formalized description of the procedures required to transform economic data into useful information.
+
+262
+
+Passage-The operation of an accounting system has three basic phases: input, processing and output
+Question- What are the operation of an accounting system?
+Answer- input, processing and output
+
+263
+
+Passage- An accounting system is a collection of source documents, records, procedures, management policies and data processing methods used to transform data about economic transactions and events into information useful for decision making. Accounting systems range from simple manual systems to sophisticated computerized systems.
+Question- what is an accounting system?
+Answer- An accounting system is a collection of source documents, records, procedures, management policies and data processing methods used to transform data about economic transactions and events into information useful for decision making. Accounting systems range from simple manual systems to sophisticated computerized systems.
+
+264
+
+Passage- Data are recorded facts
+Question-What is data?
+Answer-Data are recorded facts
+
+265
+
+Passage-information is data that have been processed in some prescribed manner so as to be more useful to a potential user. For example, sales data are collected chronologically on invoices, processed through the accounting system, and reported as sales information (revenue) in the income statement.
+Question- What is information?
+Answer--information is data that have been processed in some prescribed manner so as to be more useful to a potential user. For example, sales data are collected chronologically on invoices, processed through the accounting system, and reported as sales information (revenue) in the income statement.
+
+266
+
+Passage-An accounting system must be compatible with the organizational and personnel characteristics of the business. The system should be appropriate to the size and nature of the business operations, e.g. the system used by a mining company would not be compatible with the system requirements of a small service partnership, nor would the accounting system used by JB Hi-Fi Limited be appropriate for a small retail operation. Similarly, a system used by a single-product local business would not be appropriate for
+a multiproduct business operating interstate and/or overseas
+Question- Why should an accounting system be compatible with the Organizations characteristics?
+Answer--An accounting system must be compatible with the organizational and personnel characteristics of the business. The system should be appropriate to the size and nature of the business operations, e.g. the system used by a mining company would not be compatible with the system requirements of a small service partnership, nor would the accounting system used by JB Hi-Fi Limited be appropriate for a small retail operation. Similarly, a system used by a single-product local business would not be appropriate for a multiproduct business operating interstate and/or overseas
+
+267
+
+Passage-An accounting system must have adequate controls built into the system. The system must provide mechanisms for the protection of the assets of the business and ensure that information provided by the system is timely, reliable and relevant to the decision making needs of management and external users
+Question-How should the accounting system have internal control?
+Answer-An accounting system must have adequate controls built into the system. The system must provide mechanisms for the protection of the assets of the business and ensure that information provided by the system is timely, reliable and relevant to the decision making needs of management and external users
+
+268
+
+Passage-Four important considerations in establishing an accounting system are cost versus benefits, compatibility with the organization and personnel of the business, flexibility to adapt to expansion and changes in the business, and an effective system of internal control.
+Question- What are the 4 important considerations in establishing an accounting system?
+Answer- Four important considerations in establishing an accounting system are cost versus benefits, compatibility with the organization and personnel of the business, flexibility to adapt to expansion and changes in the business, and an effective system of internal control.
+
+269
+
+Passage- Administrative controls are those established to provide operational efficiency and adherence to prescribed policies, such as a written directive identifying the standards to be followed in hiring new employees, manuals identifying purchasing and sales procedures, and various performance
+reports required from employees.
+Question- What is meant by Administrative control?
+Answer- Administrative controls are those established to provide operational efficiency and adherence to prescribed policies, such as a written directive identifying the standards to be followed in hiring new employees, manuals identifying purchasing and sales procedures, and various performance
+reports required from employees.
+
+270
+Passage- Accounting controls are the methods and procedures used to protect assets and ensure the reliability of accounting records, such as procedures for the authorization of transactions and the separation of record-keeping duties from custodianship of the entity’s assets.
+Question- What is meant by Accounting control?
+Answer-Accounting controls are the methods and procedures used to protect assets and ensure the reliability of accounting records, such as procedures for the authorization of transactions and the separation of record-keeping duties from custodianship of the entity’s assets.
+
+271
+
+Passage-Limitations of internal control systems include high costs, breakdown of systems, employee collusion and computer fraud.
+Question-What are the limitation of internal control?
+Answer-Limitations of internal control systems include high costs, breakdown of systems, employee collusion and computer fraud.
+
+272
+
+Passage-Subsidiary ledgers record detailed information in accounts outside the general ledger
+Question-What does Subsidiary Ledgers record?
+Answer- Subsidiary ledgers record detailed information in accounts outside the general ledger
+
+273
+
+Passage- The purchases journal can be set up as either a single-purpose or a multipurpose journal. In either case, the purchases of inventory must be recorded separately from the acquisition of other assets
+Question-What is a purchase journal?
+Answer- The purchases journal can be set up as either a single-purpose or a multipurpose journal. In either case, the purchases of inventory must be recorded separately from the acquisition of other assets
+
+274
+
+Passage-The cash receipts journal is used to record all transactions involving the receipt of all forms of cash (a debit to Cash at Bank).Typical sources of cash are the sale of goods for cash, the collection of accounts receivable, capital invested by owners, and borrowings.
+Question- What is a cash receipt?
+Answer- The cash receipts journal is used to record all transactions involving the receipt of all forms of cash (a debit to Cash at Bank).Typical sources of cash are the sale of goods for cash, the collection of accounts receivable, capital invested by owners, and borrowings.
+
+275
+
+Passage- Four widely used special journals are the sales journal, the purchases journal, the cash receipts journal and the cash payments journal.
+Question-What are the 4 widely used journals?
+Answer-Four widely used special journals are the sales journal, the purchases journal, the cash receipts journal and the cash payments journal.
+
+276
+
+Passage-An abnormal balance in an account is one that differs from that normally expected, e.g. a credit balance in an account receivable
+Question- What is an Abnormal balance?
+Answer--An abnormal balance in an account is one that differs from that normally expected, e.g. a credit balance in an account receivable
+
+277
+
+Passage-An electronic spreadsheet is a grid of cells formed by the intersection of rows and columns into which data and formulas are entered. The spreadsheet can be used to analyze business data and solve everyday business problems. The spreadsheet market is dominated by Excel.
+Question-What is an electronic spreadsheet?
+Answer--An electronic spreadsheet is a grid of cells formed by the intersection of rows and columns into which data and formulas are entered. The spreadsheet can be used to analyze business data and solve everyday business problems. The spreadsheet market is dominated by Excel
+
+278
+
+Passage-General ledger software, such as MYOB, consists of integrated modular programs covering the major functional areas of accounting. The modules provide input to the general ledger module, which is central to all packages. General ledger integrated software includes inputting data from source documents (such as invoices, bank statements and receiving reports), processing that data via the various modules (such as sales, banking and inventory), and outputting information in the form of special or general reports.
+Question- What is the functionality of the general ledger?
+Answer- General ledger software, such as MYOB, consists of integrated modular programs covering the major functional areas of accounting. The modules provide input to the general ledger module, which is central to all packages. General ledger integrated software includes inputting data from source documents (such as invoices, bank statements and receiving reports), processing that data via the various modules (such as sales, banking and inventory), and outputting information in the form of special or general reports.
+
+279
+
+Passage- A partnership is defined in the Partnership Acts as the relationship that ‘subsists between persons carrying on a business in common with a view to profit’. Because a written agreement is not necessary to form a partnership, it is sometimes difficult to determine whether a partnership does in fact exist. Three attributes are necessary for a business partnership to exist.
+Question-What is a Partnership?
+Answer- A partnership is defined in the Partnership Acts as the relationship that ‘subsists between persons carrying on a business in common with a view to profit’. Because a written agreement is not necessary to form a partnership, it is sometimes difficult to determine whether a partnership does in fact exist. Three attributes are necessary for a business partnership to exist.
+
+280
+Passage- The advantages of the partnership include the pooling of capital, less costly to establish than a
+company, minimal government supervision and regulation, greater flexibility for partners as owners
+operating the business, and potential income tax advantages.
+Question- What are the advantages of a partnership?
+Answer- The advantages of the partnership include the pooling of capital, less costly to establish than a
+Company, minimal government supervision and regulation, greater flexibility for partners as owners
+operating the business, and potential income tax advantages.
+
+281
+
+Passage- There are two ways to account for equity in a partnership:
+– method 1 uses a Capital account for each partner that records capital contributed and withdrawn and includes the partner’s drawings and share of profits and/or losses
+– method 2 uses Capital accounts only for the capital contributed and withdrawn, and records profits and/or losses and drawings in Retained Earnings accounts for each partner.
+Question-What are the 2 ways of accounting for equity in a partnership?
+Answer- There are two ways to account for equity in a partnership:
+– method 1 uses a Capital account for each partner that records capital contributed and withdrawn and includes the partner’s drawings and share of profits and/or losses
+– method 2 uses Capital accounts only for the capital contributed and withdrawn, and records profits and/or losses and drawings in Retained Earnings accounts for each partner.
+
+282
+
+Passage- When partners contribute assets and liabilities to a partnership, each asset and liability is recorded at fair value
+Question-What is fair value?
+Answer-- When partners contribute assets and liabilities to a partnership, each asset and liability is recorded at fair value
+
+283
+
+Passage-When an incoming partner is given credit for a capital contribution greater than the fair value of the identifiable assets and liabilities contributed, the difference is recorded as goodwill.
+Question-How is goodwill recorded?
+Answer-When an incoming partner is given credit for a capital contribution greater than the fair value of the identifiable assets and liabilities contributed, the difference is recorded as goodwill.
+
+284
+
+Passage-A Profit Distribution account is used to distribute the profit/loss to partners. The distributable profit is determined after recording adjustments to partners’ equity such as distribution of salaries, interest on capital, and interest on drawings
+Question-What is a profit distribution account?
+Answer-A Profit Distribution account is used to distribute the profit/loss to partners. The distributable profit is determined after recording adjustments to partners’ equity such as distribution of salaries, interest on capital, and interest on drawings
+
+285
+
+Passage-Periodic drawings of profits by partners are recorded in a separate Drawings account for each partner. Each partners’ Drawings account is closed by transfer to each partners’ Capital account under method 1; under method 2 it is closed to the Retained Earnings account of each partner.
+Question-What is the functionality of drawings account?
+Answer-Periodic drawings of profits by partners are recorded in a separate Drawings account for each partner. Each partners’ Drawings account is closed by transfer to each partners’ Capital account under method 1; under method 2 it is closed to the Retained Earnings account of each partner.
+
+286
+
+Passage-A statement of changes in partners’ equity is prepared showing details of all changes in each partner’s equity.
+Question-What is a statement of changes in partners equity?
+Answer- A statement of changes in partners’ equity is prepared showing details of all changes in each partner’s equity.
+
+287
+
+Passage- A proprietary company may be formed by a minimum of one person and need have only one director; however, certain restrictions are placed on the company with regard to the maximum number of shareholders (namely, 50) and the right to raise capital — it cannot raise funds from the general public. The company must have the word ‘Proprietary’ or the contraction ‘Pty’ as part of its name inserted before the word ‘Limited’ or the contraction ‘Ltd’
+Question-What is a proprietary company?
+Answer- A proprietary company may be formed by a minimum of one person and need have only one director; however, certain restrictions are placed on the company with regard to the maximum number of shareholders (namely, 50) and the right to raise capital — it cannot raise funds from the general public. The company must have the word ‘Proprietary’ or the contraction ‘Pty’ as part of its name inserted before the word ‘Limited’ or the contraction ‘Ltd’
+
+288
+
+Passage- The advantages of the company form of organization over the sole trader or partnership include limited liability, the ability to raise funds, easy transferability of ownership, continuity of existence, use of professional management and potential savings in income tax.
+Question-What are the advantages of a company?
+Answer- The advantages of the company form of organization over the sole trader or partnership include limited liability, the ability to raise funds, easy transferability of ownership, continuity of existence, use of professional management and potential savings in income tax.
+289
+
+Passage - The disadvantages include greater government regulation and the separation of ownership from management, in that managers, as agents of the shareholders, are inclined to make company decisions in their own self-interests.
+Question-What are the disadvantage of a company?
+Answer- The disadvantages include greater government regulation and the separation of ownership from management, in that managers, as agents of the shareholders, are inclined to make company decisions in their own self-interests.
+
+290
+
+Passage - In a private share placement, and in a rights issue, the only equity account used is the Share Capital account, whereas in a public share issue, additional accounts used are Application, Allotment and Call (if payable by installments). Also in a public share issue, a Cash Trust account must be used to hold all cash received until shares are allotted to applicants.
+Question-What is a private share placement?
+Answer- In a private share placement, and in a rights issue, the only equity account used is the Share Capital account, whereas in a public share issue, additional accounts used are Application, Allotment and Call (if payable by installments). Also in a public share issue, a Cash Trust account must be used to hold all cash received until shares are allotted to applicants.
+
+291
+
+Passage-If a public share issue is undersubscribed, provided the minimum subscription is achieved the
+company can issue only the shares applied for. To avoid under subscription, a company often appoints an underwriter to the share issue. If a public issue is oversubscribed, shares may be allotted to applicants as directors see fit. Commonly, shares are allocated to applicants on a pro rata basis, and excess money may be refunded to unsuccessful applicants.
+Question-What is the public share issue?
+Answer- If a public share issue is undersubscribed, provided the minimum subscription is achieved the
+company can issue only the shares applied for. To avoid under subscription, a company often appoints an underwriter to the share issue. If a public issue is oversubscribed, shares may be allotted to applicants as directors see fit. Commonly, shares are allocated to applicants on a pro rata basis, and excess money may be refunded to unsuccessful applicants.
+
+
+
+292
+
+Passage- Dividends are simply a distribution of cash or other assets, or of a company’s own shares, to its shareholders. Cash dividends are the most common.
+Question-What is Dividends?
+Answer- Dividends are simply a distribution of cash or other assets, or of a company’s own shares, to its shareholders. Cash dividends are the most common.
+
+293
+
+Passage-Cash dividends are normally stated as so many cents per share, and may consist of both interim and final dividends. A company’s shareholders may change if the shares are traded on the stock market. To ensure that dividends are paid to the rightful owner of the shares, dividends are often declared on one date and are payable on some future date to shareholders on the register at a particular date between the declaration date and the payment date.
+Question-What is cash dividends?
+Answer- Cash dividends are normally stated as so many cents per share, and may consist of both interim and final dividends. A company’s shareholders may change if the shares are traded on the stock market. To ensure that dividends are paid to the rightful owner of the shares, dividends are often declared on one date and are payable on some future date to shareholders on the register at a particular date between the declaration date and the payment date.
+
+294
+
+Passage- If a company has preference shares as permitted by its constitution, the preference shareholders are entitled usually to some specified dividend before any dividend is paid to ordinary shareholders. The annual preference dividend is usually stated either as an amount of cents per share or as a percentage of the preference share capital
+Question-What is preference dividends?
+Answer- If a company has preference shares as permitted by its constitution, the preference shareholders are entitled usually to some specified dividend before any dividend is paid to ordinary shareholders. The annual preference dividend is usually stated either as an amount of cents per share or as a percentage of the preference share capital
+
+295
+
+Passage- Dividends on cumulative preference shares that are not declared in the year they are due are called dividends in arrears.
+Question-What is dividends in arrears?
+Answer- Dividends on cumulative preference shares that are not declared in the year they are due are called dividends in arrears.
+
+296
+
+Passage-A proprietary company may be formed by a minimum of one person and need have only one director; however, certain restrictions are placed on the company with regard to the maximum number of shareholders (namely, 50) and the right to raise capital — it cannot raise funds from the general public. The company must have the word ‘Proprietary’ or the contraction ‘Pty’ as part of its name inserted before the word ‘Limited’ or the contraction ‘Ltd’
+Question-What is a proprietary company?
+Answer- A proprietary company may be formed by a minimum of one person and need have only one director; however, certain restrictions are placed on the company with regard to the maximum number of shareholders (namely, 50) and the right to raise capital — it cannot raise funds from the general public. The company must have the word ‘Proprietary’ or the contraction ‘Pty’ as part of its name inserted before the word ‘Limited’ or the contraction ‘Ltd’
+
+297
+
+Passage- A business registered as a public company may have a minimum of only one member, but is required to have three directors, two of whom must ordinarily reside in Australia. Generally speaking, however, ownership of a public company is widely spread, with large numbers of people owning a relatively small number of shares each
+Question-What is a public company?
+Answer-- A business registered as a public company may have a minimum of only one member, but is required to have three directors, two of whom must ordinarily reside in Australia. Generally speaking, however, ownership of a public company is widely spread, with large numbers of people owning a relatively small number of shares each
+
+298
+
+Passage-A company limited by guarantee is also a public company, whose members undertake to contribute a guaranteed amount if the company is wound up. Companies of this type are commonly associated with special events such as an arts festival or sporting event
+Question-What is a company limited by guarantee?
+Answer-A company limited by guarantee is also a public company, whose members undertake to contribute a guaranteed amount if the company is wound up. Companies of this type are commonly associated with special events such as an arts festival or sporting event
+
+299
+
+Passage-In an unlimited company, members are liable for all debts of the company. The unlimited company is not common in Australia and exists to some extent among mutual funds, a type of investment company.
+Question-What are the characteristics of a unlimited company?
+Answer- In an unlimited company, members are liable for all debts of the company. The unlimited company is not common in Australia and exists to some extent among mutual funds, a type of investment company.
+
+300
+
+Passage- A no-liability company is a public company that does not have a right to require shareholders to make any contribution towards the debts of the company; there is no liability on the part of shareholders to pay any calls on shares. Non-payment of a call leads to automatic forfeiture of shares. Such a company must engage solely in mining activities, and must have the words ‘No Liability’ or the abbreviation ‘NL’ at the end of its name.
+Question- What is a no-liability company?
+Answer-- A no-liability company is a public company that does not have a right to require shareholders to make any contribution towards the debts of the company; there is no liability on the part of shareholders to pay any calls on shares. Non-payment of a call leads to automatic forfeiture of shares. Such a company must engage solely in mining activities, and must have the words ‘No Liability’ or the abbreviation ‘NL’ at the end of its name.
+
+301
+
+Passage-An investment company is a special type of company that is engaged mainly in the business of investment in marketable securities for the purpose of earning profits, and not for the purpose of exercising control. It is subject to certain restrictions on borrowing, on investment in other companies, on holding shares in other investment companies and on speculation.
+Question-What is an investment company?
+Answer- An investment company is a special type of company that is engaged mainly in the business of investment in marketable securities for the purpose of earning profits, and not for the purpose of exercising control. It is subject to certain restrictions on borrowing, on investment in other companies, on holding shares in other investment companies and on speculation.
+
+302
+
+Passage- A banking company is defined as any bank constituted under a law of a state or territory or as defined in the Banking Act. Under corporate legislation, banks are given certain privileges and special provisions regarding the issue of a prospectus for the purpose of subscribing for debentures and the presentation of financial statements.
+Question-What is a banking company?
+Answer-- A banking company is defined as any bank constituted under a law of a state or territory or as defined in the Banking Act. Under corporate legislation, banks are given certain privileges and special provisions regarding the issue of a prospectus for the purpose of subscribing for debentures and the presentation of financial statements.
+
+303
+
+Passage-A life insurance company is registered under the Life Insurance Act. It is subject to special requirements regarding the preparation and presentation of annual financial statements.
+Question-What is a life insurance company?
+Answer- A life insurance company is registered under the Life Insurance Act. It is subject to special requirements regarding the preparation and presentation of annual financial statements.
+
+304
+
+Passage- As a separate legal entity, a company is responsible for its actions and liabilities. Creditors have claims only against the assets of the company, not against the personal assets of the shareholders. Because owners of a company are not personally liable for corporate debts, the maximum amount they can lose is the amount they have already invested, plus any money owing on shares. To investors, this is one of the most important advantages of the corporate entity, because under the alternative forms of business organization, owners are personally liable for business debts if the business becomes insolvent. This makes it much easier for a company to raise capital from investors, as the investors know the maximum extent of any possible losses to them. However, shareholders are generally separated from the day-to-day operations of the company and cannot participate in the daily management
+Question- Advantages of a limited company when considering about its limited liability?
+Answer-- As a separate legal entity, a company is responsible for its actions and liabilities. Creditors have claims only against the assets of the company, not against the personal assets of the shareholders. Because owners of a company are not personally liable for corporate debts, the maximum amount they can lose is the amount they have already invested, plus any money owing on shares. To investors, this is one of the most important advantages of the corporate entity, because under the alternative forms of business organization, owners are personally liable for business debts if the business becomes insolvent. This makes it much easier for a company to raise capital from investors, as the investors know the maximum extent of any possible losses to them. However, shareholders are generally separated from the day-to-day operations of the company and cannot participate in the daily management
+
+305
+
+Passage-Ownership rights in companies are represented by transferable shares. By dividing ownership of the business into many shares, each with a relatively small value, both large and small investors
+are able to participate in the ownership of the business. Most large public companies can therefore draw on the savings of many people and other entities to obtain the capital they need. For example, a company’s capital of $100 000 000 may be divided into 10 000 000 shares issued at a price of $10 each, which thus allows small investors to buy small parcels of shares. (Telecommunications company Telstra has about 1.4 million different shareholders each having an average of 8900 shares. Riskier companies, such as small mining exploration companies, will often have shares priced at one or two cents each.)
+Question-How does corporate entities get a broad source of capital?
+Answer- Ownership rights in companies are represented by transferable shares. By dividing ownership of the business into many shares, each with a relatively small value, both large and small investors
+are able to participate in the ownership of the business. Most large public companies can therefore draw on the savings of many people and other entities to obtain the capital they need. For example, a company’s capital of $100 000 000 may be divided into 10 000 000 shares issued at a price of $10 each, which thus allows small investors to buy small parcels of shares. (Telecommunications company Telstra has about 1.4 million different shareholders each having an average of 8900 shares. Riskier companies, such as small mining exploration companies, will often have shares priced at one or two cents each.)
+
+306
+
+Passage- A company has an indefinite life and continues in existence even if its shareholders change, i.e. a company has the attribute of perpetual succession. The transfer of shares from one owner to another has no effect on the continuity of a company. In contrast, the death, incapacity or retirement of an owner terminates the business of a sole trader or a partnership
+Question-How does a corporate entity have continuity of existence?
+Answer-- A company has an indefinite life and continues in existence even if its shareholders change, i.e. a company has the attribute of perpetual succession. The transfer of shares from one owner to another has no effect on the continuity of a company. In contrast, the death, incapacity or retirement of an owner terminates the business of a sole trader or a partnership
+
+307
+
+Passage-Company shares may be transferred easily without disrupting the activities of the company. Shares in public companies can be bought and sold through stockbroker’s websites, as well as by more traditional means. Consequently, shareholders can readily convert most of their investments in shares into cash in minutes if the need arises.
+Question-how are company shares transferred in corporate entities?
+Answer- Company shares may be transferred easily without disrupting the activities of the company. Shares in public companies can be bought and sold through stockbroker’s websites, as well as by more traditional means. Consequently, shareholders can readily convert most of their investments in shares into cash in minutes if the need arises.
+
+308
+
+Passage- Companies are created under an Act of Parliament and are subject to a much greater degree of control and supervision than are sole traders or partnerships. In addition, public companies must prepare regular financial statements for presentation to their members, to the securities exchanges on which their shares are traded, and to ASIC. These annual reports must be prepared in accordance with the disclosure requirements provided in accounting standards, and with the Listing Rules of the ASX. Satisfaction of these reporting requirements often can be very costly and time-consuming.
+Question- What is the main disadvantage of an corporate entity?
+Answer- Companies are created under an Act of Parliament and are subject to a much greater degree of control and supervision than are sole traders or partnerships. In addition, public companies must prepare regular financial statements for presentation to their members, to the securities exchanges on which their shares are traded, and to ASIC. These annual reports must be prepared in accordance with the disclosure requirements provided in accounting standards, and with the Listing Rules of the ASX. Satisfaction of these reporting requirements often can be very costly and time-consuming.
+
+309
+
+Passage- The use of professional managers was cited earlier as an advantage of the corporate entity. In some cases, however, this separation of ownership from management may prove to be a disadvantage because managers, even though they are employed as agents of the shareholders, sometimes operate companies for their own benefit rather than for the benefit of the shareholders — this is called the agency problem. Considerable harm may be done before shareholders become aware of the situation and take action to change management. Many requirements in corporate legislation have been established to discourage management from acting in their own interests to the detriment of shareholders. Increased disclosure of corporate governance has been required as a means of providing a level of accountability to a company’s shareholders.
+Question-How is a owner separated from the management in an corporate entity?
+Answer- The use of professional managers was cited earlier as an advantage of the corporate entity. In some cases, however, this separation of ownership from management may prove to be a disadvantage because managers, even though they are employed as agents of the shareholders, sometimes operate companies for their own benefit rather than for the benefit of the shareholders — this is called the agency problem. Considerable harm may be done before shareholders become aware of the situation and take action to change management. Many requirements in corporate legislation have been established to discourage management from acting in their own interests to the detriment of shareholders. Increased disclosure of corporate governance has been required as a means of providing a level of accountability to a company’s shareholders.
+
+310
+
+Passage- When raising funds for the start of business or for future economic development, any offer or invitation by a company to issue shares, debentures or other securities must be accompanied by a disclosure document known as a prospectus. A prospectus contains all the information that potential investors and their professional advisers reasonably require and expect for the purpose of making an informed assessment of(a) the assets, liabilities, financial position, profits and losses, and prospects of the company, and (b) the rights attached to the securities being issued.
+Question-What is a prospectus?
+Answer- When raising funds for the start of business or for future economic development, any offer or invitation by a company to issue shares, debentures or other securities must be accompanied by a disclosure document known as a prospectus. A prospectus contains all the information that potential investors and their professional advisers reasonably require and expect for the purpose of making an informed assessment of(a) the assets, liabilities, financial position, profits and losses, and prospects of the company, and (b) the rights attached to the securities being issued.
+
+311
+
+Passage- Rules for governing the internal affairs of a company, especially with respect to the dealings between management and shareholders, have been built into the Corporations Act and are called replaceable rules.
+Question- What is meant by replaceable rules?
+Answer- Rules for governing the internal affairs of a company, especially with respect to the dealings between management and shareholders, have been built into the Corporations Act and are called replaceable rules.
+
+312
+
+Passage- A company can adopt the Act’s replaceable rules as its own rules. These rules deal with the
+appointment, powers and remuneration of directors, directors’ meetings, members’ meetings, share
+transfers and inspection of the company’s books by members. However, if a company wishes to adopt
+different rules from any of these replaceable rules, it needs to set up its own constitution, specifying the
+different rules that it wishes to have for operating its internal affairs. The company must then conduct its activities under both the replaceable rules it is happy to adopt and its own constitution.
+Question-What is a company constitution?
+Answer-- A company can adopt the Act’s replaceable rules as its own rules. These rules deal with the
+appointment, powers and remuneration of directors, directors’ meetings, members’ meetings, share
+transfers and inspection of the company’s books by members. However, if a company wishes to adopt
+different rules from any of these replaceable rules, it needs to set up its own constitution, specifying the
+different rules that it wishes to have for operating its internal affairs. The company must then conduct its activities under both the replaceable rules it is happy to adopt and its own constitution.
+
+313
+
+Passage-The chief financial officer (CFO) is generally responsible for maintaining the accounting records and an adequate internal control system, preparing financial statements, tax returns and other reports, developing the budget and financial plans, and ensuring the business activities are adequately financed. The CFO also often advises the board of directors about the accounting and tax consequences of proposed corporate actions.
+Question- What are the responsibility of a CFO(Chief Financial Officer)?
+Answer- The chief financial officer (CFO) is generally responsible for maintaining the accounting records and an adequate internal control system, preparing financial statements, tax returns and other reports, developing the budget and financial plans, and ensuring the business activities are adequately financed. The CFO also often advises the board of directors about the accounting and tax consequences of proposed corporate actions.
+
+314
+
+Passage- Official actions of the board are recorded in the minutes of its meetings. The minutes book is important to the accountant because it contains board decisions that serve as the basis for the authorization of certain transactions and the recording of these.
+Question- why is the minute book important for accounts?
+Answer- Official actions of the board are recorded in the minutes of its meetings. The minutes book is important to the accountant because it contains board decisions that serve as the basis for the authorization of certain transactions and the recording of these.
+
+315
+
+Passage- The board of directors is responsible for the overall administration of a company.
+Question-Who is responsible for the overall administration of a Company?
+Answer-The board of directors is responsible for the overall administration of a company.
+
+316
+
+Passage-Share capital is an equity account representing the amount of assets invested in the company by its shareholders. Under the Corporations Act, a company can issue shares on the terms and with the rights and restrictions that the directors determine. Thus, a company can issue shares at any price, a determining factor being the marketplace. A company will issue its shares at the price it thinks will attract investors to buy the shares. For example, one company may issue shares at, say, 80 cents each; another company may issue its shares at $10 each.
+Question- What is Share of capital?
+Answer--Share capital is an equity account representing the amount of assets invested in the company by its shareholders. Under the Corporations Act, a company can issue shares on the terms and with the rights and restrictions that the directors determine. Thus, a company can issue shares at any price, a determining factor being the marketplace. A company will issue its shares at the price it thinks will attract investors to buy the shares. For example, one company may issue shares at, say, 80 cents each; another company may issue its shares at $10 each.
+
+317
+
+Passage-Under the Act, a company is allowed to issue partly paid shares. For example, a share may be issued at $3.50, with $2.00 payable immediately and the balance payable in one year’s time. This additional amount of $1.50 is referred to as uncalled capital until the company makes a call on the shares in one year’s time, i.e. in accordance with the terms of the share issue. When the call is made, the shareholders are required to pay in the extra $1.50 per share to the company (unless the company is a no-liability company).
+Question- What is called uncalled capital?
+Answer--Under the Act, a company is allowed to issue partly paid shares. For example, a share may be issued at $3.50, with $2.00 payable immediately and the balance payable in one year’s time. This additional amount of $1.50 is referred to as uncalled capital until the company makes a call on the shares in one year’s time, i.e. in accordance with the terms of the share issue. When the call is made, the shareholders are required to pay in the extra $1.50 per share to the company (unless the company is a no-liability company).
+
+318
+
+Passage-Retained earnings is a special type of reserve account that reflects the amount of profits (after tax) earned by the company and retained in the business. When a company’s income and expense accounts are closed at year-end, the Profit or Loss Summary account is closed to Retained earnings.
+Question- What is retained earnings?
+Answer- Retained earnings is a special type of reserve account that reflects the amount of profits (after tax) earned by the company and retained in the business. When a company’s income and expense accounts are closed at year-end, the Profit or Loss Summary account is closed to Retained earnings.
+
+319
+
+Passage- Company’s equity is divided into three categories: share capital, retained earnings and other reserves.
+Question- What are the 3 categories the company equity is divided into?
+Answer- Company’s equity is divided into three categories: share capital, retained earnings and other reserves.
+
+320
+
+Passage-Underwriter to any public share issue. The role of the underwriter is to take up any shares that are undersubscribed in any share issue. For this service, the underwriter charges an underwriting fee, which must be paid by the company even if the issue is fully subscribed or oversubscribed
+Question-What is a role of an underwriter?
+Answer- Underwriter to any public share issue. The role of the underwriter is to take up any shares that are undersubscribed in any share issue. For this service, the underwriter charges an underwriting fee, which must be paid by the company even if the issue is fully subscribed or oversubscribed
+
+321
+
+Passage- Another common method of raising equity is by way of a rights issue, which is an issue of new shares giving existing shareholders the right to an additional number of shares in proportion to their current shareholdings. If all the existing shareholders exercise their rights and take up the new shares, there is no change in each shareholder’s percentage ownership interest in the company. Rights issues may be ‘renounceable’ or ‘non-renounceable’.
+Question-What is a right issue?
+Answer-- Another common method of raising equity is by way of a rights issue, which is an issue of new shares giving existing shareholders the right to an additional number of shares in proportion to their current shareholdings. If all the existing shareholders exercise their rights and take up the new shares, there is no change in each shareholder’s percentage ownership interest in the company. Rights issues may be ‘renounceable’ or ‘non-renounceable’.
+
+322
+
+Passage- 1. They may exercise their rights and acquire more shares in the company. 2. They may decline to exercise the rights and let them lapse. 3. They may sell their rights on a stock exchange and allow other investors to acquire the company’s shares.
+Question-What are the 3 options that existing shareholder have?
+Answer- 1. They may exercise their rights and acquire more shares in the company. 2. They may decline to exercise the rights and let them lapse. 3. They may sell their rights on a stock exchange and allow other investors to acquire the company’s shares.
+
+323
+
+Passage- A bonus share issue is an issue of shares to existing shareholders in the proportion of their current shareholdings at no cost to the shareholders. The company uses one or more of its reserve balances (including retained earnings) to make the issue. For example, 5 bonus shares may be issued for every 100 shares presently held by shareholders.
+Question-What is a bonus share issue?
+Answer-- A bonus share issue is an issue of shares to existing shareholders in the proportion of their current shareholdings at no cost to the shareholders. The company uses one or more of its reserve balances (including retained earnings) to make the issue. For example, 5 bonus shares may be issued for every 100 shares presently held by shareholders
+
+324
+
+Passage-The costs incurred in forming a company and that are paid from company assets are often called preliminary expenses or start-up costs.
+Question-What is the start-up cost?
+Answer- The costs incurred in forming a company and that are paid from company assets are often called preliminary expenses or start-up costs.
+
+325
+
+Passage- Share issue costs include stamp duty, broker’s fees, underwriter’s fees and professional adviser’s fees, as well as printing costs associated with the issue of shares. Accounting standards argue that such costs should not be treated as either an asset or an expense.
+Question-What is a share issue cost?
+Answer-Share issue costs include stamp duty, broker’s fees, underwriter’s fees and professional adviser’s fees, as well as printing costs associated with the issue of shares. Accounting standards argue that such costs should not be treated as either an asset or an expense.
+
+326
+
+Passage-Preference shares are so called because shareholders receive preferential treatment over ordinary shareholders in one or more respects.
+Question-What is a preference share?
+Answer- Preference shares are so called because shareholders receive preferential treatment over ordinary shareholders in one or more respects
+
+327
+
+Passage- In a private share placement, and in a rights issue, the only equity account used is the Share Capital account, whereas in a public share issue, additional accounts used are Application, Allotment and Call (if payable by installments). Also in a public share issue, a Cash Trust account must be used to hold all cash received until shares are allotted to applicants.
+Question-What is a private share issue?
+Answer-- In a private share placement, and in a rights issue, the only equity account used is the Share Capital account, whereas in a public share issue, additional accounts used are Application, Allotment and Call (if payable by installments). Also in a public share issue, a Cash Trust account must be used to hold all cash received until shares are allotted to applicants.
+
+328
+
+Passage-If a public share issue is undersubscribed, provided the minimum subscription is achieved the company can issue only the shares applied for. To avoid under subscription, a company often appoints an underwriter to the share issue.
+Question-What happens when a public share issue is undersubscribed?
+Answer- If a public share issue is undersubscribed, provided the minimum subscription is achieved the company can issue only the shares applied for. To avoid under subscription, a company often appoints an underwriter to the share issue.
+
+329
+
+Passage- If a public issue is oversubscribed, shares may be allotted to applicants as directors see fit. Commonly, shares are allocated to applicants on a pro rata basis, and excess money may be refunded to unsuccessful applicants.
+Question- What happens when a public share is oversubscribed?
+Answer- If a public issue is oversubscribed, shares may be allotted to applicants as directors see fit. Commonly, shares are allocated to applicants on a pro rata basis, and excess money may be refunded to unsuccessful applicants.
+
+330
+
+Passage- A share dividend is a pro rata distribution of additional shares by a company to its shareholders, normally consisting of the distribution of additional ordinary shares to ordinary shareholders. Share dividends should be distinguished from cash dividends.
+Question-What is meant by share dividends?
+Answer- A share dividend is a pro rata distribution of additional shares by a company to its shareholders, normally consisting of the distribution of additional ordinary shares to ordinary shareholders. Share dividends should be distinguished from cash dividends.
+
+331
+
+Passage- Reporting entities consist of all entities and economic entities where it is reasonable to expect the existence of users who depend on general purpose financial reports for information to use in making and evaluating economic decisions.
+Question-What does reporting entities consist of?
+Answer-- Reporting entities consist of all entities and economic entities where it is reasonable to expect the existence of users who depend on general purpose financial reports for information to use in making and evaluating economic decisions.
+
+332
+
+Passage- Accounting has evolved through time, changing with the needs of society. As new types of transactions evolved in business, accountants developed rules and practices for recording them. These accounting practices came to be known as generally accepted accounting principles (GAAP). GAAP consist of rules, practices and procedures, the authority of which stems from their general acceptance and use by the accounting profession and the business community. They have evolved from the experiences and thinking of members of the accounting profession and influential business people
+Question-What is a generally accepted accounting principles?
+Answer- Accounting has evolved through time, changing with the needs of society. As new types of transactions evolved in business, accountants developed rules and practices for recording them. These accounting practices came to be known as generally accepted accounting principles (GAAP). GAAP consist of rules, practices and procedures, the authority of which stems from their general acceptance and use by the accounting profession and the business community. They have evolved from the experiences and thinking of members of the accounting profession and influential business people
+
+333
+
+Passage- Information about a reporting entity’s financial performance is also useful. It helps users to
+understand the return that the entity has produced on its economic resources. Such information provides an indication as to how well management has discharged its responsibilities to make efficient and effective use of the reporting entity’s resources.
+Question-Why is financial performance important?
+Answer- Information about a reporting entity’s financial performance is also useful. It helps users to
+understand the return that the entity has produced on its economic resources. Such information provides an indication as to how well management has discharged its responsibilities to make efficient and effective use of the reporting entity’s resources.
+
+334
+
+Passage- Conceptual Framework asserts that there are six main qualitative characteristics
+that financial information should have in order to be the subject matter of general purpose financial
+reports: relevance, faithful representation, comparability, verifiability, timeliness and understandability.
+Question-what are the 6 m main qualitative characteristics that financial information should have in order to be the subject matter of general purpose financial reports?
+Answer-: relevance, faithful representation, comparability, verifiability, timeliness and understandability.
+
+335
+
+Passage-The four enhancing qualitative characteristics of financial information in the Conceptual Framework are relevance, reliability, comparability and understandability
+Question- The four enhancing qualitative characteristics of financial information?
+Answer- The four enhancing qualitative characteristics of financial information in the Conceptual Framework are relevance, reliability, comparability and understandability
+
+336
+
+Passage- The Conceptual Framework provides definitions of important elements underlying general purpose financial reports, namely assets, liabilities, equity, income and expenses. So far in this book, the definitions of these terms have been simplified. Here, we will expand our discussion of the terms in order to provide a greater appreciation of the issues considered in the Conceptual Framework.
+Question-What is a conceptual framework?
+Answer-The Conceptual Framework provides definitions of important elements underlying general purpose financial reports, namely assets, liabilities, equity, income and expenses. So far in this book, the definitions of these terms have been simplified. Here, we will expand our discussion of the terms in order to provide a greater appreciation of the issues considered in the Conceptual Framework.
+
+337
+
+Passage-An asset is defined in the current Conceptual Framework as ‘a resource controlled by the entity as a result of past events and from which future economic benefits are expected to flow to the entity’.
+Question-How is an Asset defined in the current conceptual framework?
+Answer- An asset is defined in the current Conceptual Framework as ‘a resource controlled by the entity as a result of past events and from which future economic benefits are expected to flow to the entity’.
+
+338
+
+Passage- A liability is defined in the current Conceptual Framework as ‘a present obligation of the entity arising from past events, the settlement of which is expected to result in an outflow from the entity of resources embodying economic benefits’.
+Question-How is a liability defined in the current conceptual framework?
+Answer- A liability is defined in the current Conceptual Framework as ‘a present obligation of the entity arising from past events, the settlement of which is expected to result in an outflow from the entity of resources embodying economic benefits’.
+
+339
+
+Passage- The Conceptual Framework defines equity as ‘the residual interest in the assets of the entity after deducting all its liabilities’. Defining equity in this manner shows clearly that it cannot be defined
+independently of the other elements in the statement of financial position/balance sheet.
+Question- how is an equity defined in the current conceptual framework?
+Answer- - The Conceptual Framework defines equity as ‘the residual interest in the assets of the entity after deducting all its liabilities’. Defining equity in this manner shows clearly that it cannot be defined
+independently of the other elements in the statement of financial position/balance sheet.
+
+340
+
+Passage-increases in economic benefits during the accounting period in the form of inflows or enhancements of assets or decreases of liabilities that result in increases in equity, other than those relating to contributions from equity participants.
+Question- how is an Income defined in the conceptual framework?
+Answer-Increases in economic benefits during the accounting period in the form of inflows or enhancements of assets or decreases of liabilities that result in increases in equity, other than those relating to contributions from equity participants.
+
+341
+
+Passage-Recognition means the process of incorporating in the statement of financial position/balance sheet or income statement an item that meets the definition of an element
+Question- What is meant by recognition?
+Answer--Recognition means the process of incorporating in the statement of financial position/balance sheet or income statement an item that meets the definition of an element
+342
+
+Passage-Royalties are rights of composers and authors to receive payments from publishing companies for the sale of their music or books. Royalties are also cash received by the owner of land (such as a pastoral company, the government or an Aboriginal community) from a mining company that has been given the right to mine mineral reserves on the owner’s land
+Question- What is a royalty fee?
+Answer- Royalties are rights of composers and authors to receive payments from publishing companies for the sale of their music or books. Royalties are also cash received by the owner of land (such as a pastoral company, the government or an Aboriginal community) from a mining company that has been given the right to mine mineral reserves on the owner’s land
+
+343
+
+Passage- Income from the contributions of assets arises when an entity receives cash, or a right to receive cash or other assets, without having to give approximately equal value in return. This is sometimes referred to as a non-reciprocal transfer.
+Question- What is a non-reciprocal transfer?
+Answer- Income from the contributions of assets arises when an entity receives cash, or a right to receive cash or other assets, without having to give approximately equal value in return. This is sometimes referred to as a non-reciprocal transfer.
+
+344
+
+Passage-Recognition means to include an element in the accounting records. Presentation means to include an element in the financial statement.
+Question- What is the difference between recognition & presentation?
+Answer-Recognition means to include an element in the accounting records. Presentation means to include an element in the financial statement.
+
+345
+
+Passage-Under the historical cost measurement basis, an asset is recorded at the amount of cash or cash equivalents paid or the fair value of the consideration given to acquire it at its acquisition date. Liabilities are recorded at the amount of the proceeds received in exchange for an obligation, or at the amount of cash to be paid out in order to satisfy the liability in the normal course of business.
+Question- What is Historical cost?
+Answer- Under the historical cost measurement basis, an asset is recorded at the amount of cash or cash equivalents paid or the fair value of the consideration given to acquire it at its acquisition date. Liabilities are recorded at the amount of the proceeds received in exchange for an obligation, or at the amount of cash to be paid out in order to satisfy the liability in the normal course of business.
+
+346
+
+Passage- Current cost represents the amount of cash or cash equivalents that would be paid if the same or equivalent asset was acquired currently. A liability is recorded at the amount of cash or cash equivalents needed to settle the obligation currently.
+Question- What is Current Cost?
+Answer- Current cost represents the amount of cash or cash equivalents that would be paid if the same or equivalent asset was acquired currently. A liability is recorded at the amount of cash or cash equivalents needed to settle the obligation currently.
+
+347
+
+Passage- Realizable value is the amount of cash or cash equivalents that could be obtained currently by selling the asset in an orderly disposal, or in the normal course of business. A liability is measured as the amount of cash or cash equivalents expected to be paid to satisfy the obligation in the normal course of business.
+Question-What is Realizable cost?
+Answer- Realizable value is the amount of cash or cash equivalents that could be obtained currently by selling the asset in an orderly disposal, or in the normal course of business. A liability is measured as the amount of cash or cash equivalents expected to be paid to satisfy the obligation in the normal course of business.
+
+348
+
+Passage- The present value of an asset means the discounted future net cash inflows or net cash savings that are expected to arise in the normal course of business. The present value of a liability is the discounted future net cash outflows that are expected to settle the obligation in the normal course of business.
+Question- What is meant by the present value of an asset?
+Answer- The present value of an asset means the discounted future net cash inflows or net cash savings that are expected to arise in the normal course of business. The present value of a liability is the discounted future net cash outflows that are expected to settle the obligation in the normal course of business.
+
+349
+
+Passage- Under the financial capital concept, capital is synonymous with the net assets or equity of the entity, measured either in terms of the actual number of calculated dollars by subtracting the total of liabilities from assets, or in terms of the purchasing power of the dollar amount recorded as equity.
+Question- What is financial capital?
+Answer- Under the financial capital concept, capital is synonymous with the net assets or equity of the entity, measured either in terms of the actual number of calculated dollars by subtracting the total of liabilities from assets, or in terms of the purchasing power of the dollar amount recorded as equity.
+
+350
+
+Passage- general price level accounting system, which had its origins in Germany after World War I when
+inflation reached excessive levels — this system modifies the conventional historical cost system for the
+effects of inflation and therefore follows a financial capital concept
+Question- What is a general price level accounting system?
+Answer- general price level accounting system, which had its origins in Germany after World War I when
+inflation reached excessive levels — this system modifies the conventional historical cost system for the
+effects of inflation and therefore follows a financial capital concept
+
+
+
+

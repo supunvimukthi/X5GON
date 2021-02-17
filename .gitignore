@@ -8,3 +8,5 @@ node_modules
 Duplication_Detection\log_dir
 documents.txt
 documents.zip
+Scripts/*.txt
+Duplication_Detection/metaData_PDFs.csv

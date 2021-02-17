@@ -3,10 +3,10 @@ import random
 import pandas as pd
 
 # reading the initial data-set
-text_test = open("Dataset/x_new_test.txt", "r").readlines()
-label_test = open("Dataset/y_new_test.txt", "r").readlines()
-text_train = open("Dataset/x_new_train.txt", "r").readlines()
-label_train = open("Dataset/y_new_train.txt", "r").readlines()
+text_test = open("Language_Detection/Dataset/x_new_test.txt", "r",encoding='utf-8').readlines()
+label_test = open("Language_Detection/Dataset/y_new_test.txt", "r").readlines()
+text_train = open("Language_Detection/Dataset/x_new_train.txt", "r",encoding='utf-8').readlines()
+label_train = open("Language_Detection/Dataset/y_new_train.txt", "r").readlines()
 
 # label pre-processing according to one global code
 lang_a = ['eng\n', 'nld\n', 'slk\n', 'spa\n', 'slv\n', 'ita\n', 'deu\n', 'fra\n']

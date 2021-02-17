@@ -17,7 +17,10 @@ def predict(model,data,label):
     if prediction[0]==label:
         return True
     return False
-
+for i in fin:
+    fin[i]['passage']=fin[i]['passage'].split('Passage')[1]
+    fin[i]['question'] = fin[i]['question'].split('question')[1]
+    fin[i]['answer'] = fin[i]['answer'].split('answer')[1]
 
 def updateResults(val, key):
     if key not in results.keys():
