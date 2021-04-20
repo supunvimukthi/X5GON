@@ -39,7 +39,7 @@ polyglot==16.7.4
 polygot==0.1
 preshed==3.0.2
 psutil==5.7.0
-py==1.8.1
+py==1.10.0
 pybind11==2.5.0
 pycld2==0.41
 pycountry==19.8.18
